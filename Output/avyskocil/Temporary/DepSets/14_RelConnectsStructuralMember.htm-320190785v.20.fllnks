@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/TableStyles/NewStyle.css" />
+    <Link
+      Url="Content/Resources/Images/RelConnectsStructuralMember.png" />
+    <Link
+      Url="https://scia-my.sharepoint.com/:x:/g/personal/d_kavanova_scia_net/EQ1kuiP2QrhCosa8lYiFcLIBIeApDT3mTlsuNGAKl31n1Q" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/TableStyles/NewStyle.css" />
+    <Link
+      Url="Content/Resources/Images/RelConnectsStructuralMember.png" />
+    <Link
+      Url="https://scia-my.sharepoint.com/:x:/g/personal/d_kavanova_scia_net/EQ1kuiP2QrhCosa8lYiFcLIBIeApDT3mTlsuNGAKl31n1Q?e=HhnVOg&amp;action=embedview&amp;wdHideGridlines=True&amp;ActiveCell=A1&amp;wdDownloadButton=True" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>
