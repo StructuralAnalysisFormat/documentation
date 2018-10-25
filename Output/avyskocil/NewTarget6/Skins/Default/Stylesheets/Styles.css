@@ -120,24 +120,24 @@ body
 	margin-left: 20px;
 	display: block;
 	alt-text: Logo;
-	background: transparent url('Images/logo-AEF.png') no-repeat center center;
-	background: url('Images/logo-AEF.png') no-repeat center center, -moz-linear-gradient(top, transparent 0%, transparent 100%);
-	background: url('Images/logo-AEF.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
-	background: url('Images/logo-AEF.png') no-repeat center center, -webkit-linear-gradient(top, transparent 0%, transparent 100%);
-	background: url('Images/logo-AEF.png') no-repeat center center, -o-linear-gradient(top, transparent 0%,transparent 100%);
-	background: url('Images/logo-AEF.png') no-repeat center center, -ms-linear-gradient(top, transparent 0%,transparent 100%);
-	background: url('Images/logo-AEF.png') no-repeat center center, linear-gradient(top, transparent 0%,transparent 100%);
-	-pie-background: url('Skins/Default/Stylesheets/Images/logo-AEF.png') no-repeat center center, linear-gradient(transparent, transparent);
-	width: 279px;
-	height: 122px;
-	margin-top: -61px;
+	background: transparent url('Images/free_horizontal_on_white_by_logaster.png') no-repeat center center;
+	background: url('Images/free_horizontal_on_white_by_logaster.png') no-repeat center center, -moz-linear-gradient(top, transparent 0%, transparent 100%);
+	background: url('Images/free_horizontal_on_white_by_logaster.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+	background: url('Images/free_horizontal_on_white_by_logaster.png') no-repeat center center, -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+	background: url('Images/free_horizontal_on_white_by_logaster.png') no-repeat center center, -o-linear-gradient(top, transparent 0%,transparent 100%);
+	background: url('Images/free_horizontal_on_white_by_logaster.png') no-repeat center center, -ms-linear-gradient(top, transparent 0%,transparent 100%);
+	background: url('Images/free_horizontal_on_white_by_logaster.png') no-repeat center center, linear-gradient(top, transparent 0%,transparent 100%);
+	-pie-background: url('Skins/Default/Stylesheets/Images/free_horizontal_on_white_by_logaster.png') no-repeat center center, linear-gradient(transparent, transparent);
+	width: 327px;
+	height: 147px;
+	margin-top: -73px;
 }
 
 #header .logo > img
 {
 	border: none;
-	width: 279px;
-	height: 122px;
+	width: 327px;
+	height: 147px;
 }
 
 #body
@@ -1227,10 +1227,10 @@ iframe.content
 	border-top: solid 1px #e1e1e1;
 	border-right: solid 1px #e1e1e1;
 	border-left: solid 1px #e1e1e1;
-	border-top-left-radius: 8px;
-	border-top-right-radius: 8px;
-	border-bottom-right-radius: 8px;
-	border-bottom-left-radius: 8px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
 	background-color: #ffffff;
 }
 
@@ -1252,21 +1252,21 @@ iframe.content
 	height: 100%;
 	display: block;
 	alt-text: Logo;
-	width: 279px;
-	background: transparent url('Images/logo-AEF.png') no-repeat center center;
-	background: url('Images/logo-AEF.png') no-repeat center center, -moz-linear-gradient(top, transparent 0%, transparent 100%);
-	background: url('Images/logo-AEF.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
-	background: url('Images/logo-AEF.png') no-repeat center center, -webkit-linear-gradient(top, transparent 0%, transparent 100%);
-	background: url('Images/logo-AEF.png') no-repeat center center, -o-linear-gradient(top, transparent 0%,transparent 100%);
-	background: url('Images/logo-AEF.png') no-repeat center center, -ms-linear-gradient(top, transparent 0%,transparent 100%);
-	background: url('Images/logo-AEF.png') no-repeat center center, linear-gradient(top, transparent 0%,transparent 100%);
-	-pie-background: url('Skins/Default/Stylesheets/Images/logo-AEF.png') no-repeat center center, linear-gradient(transparent, transparent);
+	width: 327px;
+	background: transparent url('Images/free_horizontal_on_white_by_logaster.png') no-repeat center center;
+	background: url('Images/free_horizontal_on_white_by_logaster.png') no-repeat center center, -moz-linear-gradient(top, transparent 0%, transparent 100%);
+	background: url('Images/free_horizontal_on_white_by_logaster.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+	background: url('Images/free_horizontal_on_white_by_logaster.png') no-repeat center center, -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+	background: url('Images/free_horizontal_on_white_by_logaster.png') no-repeat center center, -o-linear-gradient(top, transparent 0%,transparent 100%);
+	background: url('Images/free_horizontal_on_white_by_logaster.png') no-repeat center center, -ms-linear-gradient(top, transparent 0%,transparent 100%);
+	background: url('Images/free_horizontal_on_white_by_logaster.png') no-repeat center center, linear-gradient(top, transparent 0%,transparent 100%);
+	-pie-background: url('Skins/Default/Stylesheets/Images/free_horizontal_on_white_by_logaster.png') no-repeat center center, linear-gradient(transparent, transparent);
 }
 
 #responsiveHeader .logo > img
 {
-	width: 279px;
-	height: 122px;
+	width: 327px;
+	height: 147px;
 }
 
 #search-bar

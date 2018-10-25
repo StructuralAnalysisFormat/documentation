@@ -4,7 +4,6 @@
   conditions="">
   <TocEntry
     Title="Title"
-    Link="/Content/Print Only Topics/PDF Guide A Title.htm"
     StartSection="false"
     PageNumber="1"
     StartChapter="true"
@@ -14,14 +13,12 @@
     StartPageLayout="false"></TocEntry>
   <TocEntry
     Title="Copyright"
-    Link="/Content/Print Only Topics/Copyright.htm"
     StartPageLayout="true"
     StartSection="false"
     BreakType="pageLayout"
     PageLayout="/Content/Resources/PageLayouts/7X9/Copyright7X9.flpgl"></TocEntry>
   <TocEntry
     Title="PrintTOC"
-    Link="/Content/Print Only Topics/PrintTOC.htm"
     StartSection="false"
     PageNumber="1"
     PageNumberReset="reset"
@@ -33,7 +30,6 @@
     AutoEndOnLeftPage="enabled" />
   <TocEntry
     Title="CH 1 Topic 1"
-    Link="/Content/A_Objects/Topic 1.htm"
     StartChapter="true"
     PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl"
     PageNumber="1"
@@ -49,15 +45,12 @@
     AutoEndOnLeftPage="enabled"
     PageType="firstright">
     <TocEntry
-      Title="Topic 2"
-      Link="/Content/A_Objects/Topic 2.htm" />
+      Title="Topic 2" />
     <TocEntry
-      Title="Topic 3"
-      Link="/Content/A_Objects/Topic 3.htm" />
+      Title="Topic 3" />
   </TocEntry>
   <TocEntry
     Title="CH 2 Extra Topic 1"
-    Link="/Content/B_Extra Topics/Extra Topic 1.htm"
     StartChapter="true"
     PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl"
     PageNumber="1"
@@ -70,18 +63,14 @@
     VolumeNumberReset="same"
     ChapterNumberReset="continue">
     <TocEntry
-      Title="Extra Topic 2"
-      Link="/Content/B_Extra Topics/Extra Topic 2.htm" />
+      Title="Extra Topic 2" />
     <TocEntry
-      Title="Extra Topic 3"
-      Link="/Content/B_Extra Topics/Extra Topic 3.htm" />
+      Title="Extra Topic 3" />
     <TocEntry
-      Title="Extra Topic 4"
-      Link="/Content/B_Extra Topics/Extra Topic 4.htm" />
+      Title="Extra Topic 4" />
   </TocEntry>
   <TocEntry
     Title="CH 3 Other Topic 1"
-    Link="/Content/C_Other Topics/Other Topic 1.htm"
     StartChapter="true"
     PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl"
     PageNumber="1"
@@ -91,18 +80,14 @@
     StartPageLayout="false"
     AutoEndOnLeftPage="enabled">
     <TocEntry
-      Title="Other Topic 2"
-      Link="/Content/C_Other Topics/Other Topic 2.htm" />
+      Title="Other Topic 2" />
     <TocEntry
-      Title="Other Topic 3"
-      Link="/Content/C_Other Topics/Other Topic 3.htm" />
+      Title="Other Topic 3" />
     <TocEntry
-      Title="Other Topic 4"
-      Link="/Content/C_Other Topics/Other Topic 4.htm" />
+      Title="Other Topic 4" />
   </TocEntry>
   <TocEntry
     Title="APPENDIX Table"
-    Link="/Content/Print Only Topics/Table.htm"
     StartPageLayout="false"
     StartSection="false"
     StartChapter="true"
@@ -114,7 +99,6 @@
     AutoEndOnLeftPage="enabled" />
   <TocEntry
     Title="PrintGlossary"
-    Link="/Content/Print Only Topics/PrintGlossary.htm"
     BreakType="chapter"
     PageLayout="/Content/Resources/PageLayouts/7X9/Glossary7X9.flpgl"
     PageType="firstright"
@@ -122,7 +106,6 @@
     PageNumberReset="continue" />
   <TocEntry
     Title="PrintIndex"
-    Link="/Content/Print Only Topics/PrintIndex.htm"
     BreakType="chapter"
     PageLayout="/Content/Resources/PageLayouts/7X9/Index7X9.flpgl"
     PageType="firstright"

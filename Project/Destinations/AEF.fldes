@@ -5,7 +5,7 @@
   Host=""
   User="MyAccountId"
   Password=""
-  Directory="\\mpulse\aef"
+  Directory="\\mpulse\aefdev"
   Port=""
-  ViewUrl="http://aef.scia.cz/"
+  ViewUrl="http://aefdev.scia.cz"
   Type="file"></CatapultDestination>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/TableStyles/NewStyle.css" />
+    <Link
+      Url="Content/A_Objects/3_StructuralMaterial.htm" />
+    <Link
+      Url="Content/Annexes/Formcodes.htm" />
+    <Link
+      Url="Content/Annexes/Description ID of the profile.htm" />
+    <Link
+      Url="Content/Annexes/Supported shapes of cross-section.htm" />
+    <Link
+      Url="https://scia-my.sharepoint.com/:x:/g/personal/d_kavanova_scia_net/EYmvDJeBaOtDrHCu7ms3OZYBIJZekqNpyTXQA91F6Ax_kQ" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/TableStyles/NewStyle.css" />
+    <Link
+      Url="Content/A_Objects/3_StructuralMaterial.htm" />
+    <Link
+      Url="Content/Annexes/Formcodes.htm" />
+    <Link
+      Url="Content/Annexes/Description ID of the profile.htm" />
+    <Link
+      Url="Content/Annexes/Supported shapes of cross-section.htm" />
+    <Link
+      Url="https://scia-my.sharepoint.com/:x:/g/personal/d_kavanova_scia_net/EYmvDJeBaOtDrHCu7ms3OZYBIJZekqNpyTXQA91F6Ax_kQ?e=6ZMe23&amp;action=embedview&amp;wdHideGridlines=True&amp;ActiveCell=A1&amp;wdDownloadButton=True" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

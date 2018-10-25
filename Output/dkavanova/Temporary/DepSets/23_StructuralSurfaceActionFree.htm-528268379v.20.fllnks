@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/TableStyles/NewStyle.css" />
+    <Link
+      Url="Content/Resources/Images/StructuralSurfaceActionFree.png" />
+    <Link
+      Url="https://scia-my.sharepoint.com/:x:/g/personal/d_kavanova_scia_net/EXrxxpsmR7ZMkiHlA25eTDkBE7gJ9faiDPNszQajELAT0w" />
+    <Link
+      Url="Content/Resources/Images/StructuralSurfaceActionFree3.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/TableStyles/NewStyle.css" />
+    <Link
+      Url="Content/Resources/Images/StructuralSurfaceActionFree.png" />
+    <Link
+      Url="https://scia-my.sharepoint.com/:x:/g/personal/d_kavanova_scia_net/EXrxxpsmR7ZMkiHlA25eTDkBE7gJ9faiDPNszQajELAT0w?e=fGwuGj&amp;action=embedview&amp;wdHideGridlines=True&amp;ActiveCell=A1&amp;wdDownloadButton=True" />
+    <Link
+      Url="Content/Resources/Images/StructuralSurfaceActionFree3.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

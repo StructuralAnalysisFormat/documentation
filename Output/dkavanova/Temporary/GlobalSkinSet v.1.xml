@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultGlobalSkinCache
-  SavedSource="file:///C:/Users/dkavanova/OneDrive - SCIA nv/SCIA/Calatrava/MadCap/MadCap Classic/MadCap Classic/Web Print Mobile.flprj/Web Print Mobile.flprj/Output/dkavanova/Temporary/GlobalSkinSet v.1.xml">
+  SavedSource="file:///C:/Users/dkavanova/OneDrive - SCIA nv/SCIA/Calatrava/MadCap/Web Print Mobile_actual.flprj/Web Print Mobile.flprj/Output/dkavanova/Temporary/GlobalSkinSet v.1.xml">
   <Map>
     <Tag
       Name="Header" />
@@ -320,6 +320,6 @@
     <Url
       Source="../Project/Skins/WebsiteSkin.flskn" />
     <Url
-      Source="../../../../../../../../../../../Program Files (x86)/MadCap Software/MadCap Flare V10/Flare.app/Resources/Stylesheets/MasterSkin.xmlstylesdef" />
+      Source="../../../../../../../../../Program Files (x86)/MadCap Software/MadCap Flare V10/Flare.app/Resources/Stylesheets/MasterSkin.xmlstylesdef" />
   </SourceUrls>
 </CatapultGlobalSkinCache>

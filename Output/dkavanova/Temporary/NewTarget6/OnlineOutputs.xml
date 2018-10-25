@@ -2,7 +2,7 @@
 <CatapultToc Version="1" conditions="">
     <TocEntry Title="Introduction" Link="/Content/1_Introduction.htm" />
     <TocEntry Title="Project and model specifications" Link="/Content/A_Objects/2_Project and model specifications.htm" />
-    <TocEntry Title="Structural analysis members">
+    <TocEntry Title="Structural analysis elements">
         <TocEntry Title="StructuralMaterial" Link="/Content/A_Objects/3_StructuralMaterial.htm" />
         <TocEntry Title="StructuralCrossSection" Link="/Content/A_Objects/4_StructuralCrossSection.htm" />
         <TocEntry Title="StructuralPointConnection" Link="/Content/A_Objects/5_StructuralPointConnection.htm" />
@@ -20,7 +20,7 @@
         <TocEntry Title="RelConnectsStructuralMember" Link="/Content/A_Objects/14_RelConnectsStructuralMember.htm" />
         <TocEntry Title="RelConnectsSurfaceEdge" Link="/Content/A_Objects/15_RelConnectsSurfaceEdge.htm" />
     </TocEntry>
-    <TocEntry Title="Loads">
+    <TocEntry Title="Loads" StartSection="false" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" ComputeToc="false" ReplaceMergeNode="false">
         <TocEntry Title="StructuralLoadGroup" Link="/Content/A_Objects/16_StructuralLoadGroup.htm" />
         <TocEntry Title="StructuralLoadCase" Link="/Content/A_Objects/17_StructuralLoadCase.htm" />
         <TocEntry Title="StructuralPointAction" Link="/Content/A_Objects/18_StructuralPointAction.htm" />
@@ -34,5 +34,6 @@
     <TocEntry Title="Annexes">
         <TocEntry Title="Formcodes" Link="/Content/Annexes/Formcodes.htm" />
         <TocEntry Title="Description ID of the profile" Link="/Content/Annexes/Description ID of the profile.htm" />
+        <TocEntry Title="Supported shapes of cross-section" Link="/Content/Annexes/Supported shapes of cross-section.htm" />
     </TocEntry>
 </CatapultToc>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1781" MadCap:lastWidth="1420">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1979" MadCap:lastWidth="1401">
     <head>
         <link href="../Resources/TableStyles/NewStyle.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -7,14 +7,15 @@
         <p style="font-size: 18pt;text-decoration: none;">RelConnectsSurfaceEdge</p>
         <hr />
         <p style="font-size: 15pt;">Hinges on 2D member edge</p>
-        <p>A connection of two slabs (2D members) may be modelled as a fixed one or a hinge may be inserted to create a pinned connection. Three configurations of slab hinge are allowed: rigid, free, flexible. Under any configuration, all translations are fully transferred from one slab into the other.</p>
+        <p>A connection of two slabs (2D members) may be modelled as a fixed one or a hinge may be inserted to create a pinned connection. Three configurations of slab hinge are allowed: rigid, free, flexible. Under any configuration, all translations are fully transferred from one slab to the other. If there is no hinge, the connection is rigid.</p>
         <p>
-            <img src="../Resources/Images/RelConnectsSurfaceEdge.png" />
+            <img src="../Resources/Images/RelConnectsSurfaceEdge2.png" />
         </p>
         <p>Specification in the excel:</p>
         <table style="mc-table-style: url('../Resources/TableStyles/NewStyle.css');" class="TableStyle-NewStyle" cellspacing="0">
             <col style="width: 155px;" class="TableStyle-NewStyle-Column-Column1" />
             <col style="width: 181px;" class="TableStyle-NewStyle-Column-Column1" />
+            <col style="width: 254px;" class="TableStyle-NewStyle-Column-Column1" />
             <col style="width: 254px;" class="TableStyle-NewStyle-Column-Column1" />
             <col style="width: 557px;" class="TableStyle-NewStyle-Column-Column1" />
             <tbody>
@@ -31,6 +32,9 @@
                         <p style="text-align: center;padding-left: 4px;padding-right: 4px;color: #ffffff;">Value
  example or enum definition</p>
                     </td>
+                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p style="color: #ffffff;padding-left: 4px;padding-right: 4px;text-align: center;">Required value</p>
+                    </td>
                     <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">
                         <p style="color: #ffffff;padding-left: 4px;padding-right: 4px;text-align: left;">Description</p>
                     </td>
@@ -45,10 +49,25 @@
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
                         <p>Sn6</p>
                     </td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">yes</td>
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">
                         <p>Human
  readable unique name of the support</p>
                     </td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body1">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">2D Member</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">String</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">S3</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">yes</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">The name of the surface member to which is hinge related</td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body2">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Edge</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Integer</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">1</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">yes</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">The index of edge of the surface member. The index starting with 0. The order is according to order of “edges” property at StrucutralSurfaceMember. </td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body1">
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
@@ -62,39 +81,21 @@
                         <p>Rigid</p>
                         <p>Flexible</p>
                     </td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">no</td>
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">
-                        <p>Translation in X direction. Free - That is it imposes no constraint in the direction. Rigid - The connection in fully rigid in the specified direction. Flexible - The connection is flexible (elastic) in the specified direction.</p>
+                        <p>Translation in X direction. Free - That is it imposes no constraint in the direction. Rigid - The connection in fully rigid in the specified direction. Flexible - The connection is flexible (elastic) in the specified direction. Parameter Flexible can be linear only, non-linearity is not supported.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body2">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">uy</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Enum</td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
-                        <p>StiffnessX [MN/m2]</p>
-                    </td>
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
-                        <p>Double</p>
-                    </td>
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
-                        <p>100</p>
-                    </td>
-                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">
-                        <p>The flexibility of the connection in X direction. Use this property only if the Translation X direction is Flexible.</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-NewStyle-Body-Body1">
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">uy</td>
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Enum</td>
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
                         <p>Free</p>
                         <p>Rigid</p>
                         <p>Flexible</p>
                     </td>
-                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">Translation in Y direction. Free - That is it imposes no constraint in the direction. Rigid - The connection in fully rigid in the specified direction. Flexible - The connection is flexible (elastic) in the specified direction.</td>
-                </tr>
-                <tr class="TableStyle-NewStyle-Body-Body2">
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">StiffnessY [MN/m2]</td>
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Double</td>
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">100</td>
-                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">The flexibility of the connection in Y direction. Use this property only if the Translation Y direction is Flexible.</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">no</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">Translation in Y direction. Free - That is it imposes no constraint in the direction. Rigid - The connection in fully rigid in the specified direction. Flexible - The connection is flexible (elastic) in the specified direction. Parameter Flexible can be linear only, non-linearity is not supported.</td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body1">
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">uz</td>
@@ -104,29 +105,19 @@
                         <p>Rigid</p>
                         <p>Flexible</p>
                     </td>
-                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">Translation in Z direction. Free - That is it imposes no constraint in the direction. Rigid - The connection in fully rigid in the specified direction. Flexible - The connection is flexible (elastic) in the specified direction.</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">no</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">Translation in Z direction. Free - That is it imposes no constraint in the direction. Rigid - The connection in fully rigid in the specified direction. Flexible - The connection is flexible (elastic) in the specified direction. Parameter Flexible can be linear only, non-linearity is not supported.</td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body2">
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">StiffnessZ [MN/m2]</td>
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Double</td>
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">100</td>
-                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">The flexibility of the connection in Z direction. Use this property only if the Translation Z direction is Flexible.</td>
-                </tr>
-                <tr class="TableStyle-NewStyle-Body-Body1">
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">fix</td>
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Enum</td>
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">fix</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Enum</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
                         <p>Free</p>
                         <p>Rigid</p>
                         <p>Flexible</p>
                     </td>
-                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">Rotational stiffness around X axis</td>
-                </tr>
-                <tr class="TableStyle-NewStyle-Body-Body2">
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">StiffnessFix [MNm/rad/m]</td>
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Double</td>
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">50</td>
-                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">The flexibility in rotation of the connection around local X axis. Use this property only if the Rotational stiffness fix is Flexible.</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">no</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">Rotational stiffness around X axis. Parameter Flexible can be linear only, non-linearity is not supported.</td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body1">
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">fiy</td>
@@ -136,41 +127,75 @@
                         <p>Rigid</p>
                         <p>Flexible</p>
                     </td>
-                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">Rotational stiffness around Y axis</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">no</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">Rotational stiffness around Y axis. Parameter Flexible can be linear only, non-linearity is not supported.</td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body2">
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">StiffnessFiy [MNm/rad/m]</td>
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Double</td>
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">50</td>
-                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">The flexibility in rotation of the connection around local Y axis. Use this property only if the Rotational stiffness fiy is Flexible.</td>
-                </tr>
-                <tr class="TableStyle-NewStyle-Body-Body1">
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">fiz</td>
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Enum</td>
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">fiz</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Enum</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
                         <p>Free</p>
                         <p>Rigid</p>
                         <p>Flexible</p>
                     </td>
-                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">Rotational stiffness around Z axis</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">no</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">Rotational stiffness around Z axis. Parameter Flexible can be linear only, non-linearity is not supported.</td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body1">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p>StiffnessX [MN/m2]</p>
+                    </td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p>Double</p>
+                    </td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p>100</p>
+                    </td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">yes, if ux = Flexible	
+</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">
+                        <p>The flexibility of the connection in X direction</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body2">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">StiffnessY [MN/m2]</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Double</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">100</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">yes, if uy = Flexible	
+</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">The flexibility of the connection in Y direction</td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body1">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">StiffnessZ [MN/m2]</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Double</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">100</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">yes, if uz = Flexible	
+</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">The flexibility of the connection in Z direction</td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body2">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">StiffnessFix [MNm/rad/m]</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Double</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">50</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">yes, if fix = Flexible	
+</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">The flexibility in rotation of the connection around local X axis</td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body1">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">StiffnessFiy [MNm/rad/m]</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Double</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">50</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">yes, if fiy = Flexible	
+</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">The flexibility in rotation of the connection around local Y axis</td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body2">
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">StiffnessFiz [MNm/rad/m]</td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Double</td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">50</td>
-                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">The flexibility in rotation of the connection around local Z axis. Use this property only if the Rotational stiffness fiz is Flexible.</td>
-                </tr>
-                <tr class="TableStyle-NewStyle-Body-Body1">
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">2D Member</td>
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">String</td>
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">S3</td>
-                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">The name of the surface member to which is hinge related</td>
-                </tr>
-                <tr class="TableStyle-NewStyle-Body-Body2">
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Edge</td>
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Integer</td>
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">1</td>
-                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">The index of edge of the surface member. The index starting with 0. The order is according to order of “edges” property at StrucutralSurfaceMember. </td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">yes, if fiz = Flexible	
+</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">The flexibility in rotation of the connection around local Z axis</td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body1">
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Coordinate definition</td>
@@ -179,36 +204,38 @@
                         <p>Absolute</p>
                         <p>Relative</p>
                     </td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">no</td>
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">Selects the coordinate system that is used to define the length of the hinge. Relative means without units. To define length of the hinges in meters input absolute</td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body2">
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Start point [m]</td>
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Double</td>
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">0,3</td>
-                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">Defines the position of the start point of the hinge in relative or absolute coordinates</td>
-                </tr>
-                <tr class="TableStyle-NewStyle-Body-Body1">
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">End point [m]</td>
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Double</td>
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">0,75</td>
-                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">Defines the position of the end point of the hinge in relative or absolute coordinates</td>
-                </tr>
-                <tr class="TableStyle-NewStyle-Body-Body2">
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body2">Origin</td>
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body2">Enum</td>
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body2">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Origin</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Enum</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
                         <p>From start</p>
                         <p>From end</p>
                     </td>
-                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyA-Column1-Body2">Specifies the origin of the coordinate system used for the definition of the length of the hinge</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">no</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">Specifies the origin of the coordinate system used for the definition of the length of the hinge</td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body1">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Start point [m]</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Double</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">0,3</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">yes, if Coordinate definition = Absolute	</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">Defines the position of the start point of the hinge in relative or absolute coordinates</td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body2">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body2">End point [m]</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body2">Double</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body2">0,75</td>
+                    <td class="TableStyle-NewStyle-BodyB-Column1-Body2" style="font-size: 9pt;">yes, if Coordinate definition = Absolute	</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyA-Column1-Body2">Defines the position of the end point of the hinge in relative or absolute coordinates</td>
                 </tr>
             </tbody>
         </table>
         <p>&#160;</p>
         <p>A template of use in excel, the download icon is situated in the bottom right corner:</p>
-        <p>&#160;</p>
-		<iframe width="1147" height="300" frameborder="0" src="https://scia-my.sharepoint.com/:x:/g/personal/d_kavanova_scia_net/EdFh0czgzvFDn1QelzYIH2wBSElG3O4f_G_GakS_4gij8A?e=gyyagB&action=embedview&wdHideGridlines=True&ActiveCell=A1&wdDownloadButton=True">
-		</iframe>
+        <p>&#160;</p><iframe width="1147" height="300" frameborder="0" src="https://goo.gl/8HjZCa"></iframe>
         <p>&#160;</p>
     </body>
 </html>

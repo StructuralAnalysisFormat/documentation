@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Snippets/MiniTOC.flsnp" />
+    <Link
+      Url="Content/Resources/Images/surf1.png" />
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Snippets/MiniTOC.flsnp" />
+    <Link
+      Url="Content/Resources/Images/surf1.png" />
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+  </LongLinks>
+  <Anchors />
+  <Keywords>
+    <IndexCacheEntry
+      Term="Snippet:chapter beginning"
+      Conditions=""
+      LocalConditions=""
+      Position="6" />
+    <IndexCacheEntry
+      Term="Drop-down:conditioned"
+      Conditions="General.Online"
+      LocalConditions=""
+      Position="12" />
+    <IndexCacheEntry
+      Term="Figure caption"
+      Conditions="General.Print"
+      LocalConditions=""
+      Position="19" />
+    <IndexCacheEntry
+      Term="Caption:figure"
+      Conditions="General.Print"
+      LocalConditions=""
+      Position="19" />
+    <IndexCacheEntry
+      Term="Note"
+      Conditions=""
+      LocalConditions=""
+      Position="26" />
+    <IndexCacheEntry
+      Term="See Also link"
+      Conditions="General.Online"
+      LocalConditions=""
+      Position="30" />
+  </Keywords>
+  <Concepts>
+    <ConceptCacheEntry
+      Term="Introduction"
+      Conditions=""
+      LocalConditions=""
+      Position="4" />
+  </Concepts>
+  <ConceptControlNames>
+    <ConceptControlName
+      Term="Introduction" />
+  </ConceptControlNames>
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="General.Print" />
+    <Condition
+      Tag="General.Online" />
+  </AllConditions>
+  <Stylesheets />
+</CatapultFileLinkSet>

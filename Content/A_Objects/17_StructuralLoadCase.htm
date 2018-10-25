@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1138" MadCap:lastWidth="1420">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1134" MadCap:lastWidth="1401">
     <head>
         <link href="../Resources/TableStyles/NewStyle.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -12,6 +12,7 @@
         <table style="mc-table-style: url('../Resources/TableStyles/NewStyle.css');" class="TableStyle-NewStyle" cellspacing="0">
             <col style="width: 155px;" class="TableStyle-NewStyle-Column-Column1" />
             <col style="width: 181px;" class="TableStyle-NewStyle-Column-Column1" />
+            <col style="width: 254px;" class="TableStyle-NewStyle-Column-Column1" />
             <col style="width: 254px;" class="TableStyle-NewStyle-Column-Column1" />
             <col style="width: 557px;" class="TableStyle-NewStyle-Column-Column1" />
             <tbody>
@@ -28,6 +29,9 @@
                         <p style="text-align: center;padding-left: 4px;padding-right: 4px;color: #ffffff;">Value
  example or enum definition</p>
                     </td>
+                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p style="text-align: center;padding-left: 4px;padding-right: 4px;color: #ffffff;">Required value</p>
+                    </td>
                     <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">
                         <p style="color: #ffffff;padding-left: 4px;padding-right: 4px;text-align: left;">Description</p>
                     </td>
@@ -42,6 +46,7 @@
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
                         <p>LC1</p>
                     </td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">yes</td>
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">
                         <p>Human
  readable unique name of the object</p>
@@ -57,6 +62,7 @@
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
                         <p>Offices – Cat.B</p>
                     </td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">no</td>
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">
                         <p>Description of the load case</p>
                     </td>
@@ -73,6 +79,7 @@
                         <p>Variable</p>
                         <p>Accidental</p>
                     </td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">yes</td>
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">
                         <p>Type of load in general. Other parameters depend on the adjustment of the load case type</p>
                     </td>
@@ -81,25 +88,26 @@
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Load group</td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">String</td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">LG 1</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">yes</td>
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">Name reference to existing <a href="16_StructuralLoadGroup.htm">StructuralLoadGroup</a> object with appropriate settings of Load group type</td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body2">
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Load type</td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Enum</td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
-                        <p>Self weight</p>
-                        <p>Standard</p>
+                        <p>Others</p>
                         <p>Prestress</p>
                         <p>Dynamic</p>
                         <p>Primary effect</p>
                         <p>Static</p>
                     </td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">yes</td>
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">
                         <p>Define subtype of load. Depends on Action type property.
 </p>
-                        <p>Subtypes for permanent: Self weight; Standard; Primary effects
+                        <p>Subtypes for permanent: Self weight; Primary effects; Others
 </p>
-                        <p>Subtypes for Variable: Static; Dynamic; Primary effects
+                        <p>Subtypes for Variable: Static; Dynamic; Primary effects; Others
 </p>
                     </td>
                 </tr>
@@ -107,12 +115,13 @@
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Specification</td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Enum</td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
-                        <p>Standard</p>
+                        <p>Others</p>
                         <p>Temperature</p>
                         <p>Wind</p>
                         <p>Snow</p>
                         <p>Maintanance</p>
                     </td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">yes, if Action type = Variable</td>
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">Detailed specifications for variable type of load case</td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body2">
@@ -124,6 +133,7 @@
                         <p>Short</p>
                         <p>Instantaneous</p>
                     </td>
+                    <td class="TableStyle-NewStyle-BodyB-Column1-Body2" style="font-size: 9pt;">yes, if Action type = Variable</td>
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyA-Column1-Body2">For static standard loads, the duration of the load impact can be specified</td>
                 </tr>
             </tbody>
@@ -131,7 +141,7 @@
         <p>&#160;</p>
         <p>A template of use in excel, the download icon is situated in the bottom right corner:</p>
         <p>&#160;</p>
-		<iframe width="1147" height="300" frameborder="0" src="https://scia-my.sharepoint.com/:x:/g/personal/d_kavanova_scia_net/ESEEH7OhUHZIl95N8GsMvd0B9n6MDR9Wh9xI-uvoAgDIqA?e=rIf5ac&action=embedview&wdHideGridlines=True&ActiveCell=A1&wdDownloadButton=True">
+		<iframe width="1147" height="300" frameborder="0" src="https://goo.gl/MthW6n">
 		</iframe>
         <p>&#160;</p>
     </body>

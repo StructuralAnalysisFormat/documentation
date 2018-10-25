@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/TableStyles/NewStyle.css" />
+    <Link
+      Url="Content/Resources/Images/StructuralCurveMember2.png" />
+    <Link
+      Url="Content/Resources/Images/StructuralCurveMember3.png" />
+    <Link
+      Url="Content/A_Objects/4_StructuralCrossSection.htm" />
+    <Link
+      Url="Content/A_Objects/5_StructuralPointConnection.htm" />
+    <Link
+      Url="https://goo.gl/syZrLz" />
+    <Link
+      Url="Content/Annexes/Formcodes.htm" />
+    <Link
+      Url="Content/Annexes/Supported shapes of cross-section.htm" />
+    <Link
+      Url="Content/Annexes/Description ID of the profile.htm" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/TableStyles/NewStyle.css" />
+    <Link
+      Url="Content/Resources/Images/StructuralCurveMember2.png" />
+    <Link
+      Url="Content/Resources/Images/StructuralCurveMember3.png" />
+    <Link
+      Url="Content/A_Objects/4_StructuralCrossSection.htm" />
+    <Link
+      Url="Content/A_Objects/5_StructuralPointConnection.htm" />
+    <Link
+      Url="https://goo.gl/syZrLz" />
+    <Link
+      Url="Content/Annexes/Formcodes.htm" />
+    <Link
+      Url="Content/Annexes/Supported shapes of cross-section.htm" />
+    <Link
+      Url="Content/Annexes/Description ID of the profile.htm" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/NewStyle.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

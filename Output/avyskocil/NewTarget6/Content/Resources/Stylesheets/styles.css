@@ -19,7 +19,7 @@ body
 
 blockquote.style1
 {
-	font: 14px /20px Century Gothic;
+	font: 14px / 20px Century Gothic;
 	padding: 8px;
 	background-color: #faebbc;
 	border-top: 1px solid #e1cc89;
@@ -44,7 +44,6 @@ div.background
 	width: 500px;
 	height: 250px;
 	border: 2px solid black;
-	background: url('../Images/surf2.png') repeat;
 }
 
 Div.FooterTable
@@ -854,13 +853,11 @@ ul
 {
 	list-style-type: none;
 	font-size: 1em;
-	list-style-image: url('../Images/first_bullet.eps');
 }
 
 ul.SecondLevel
 {
 	list-style-type: none;
-	list-style-image: url('../Images/second_bullet.eps');
 }
 
 ul.FirstLevel

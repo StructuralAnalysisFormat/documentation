@@ -4,7 +4,6 @@
   conditions="">
   <TocEntry
     Title="Title"
-    Link="/Content/Print Only Topics/PDG Guide B Title.htm"
     StartSection="false"
     PageNumber="1"
     StartChapter="true"
@@ -13,14 +12,12 @@
     StartPageLayout="false"></TocEntry>
   <TocEntry
     Title="Copyright"
-    Link="/Content/Print Only Topics/Copyright.htm"
     StartPageLayout="true"
     StartSection="false"
     BreakType="pageLayout"
     PageLayout="/Content/Resources/PageLayouts/8_5X11/Copyright8_5X11.flpgl"></TocEntry>
   <TocEntry
     Title="PrintTOC"
-    Link="/Content/Print Only Topics/PrintTOC.htm"
     StartSection="false"
     PageNumber="1"
     PageNumberReset="reset"
@@ -32,7 +29,6 @@
     AutoEndOnLeftPage="enabled" />
   <TocEntry
     Title="CH 1 Extra Topic 2"
-    Link="/Content/B_Extra Topics/Extra Topic 2.htm"
     StartChapter="true"
     PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
     PageNumber="1"
@@ -49,7 +45,6 @@
     PageType="firstright"></TocEntry>
   <TocEntry
     Title="CH 2 Extra Topic 3"
-    Link="/Content/B_Extra Topics/Extra Topic 3.htm"
     StartChapter="true"
     PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
     PageNumber="1"
@@ -63,7 +58,6 @@
     ChapterNumberReset="continue"></TocEntry>
   <TocEntry
     Title="CH 3 Extra Topic 4"
-    Link="/Content/B_Extra Topics/Extra Topic 4.htm"
     StartChapter="true"
     PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
     PageNumber="1"
@@ -74,7 +68,6 @@
     AutoEndOnLeftPage="enabled"></TocEntry>
   <TocEntry
     Title="PrintIndex"
-    Link="/Content/Print Only Topics/PrintIndex.htm"
     BreakType="chapter"
     PageLayout="/Content/Resources/PageLayouts/8_5X11/Index8_5X11.flpgl"
     PageType="firstright"

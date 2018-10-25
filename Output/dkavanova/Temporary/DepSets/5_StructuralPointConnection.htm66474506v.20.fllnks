@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/TableStyles/NewStyle.css" />
+    <Link
+      Url="Content/A_Objects/7_StructuralCurveMember.htm" />
+    <Link
+      Url="Content/A_Objects/11_StructuralPointSupport.htm" />
+    <Link
+      Url="Content/Resources/Images/StructurePointConnection.png" />
+    <Link
+      Url="https://goo.gl/RhYUcp" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/TableStyles/NewStyle.css" />
+    <Link
+      Url="Content/A_Objects/7_StructuralCurveMember.htm" />
+    <Link
+      Url="Content/A_Objects/11_StructuralPointSupport.htm" />
+    <Link
+      Url="Content/Resources/Images/StructurePointConnection.png" />
+    <Link
+      Url="https://goo.gl/RhYUcp" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/NewStyle.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>
