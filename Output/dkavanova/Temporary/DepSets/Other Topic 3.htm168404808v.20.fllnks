@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Snippets/Steps/StepSnippet1.flsnp" />
+    <Link
+      Url="Content/Resources/Images/surf3.png" />
+    <Link
+      Url="Content/Resources/Snippets/Steps/StepSnippet2.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/WhatsNextHeading.flsnp" />
+    <Link
+      Url="Content/C_Other Topics/Other Topic 4.htm" />
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Snippets/Steps/StepSnippet1.flsnp" />
+    <Link
+      Url="Content/Resources/Images/surf3.png" />
+    <Link
+      Url="Content/Resources/Snippets/Steps/StepSnippet2.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/WhatsNextHeading.flsnp" />
+    <Link
+      Url="Content/C_Other Topics/Other Topic 4.htm" />
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+  </LongLinks>
+  <Anchors />
+  <Keywords>
+    <IndexCacheEntry
+      Term="How to:in a drop-down"
+      Conditions=""
+      LocalConditions=""
+      Position="7" />
+    <IndexCacheEntry
+      Term="List:multi-level numbers"
+      Conditions=""
+      LocalConditions=""
+      Position="13" />
+    <IndexCacheEntry
+      Term="Image:under list item"
+      Conditions="General.Online"
+      LocalConditions=""
+      Position="22" />
+    <IndexCacheEntry
+      Term="Image:conditioned"
+      Conditions="General.Online"
+      LocalConditions=""
+      Position="22" />
+  </Keywords>
+  <Concepts>
+    <ConceptCacheEntry
+      Term="OtherTopics"
+      Conditions=""
+      LocalConditions=""
+      Position="4" />
+  </Concepts>
+  <ConceptControlNames>
+    <ConceptControlName
+      Term="OtherTopics" />
+  </ConceptControlNames>
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="General.Online" />
+  </AllConditions>
+  <Stylesheets />
+</CatapultFileLinkSet>

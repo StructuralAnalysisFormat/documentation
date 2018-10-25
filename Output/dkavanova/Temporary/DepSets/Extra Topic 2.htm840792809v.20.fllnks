@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/B_Extra Topics/Extra Topic 1.htm" />
+    <Link
+      Url="Content/C_Other Topics/Other Topic 1.htm" />
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/B_Extra Topics/Extra Topic 1.htm" />
+    <Link
+      Url="Content/C_Other Topics/Other Topic 1.htm" />
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+  </LongLinks>
+  <Anchors />
+  <Keywords>
+    <IndexCacheEntry
+      Term="Condition:drop-down"
+      Conditions="General.Online"
+      LocalConditions=""
+      Position="9" />
+    <IndexCacheEntry
+      Term="Drop-down:conditioned"
+      Conditions="General.Online"
+      LocalConditions=""
+      Position="9" />
+    <IndexCacheEntry
+      Term="How to:in a drop-down"
+      Conditions="General.Online"
+      LocalConditions=""
+      Position="9" />
+    <IndexCacheEntry
+      Term="List:numbers and multi-level bullets"
+      Conditions="General.Online"
+      LocalConditions=""
+      Position="14" />
+    <IndexCacheEntry
+      Term="Cross-reference"
+      Conditions="General.Online"
+      LocalConditions=""
+      Position="15" />
+    <IndexCacheEntry
+      Term="Span tag"
+      Conditions="General.Online"
+      LocalConditions=""
+      Position="21" />
+    <IndexCacheEntry
+      Term="List:multi-level bullets"
+      Conditions=""
+      LocalConditions=""
+      Position="40" />
+  </Keywords>
+  <Concepts>
+    <ConceptCacheEntry
+      Term="ExtraTopics"
+      Conditions=""
+      LocalConditions=""
+      Position="4" />
+  </Concepts>
+  <ConceptControlNames>
+    <ConceptControlName
+      Term="ExtraTopics" />
+  </ConceptControlNames>
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="General.Online" />
+    <Condition
+      Tag="General.Print" />
+  </AllConditions>
+  <Stylesheets />
+</CatapultFileLinkSet>

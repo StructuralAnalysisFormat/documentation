@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MadCapLog Protocol="2" Description="MadBuild V11 Generated Website Output.fltar" Date="2015-05-12T07:48:42.9008340-07:00">
+    <Messages>Compiling target Website Output...
+Removing previously generated content...
+Build failed: Access to the path '\\fs1\Users\pstoecklein\Templates for Website\MadCap Classic\Web Print Mobile.flprj\Output\chernandez\Website Output\Content' is denied.
+Saving log to "\\fs1\Users\pstoecklein\Templates for Website\MadCap Classic\Web Print Mobile.flprj\Output\chernandez\Website Output\Website Output.mclog"
+</Messages>
+    <Warnings />
+    <Errors>
+        <LogEntry File="../../../Project/Targets/Website Output.fltar" Message="Build failed: Access to the path '\\fs1\Users\pstoecklein\Templates for Website\MadCap Classic\Web Print Mobile.flprj\Output\chernandez\Website Output\Content' is denied.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="Website Output" ErrorID="10086" />
+    </Errors>
+</MadCapLog>

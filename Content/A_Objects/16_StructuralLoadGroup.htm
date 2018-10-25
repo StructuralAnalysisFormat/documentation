@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1291" MadCap:lastWidth="1420">
+    <head>
+        <link href="../Resources/TableStyles/NewStyle.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body style="font-family: 'Century Gothic';font-size: 11pt;">
+        <p style="font-size: 18pt;text-decoration: none;">StructuralLoadGroup</p>
+        <hr />
+        <p style="font-size: 15pt;">Load group</p>
+        <p>Load groups define "how the individual load cases may be combined together" if inserted into a load case combination. Thanks to the load groups, the user can easily specify which load cases MUST, MUST NOT, or CAN act together. Each load group may be used either for permanent loads or for variable loads. Permanent and variable loads cannot appear in the same group.</p>
+        <p>Specification in the excel:</p>
+        <table style="mc-table-style: url('../Resources/TableStyles/NewStyle.css');" class="TableStyle-NewStyle" cellspacing="0">
+            <col style="width: 155px;" class="TableStyle-NewStyle-Column-Column1" />
+            <col style="width: 181px;" class="TableStyle-NewStyle-Column-Column1" />
+            <col style="width: 254px;" class="TableStyle-NewStyle-Column-Column1" />
+            <col style="width: 557px;" class="TableStyle-NewStyle-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-NewStyle-Body-Body1">
+                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p style="color: #ffffff;text-align: center;padding-left: 4px;padding-right: 4px;">Name
+ of the column header</p>
+                    </td>
+                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p style="text-align: center;padding-left: 4px;padding-right: 4px;color: #ffffff;">Type
+ of data</p>
+                    </td>
+                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p style="text-align: center;padding-left: 4px;padding-right: 4px;color: #ffffff;">Value
+ example or enum definition</p>
+                    </td>
+                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">
+                        <p style="color: #ffffff;padding-left: 4px;padding-right: 4px;text-align: left;">Description</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body2">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
+                        <p>Name</p>
+                    </td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
+                        <p>String</p>
+                    </td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
+                        <p>LG1</p>
+                    </td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">
+                        <p>Human
+ readable unique name of the object</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body1">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p>Load group type</p>
+                    </td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p>Enum</p>
+                    </td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p>Permanent</p>
+                        <p>Variable</p>
+                        <p>Accidental</p>
+                        <p>Seismic</p>
+                    </td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">
+                        <p>This parameters tell whether the load group is used for permanent or variable loads.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body2">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
+                        <p>Relation</p>
+                    </td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
+                        <p>Enum</p>
+                    </td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
+                        <p>Exclusive</p>
+                        <p>Standard</p>
+                        <p>Together</p>
+                    </td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">
+                        <p>The relation tells what the relation of load cases in the particular load group is.</p>
+                        <p>Exclusive: Two load cases from the same load group of this type will never appear in the same combination.</p>
+                        <p>Standard: It allows the user to sort load cases but it does not affect the process of generation of load case combinations.</p>
+                        <p>Together: All load cases of the same load group of this type are always inserted into every new load case combination</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body1">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Structure type</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Enum</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p>Building</p>
+                        <p>Road bridge</p>
+                        <p>Footbridge</p>
+                        <p>Railway bridge</p>
+                    </td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">Define type of the structure of the building</td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body2">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body2">Load</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body2">Enum</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body2">
+                        <p>Domestic</p>
+                        <p>Offices</p>
+                        <p>Congregation</p>
+                        <p>Shopping</p>
+                        <p>Storage</p>
+                        <p>Vehicle &lt; 30kN</p>
+                        <p>Vehicle &gt; 30kN</p>
+                        <p>Roofs</p>
+                        <p>Snow</p>
+                        <p>Wind</p>
+                        <p>Temperature</p>
+                    </td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyA-Column1-Body2">Define type of variable load</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <p>A template of use in excel, the download icon is situated in the bottom right corner:</p>
+        <p>&#160;</p>
+		<iframe width="1147" height="300" frameborder="0" src="https://scia-my.sharepoint.com/:x:/g/personal/d_kavanova_scia_net/Ef1WdvsSvAREukJRpFocvtcBl1Z-hipKtm2Ko6F2siQEcw?e=aRLADg&action=embedview&wdHideGridlines=True&ActiveCell=A1&wdDownloadButton=True">
+		</iframe>
+        <p>&#160;</p>
+    </body>
+</html>

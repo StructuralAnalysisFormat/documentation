@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1"
+  conditions=""
+  DepSetCode="3683808264"
+  SavedSource="file:///E:/_CALATRAVA/BIMPLUS Exchanger/Documentation/Flare project/Web Print Mobile.flprj/Output/avyskocil/Temporary/NewTarget6 v.1.catapulttoccache">
+  <TocEntry
+    Title="Introduction"
+    Link="/Content/1_Introduction.htm" />
+  <TocEntry
+    Title="Project and model specifications"
+    Link="/Content/2_Project and model specifications.htm" />
+  <TocEntry
+    Title="Objects">
+    <TocEntry
+      Title="StructuralMaterial"
+      Link="/Content/A_Objects/3_StructuralMaterial.htm" />
+    <TocEntry
+      Title="StructuralCrossSection"
+      Link="/Content/A_Objects/4_StructuralCrossSection.htm" />
+    <TocEntry
+      Title="StructurePointConnection"
+      Link="/Content/A_Objects/5_StructurePointConnection.htm" />
+    <TocEntry
+      Title="StructuralCurveEdge"
+      Link="/Content/A_Objects/6_StructuralCurveEdge.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Topic 1"
+    Link="/Content/A_Objects/Topic 1.htm" />
+  <TocEntry
+    Title="Topic 2"
+    Link="/Content/A_Objects/Topic 2.htm" />
+  <TocEntry
+    Title="Topic 3"
+    Link="/Content/A_Objects/Topic 3.htm" />
+  <TocEntry
+    Title="Extra Topic 1"
+    Link="/Content/B_Extra Topics/Extra Topic 1.htm"
+    StartSection="false">
+    <TocEntry
+      Title="Extra Topic 2"
+      Link="/Content/B_Extra Topics/Extra Topic 2.htm" />
+    <TocEntry
+      Title="Extra Topic 3"
+      Link="/Content/B_Extra Topics/Extra Topic 3.htm" />
+    <TocEntry
+      Title="Extra Topic 4"
+      Link="/Content/B_Extra Topics/Extra Topic 4.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Other Topic 1"
+    Link="/Content/C_Other Topics/Other Topic 1.htm"
+    PageNumber="1"
+    PageNumberReset="continue"
+    StartSection="false"
+    StartPageLayout="false"
+    AutoEndOnLeftPage="enabled"
+    BreakType="none">
+    <TocEntry
+      Title="Other Topic 2"
+      Link="/Content/C_Other Topics/Other Topic 2.htm" />
+    <TocEntry
+      Title="Other Topic 3"
+      Link="/Content/C_Other Topics/Other Topic 3.htm"
+      StartPageLayout="false"
+      StartSection="false"
+      StartChapter="false" />
+    <TocEntry
+      Title="Other Topic 4"
+      Link="/Content/C_Other Topics/Other Topic 4.htm" />
+  </TocEntry>
+</CatapultToc>

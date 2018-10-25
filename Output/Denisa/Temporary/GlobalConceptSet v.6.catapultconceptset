@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultGlobalConceptSet
+  SavedSource="file:///D:/Záloha/Dokumenty/SCIA/Calatrava/MadCap/MadCap Classic/MadCap Classic/Web Print Mobile.flprj/Output/Denisa/Temporary/GlobalConceptSet v.6.catapultconceptset">
+  <Concepts>
+    <ConceptEntry
+      Term="ExtraTopics">
+      <ConceptLink
+        Link="B_Extra Topics/Extra Topic 1.htm"
+        UsedConditions=""
+        LocalConditions="" />
+      <ConceptLink
+        Link="B_Extra Topics/Extra Topic 2.htm"
+        UsedConditions=""
+        LocalConditions="" />
+      <ConceptLink
+        Link="B_Extra Topics/Extra Topic 3.htm"
+        UsedConditions=""
+        LocalConditions="" />
+      <ConceptLink
+        Link="B_Extra Topics/Extra Topic 4.htm"
+        UsedConditions=""
+        LocalConditions="" />
+      <ConceptControlLink
+        Link="B_Extra Topics/Extra Topic 2.htm" />
+      <ConceptControlLink
+        Link="B_Extra Topics/Extra Topic 3.htm" />
+      <ConceptControlLink
+        Link="B_Extra Topics/Extra Topic 4.htm" />
+    </ConceptEntry>
+    <ConceptEntry
+      Term="Introduction">
+      <ConceptLink
+        Link="A_Objects/Topic 1.htm"
+        UsedConditions=""
+        LocalConditions="" />
+      <ConceptLink
+        Link="A_Objects/Topic 2.htm"
+        UsedConditions=""
+        LocalConditions="" />
+      <ConceptLink
+        Link="A_Objects/Topic 3.htm"
+        UsedConditions=""
+        LocalConditions="" />
+      <ConceptControlLink
+        Link="A_Objects/Topic 1.htm" />
+      <ConceptControlLink
+        Link="A_Objects/Topic 2.htm" />
+      <ConceptControlLink
+        Link="A_Objects/Topic 3.htm" />
+    </ConceptEntry>
+    <ConceptEntry
+      Term="OtherTopics">
+      <ConceptLink
+        Link="C_Other Topics/Other Topic 1.htm"
+        UsedConditions=""
+        LocalConditions="" />
+      <ConceptLink
+        Link="C_Other Topics/Other Topic 2.htm"
+        UsedConditions=""
+        LocalConditions="" />
+      <ConceptLink
+        Link="C_Other Topics/Other Topic 3.htm"
+        UsedConditions=""
+        LocalConditions="" />
+      <ConceptLink
+        Link="C_Other Topics/Other Topic 4.htm"
+        UsedConditions=""
+        LocalConditions="" />
+      <ConceptControlLink
+        Link="C_Other Topics/Other Topic 2.htm" />
+      <ConceptControlLink
+        Link="C_Other Topics/Other Topic 3.htm" />
+      <ConceptControlLink
+        Link="C_Other Topics/Other Topic 4.htm" />
+    </ConceptEntry>
+  </Concepts>
+  <SourceUrls>
+    <Url
+      Source="1_Introduction.htm" />
+    <Url
+      Source="2_Project and model specifications.htm" />
+    <Url
+      Source="A_Objects/3_StructuralMaterial.htm" />
+    <Url
+      Source="A_Objects/4_StructuralCrossSection.htm" />
+    <Url
+      Source="A_Objects/5_StructurePointConnection.htm" />
+    <Url
+      Source="A_Objects/6_StructuralCurveEdge.htm" />
+    <Url
+      Source="A_Objects/Topic 1.htm" />
+    <Url
+      Source="A_Objects/Topic 2.htm" />
+    <Url
+      Source="A_Objects/Topic 3.htm" />
+    <Url
+      Source="B_Extra Topics/Extra Topic 1.htm" />
+    <Url
+      Source="B_Extra Topics/Extra Topic 2.htm" />
+    <Url
+      Source="B_Extra Topics/Extra Topic 3.htm" />
+    <Url
+      Source="B_Extra Topics/Extra Topic 4.htm" />
+    <Url
+      Source="C_Other Topics/Other Topic 1.htm" />
+    <Url
+      Source="C_Other Topics/Other Topic 2.htm" />
+    <Url
+      Source="C_Other Topics/Other Topic 3.htm" />
+    <Url
+      Source="C_Other Topics/Other Topic 4.htm" />
+    <Url
+      Source="Print Only Topics/Copyright.htm" />
+    <Url
+      Source="Print Only Topics/PDF Guide A Title.htm" />
+    <Url
+      Source="Print Only Topics/PDG Guide B Title.htm" />
+    <Url
+      Source="Print Only Topics/PrintGlossary.htm" />
+    <Url
+      Source="Print Only Topics/PrintIndex.htm" />
+    <Url
+      Source="Print Only Topics/PrintTOC.htm" />
+    <Url
+      Source="Print Only Topics/Table.htm" />
+    <Url
+      Source="Resources/Images/closequote1.png" />
+    <Url
+      Source="Resources/Images/diagonal_lines.png" />
+    <Url
+      Source="Resources/Images/facebook.png" />
+    <Url
+      Source="Resources/Images/first_bullet.eps" />
+    <Url
+      Source="Resources/Images/FlareLogo.png" />
+    <Url
+      Source="Resources/Images/greencheck.png" />
+    <Url
+      Source="Resources/Images/help_control_icon.png" />
+    <Url
+      Source="Resources/Images/introduction1.png" />
+    <Url
+      Source="Resources/Images/introduction2.png" />
+    <Url
+      Source="Resources/Images/introduction3.png" />
+    <Url
+      Source="Resources/Images/minus_btn.png" />
+    <Url
+      Source="Resources/Images/movie_play_black_background.png" />
+    <Url
+      Source="Resources/Images/openquote1.png" />
+    <Url
+      Source="Resources/Images/pdf_icon_black_background.png" />
+    <Url
+      Source="Resources/Images/plus_btn.png" />
+    <Url
+      Source="Resources/Images/projectandmodelspecifications1.png" />
+    <Url
+      Source="Resources/Images/projectandmodelspecifications2.png" />
+    <Url
+      Source="Resources/Images/second_bullet.eps" />
+    <Url
+      Source="Resources/Images/StructurePointConnection.png" />
+    <Url
+      Source="Resources/Images/surf1.png" />
+    <Url
+      Source="Resources/Images/surf2.png" />
+    <Url
+      Source="Resources/Images/surf3.png" />
+    <Url
+      Source="Resources/Images/surf4.png" />
+    <Url
+      Source="Resources/Images/surf5.png" />
+    <Url
+      Source="Resources/Images/twitter.png" />
+    <Url
+      Source="Resources/Images/whats_next_border.png" />
+    <Url
+      Source="Resources/MasterPages/MasterPageSmartPhone.flmsp" />
+    <Url
+      Source="Resources/MasterPages/MasterPageWebsite.flmsp" />
+    <Url
+      Source="Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <Url
+      Source="Resources/PageLayouts/7X9/ChaptersLandscape9X7.flpgl" />
+    <Url
+      Source="Resources/PageLayouts/7X9/Copyright7X9.flpgl" />
+    <Url
+      Source="Resources/PageLayouts/7X9/Glossary7X9.flpgl" />
+    <Url
+      Source="Resources/PageLayouts/7X9/Index7X9.flpgl" />
+    <Url
+      Source="Resources/PageLayouts/7X9/Title7X9.flpgl" />
+    <Url
+      Source="Resources/PageLayouts/7X9/TOC7X9.flpgl" />
+    <Url
+      Source="Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl" />
+    <Url
+      Source="Resources/PageLayouts/8_5X11/ChaptersLandscape11X8_5.flpgl" />
+    <Url
+      Source="Resources/PageLayouts/8_5X11/Copyright8_5X11.flpgl" />
+    <Url
+      Source="Resources/PageLayouts/8_5X11/Glossary8_5X11.flpgl" />
+    <Url
+      Source="Resources/PageLayouts/8_5X11/Index8_5X11.flpgl" />
+    <Url
+      Source="Resources/PageLayouts/8_5X11/Title8_5X11.flpgl" />
+    <Url
+      Source="Resources/PageLayouts/8_5X11/TOC8_5X11.flpgl" />
+    <Url
+      Source="Resources/Snippets/MiniTOC.flsnp" />
+    <Url
+      Source="Resources/Snippets/PrintGuideHeaderTitle.flsnp" />
+    <Url
+      Source="Resources/Snippets/Table.flsnp" />
+    <Url
+      Source="Resources/Snippets/WhatsNextHeading.flsnp" />
+    <Url
+      Source="Resources/Snippets/Steps/StepSnippet1.flsnp" />
+    <Url
+      Source="Resources/Snippets/Steps/StepSnippet2.flsnp" />
+    <Url
+      Source="Resources/Stylesheets/styles.css" />
+    <Url
+      Source="Resources/TableStyles/Basic.css" />
+    <Url
+      Source="Resources/TableStyles/BasicAlternateLightBlueRows.css" />
+    <Url
+      Source="Resources/TableStyles/Simple.css" />
+    <Url
+      Source="Resources/TableStyles/SimpleDarkBackground.css" />
+    <Url
+      Source="Resources/TableStyles/SimpleGrayBackground.css" />
+  </SourceUrls>
+  <UsedUrls>
+    <Url
+      Source="A_Objects/Topic 1.htm"
+      Terms="Introduction" />
+    <Url
+      Source="A_Objects/Topic 2.htm"
+      Terms="Introduction" />
+    <Url
+      Source="A_Objects/Topic 3.htm"
+      Terms="Introduction" />
+    <Url
+      Source="B_Extra Topics/Extra Topic 1.htm"
+      Terms="ExtraTopics" />
+    <Url
+      Source="B_Extra Topics/Extra Topic 2.htm"
+      Terms="ExtraTopics" />
+    <Url
+      Source="B_Extra Topics/Extra Topic 3.htm"
+      Terms="ExtraTopics" />
+    <Url
+      Source="B_Extra Topics/Extra Topic 4.htm"
+      Terms="ExtraTopics" />
+    <Url
+      Source="C_Other Topics/Other Topic 1.htm"
+      Terms="OtherTopics" />
+    <Url
+      Source="C_Other Topics/Other Topic 2.htm"
+      Terms="OtherTopics" />
+    <Url
+      Source="C_Other Topics/Other Topic 3.htm"
+      Terms="OtherTopics" />
+    <Url
+      Source="C_Other Topics/Other Topic 4.htm"
+      Terms="OtherTopics" />
+  </UsedUrls>
+  <UsedConceptControlUrls>
+    <Url
+      Source="A_Objects/Topic 1.htm"
+      Terms="Introduction" />
+    <Url
+      Source="A_Objects/Topic 2.htm"
+      Terms="Introduction" />
+    <Url
+      Source="A_Objects/Topic 3.htm"
+      Terms="Introduction" />
+    <Url
+      Source="B_Extra Topics/Extra Topic 2.htm"
+      Terms="ExtraTopics" />
+    <Url
+      Source="B_Extra Topics/Extra Topic 3.htm"
+      Terms="ExtraTopics" />
+    <Url
+      Source="B_Extra Topics/Extra Topic 4.htm"
+      Terms="ExtraTopics" />
+    <Url
+      Source="C_Other Topics/Other Topic 2.htm"
+      Terms="OtherTopics" />
+    <Url
+      Source="C_Other Topics/Other Topic 3.htm"
+      Terms="OtherTopics" />
+    <Url
+      Source="C_Other Topics/Other Topic 4.htm"
+      Terms="OtherTopics" />
+  </UsedConceptControlUrls>
+</CatapultGlobalConceptSet>

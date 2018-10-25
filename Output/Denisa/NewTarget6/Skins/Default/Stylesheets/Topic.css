@@ -1,0 +1,873 @@
+/*<meta />*/
+
+/* Prevents Safari in landscape orientation from zooming in on text*/
+
+body
+{
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+/* Css to prevent Chrome's automatic border around active fields*/
+
+*:focus
+{
+	outline: none;
+}
+
+/* Default css class for hiding element*/
+
+.hidden
+{
+	display: none;
+}
+
+/* Topic Popup */
+
+.MCTopicPopup
+{
+	text-decoration: none;
+}
+
+.MCTopicPopupHotSpot
+{
+	cursor: pointer;
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+.MCTopicPopup_Open.MCTopicPopupHotSpot
+{
+	
+}
+
+.MCTopicPopup_Closed.MCTopicPopupHotSpot
+{
+	
+}
+
+.MCTopicPopupContainer
+{
+	background-color: #FFFFFF;
+	padding: 10px;
+	position: fixed;
+	top: 100px;
+	left: 100px;
+	right: 100px;
+	bottom: 100px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 4px 10px #333333;
+	-moz-box-shadow: 0 4px 10px #333333;
+	box-shadow: 0 4px 10px #333333;
+	filter: alpha( opacity = 0 );
+	opacity: 0.0;
+	z-index: 10001;
+}
+
+.MCTopicPopupBody
+{
+	width: 100%;
+	border: none;
+}
+
+/**/
+/* Thumbnail Popup */
+
+.MCPopupThumbnailLink
+{
+	
+}
+
+.MCPopupThumbnail
+{
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.MCPopupContainer
+{
+	background-color: #FFFFFF;
+	border: solid 1px #000000;
+	padding: 10px;
+	position: absolute;
+	cursor: pointer;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	z-index: 10001;
+}
+
+.MCPopupContainer2
+{
+	background-color: #FFFFFF;
+	border: solid 1px #000000;
+	padding: 10px;
+	position: absolute;
+	cursor: pointer;
+	-moz-box-shadow: 2px 2px 8px #FFFFFF;
+	-webkit-box-shadow: 2px 2px 8px #FFFFFF;
+	box-shadow: 2px 2px 8px #FFFFFF;
+}
+
+.MCPopupFullImage
+{
+	width: 0px;
+	height: 0px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+/**/
+/* HelpControl */
+
+.MCHelpControl_Image_Icon
+{
+	border: none;
+}
+
+.MCHelpControl span
+{
+	background: url("Images/help-control.png") no-repeat left center;
+	padding-left: 18px;
+}
+
+a.MCHelpControl
+{
+	cursor: pointer;
+	text-decoration: none;
+}
+
+/**/
+/* Dialog */
+
+.MCDialog
+{
+	display: none;
+	width: 400px;
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	padding: 6px;
+	background-color: #000000;
+	border: 1px solid #000000;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-moz-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+	filter: alpha( opacity = 0 );
+	opacity: 0.0;
+	z-index: 10001;
+}
+
+.MCDialogHeader
+{
+	margin: 0 0 4px;
+	padding: 5px 0 5px 5px;
+	color: #FFFFFF;
+	font-size: 15px;
+	font-family: Helvetica;
+}
+
+.MCDialogClose
+{
+	color: #FFFFFF;
+	font-family: tahoma, sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 12px;
+	text-align: center;
+	text-decoration: none;
+	float: right;
+	width: 20px;
+	height: 18px;
+	padding-top: 2px;
+	margin-top: -2px;
+	background-color: #999999;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.MCDialogBody
+{
+	color: #555555;
+	padding: 10px;
+	background-color: #FFFFFF;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+/**/
+
+a.glossaryTerm
+{
+	text-decoration: none;
+}
+
+/**/
+
+#ios-wrapper
+{
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+.img_off
+{
+	display: none;
+}
+
+.MCHelpControl-ConceptHotSpot_
+{
+	background-position: left;
+}
+
+.MCHelpControl-Concept .MCHelpControl-ConceptHotSpot_
+{
+	background-image: url('help_control_icon.png');
+	padding-left: 2px;
+	padding-right: 0px;
+	background-position: left;
+}
+
+.link-list-popup
+{
+	color: #000000;
+	background-color: #dcdcdc;
+	border: solid 1px #000000;
+	margin: 0px;
+	padding: 0px;
+}
+
+.link-list-popup ul li
+{
+	color: Black;
+	background-color: Transparent;
+	padding: 5px;
+	font-family: sans-serif;
+	font-size: 10pt;
+}
+
+.link-list-popup ul li:hover
+{
+	color: White;
+	background-color: Blue;
+}
+
+.MCHelpControlList
+{
+	
+}
+
+.MCHelpControlListItem
+{
+	
+}
+
+.MCHelpControlListItem a
+{
+	
+}
+
+.MCHelpControlListItem a:link
+{
+	
+}
+
+.MCConceptLinkControlListItem a:link
+{
+	
+}
+
+.MCKeywordLinkControlListItem a:link
+{
+	
+}
+
+.MCRelatedTopicsControlListItem a:link
+{
+	
+}
+
+.MCHelpControlListItem a:visited
+{
+	
+}
+
+.MCConceptLinkControlListItem a:visited
+{
+	
+}
+
+.MCKeywordLinkControlListItem a:visited
+{
+	
+}
+
+.MCRelatedTopicsControlListItem a:visited
+{
+	
+}
+
+.MCHelpControlListItem a:focus
+{
+	
+}
+
+.MCConceptLinkControlListItem a:focus
+{
+	
+}
+
+.MCKeywordLinkControlListItem a:focus
+{
+	
+}
+
+.MCRelatedTopicsControlListItem a:focus
+{
+	
+}
+
+.MCHelpControlListItem a:hover
+{
+	
+}
+
+.MCConceptLinkControlListItem a:hover
+{
+	
+}
+
+.MCKeywordLinkControlListItem a:hover
+{
+	
+}
+
+.MCRelatedTopicsControlListItem a:hover
+{
+	
+}
+
+.MCConceptLinkControlList
+{
+	
+}
+
+.MCConceptLinkControlListItem
+{
+	
+}
+
+.MCConceptLinkControlListItem a
+{
+	
+}
+
+.MCKeywordLinkControlList
+{
+	
+}
+
+.MCKeywordLinkControlListItem
+{
+	
+}
+
+.MCKeywordLinkControlListItem a
+{
+	
+}
+
+.MCRelatedTopicsControlList
+{
+	
+}
+
+.MCRelatedTopicsControlListItem
+{
+	
+}
+
+.MCRelatedTopicsControlListItem a
+{
+	
+}
+
+.conceptLink
+{
+	color: #003366;
+	font-weight: bold;
+}
+
+.conceptLink:link
+{
+	color: #003366;
+	font-weight: bold;
+}
+
+.conceptLink:hover
+{
+	color: #c0c0c0;
+	font-weight: bold;
+}
+
+.img
+{
+	border-left-style: none;
+	border-left-width: 0px;
+	border-right-style: none;
+	border-right-width: 0px;
+	border-top-style: none;
+	border-top-width: 0px;
+	border-bottom-style: none;
+	border-bottom-width: 0px;
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+}
+
+.img:hover
+{
+	opacity: 1.0;
+	filter: alpha(opacity=100);
+}
+
+.dropDown
+{
+	margin-bottom: 6pt;
+	margin-top: 6pt;
+	font-size: 1em;
+}
+
+.dropDownHotspot
+{
+	font-weight: bold;
+	color: #003366;
+	cursor: hand;
+	text-decoration: none;
+	font-size: 1.10em;
+}
+
+.dropDownHotspot:link
+{
+	font-weight: bold;
+	color: #003366;
+	cursor: hand;
+	text-decoration: none;
+	font-size: 1.10em;
+}
+
+.dropDownHotspot:hover
+{
+	color: #c0c0c0;
+	font-weight: bold;
+}
+
+.MCDropDownHotSpot_
+{
+	background-position: left;
+}
+
+.MCDropDown_Open .MCDropDownHotSpot_
+{
+	background-image: url('minus_btn.png');
+	padding-left: 2px;
+	padding-right: 0px;
+}
+
+.MCDropDown_Closed .MCDropDownHotSpot_
+{
+	background-image: url('plus_btn.png');
+	padding-left: 2px;
+	padding-right: 0px;
+}
+
+.dropDownHead
+{
+	font-weight: bold;
+	color: #003366;
+	margin-bottom: 6pt;
+	left: 1px;
+	text-indent: 1px;
+	font-size: 0.9em;
+	text-decoration: none;
+}
+
+.dropDownBody
+{
+	border-bottom: solid 1px #546c7f;
+	font-size: 1em;
+}
+
+.popupHead
+{
+	color: blue;
+}
+
+.popupHead:link
+{
+	color: blue;
+}
+
+.popupBody
+{
+	color: #000000;
+	background-color: #dcdcdc;
+	border: solid 1px #000000;
+	margin: 0px;
+	padding: 5px;
+}
+
+.xref
+{
+	text-decoration: underline;
+	color: #003366;
+	font-weight: bold;
+}
+
+.xref:hover
+{
+	color: #c0c0c0;
+}
+
+ul.MCGlossaryProxy_0
+{
+	border-top-style: none;
+	border-top-width: 0px;
+	border-top-color: black;
+	padding-top: 10px;
+	margin-top: 10px;
+	padding-left: 20px;
+}
+
+div.GlossaryPageHeading_0
+{
+	display: block;
+	margin-left: 0pt;
+	font-weight: bold;
+	margin-top: 20pt;
+	margin-bottom: 10pt;
+	text-align: left;
+	page-break-after: avoid;
+	column-break-after: avoid;
+	border-bottom-style: solid;
+	border-bottom-color: black;
+	border-bottom-width: 1px;
+}
+
+div.MCTocProxy_0
+{
+	border-top-color: #ffffff;
+	border-top-style: none;
+	border-top-width: 0px;
+	padding-top: 10px;
+	margin-top: 10px;
+	padding-left: 20px;
+}
+
+table.GenTOCTable1
+{
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	border-left-color: transparent;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-color: transparent;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-color: transparent;
+	border-top-style: none;
+	border-top-width: 0;
+	border-bottom-color: transparent;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	background-color: transparent;
+	background-image: none;
+	float: inherit;
+	font-size: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-variant: inherit;
+	text-transform: inherit;
+	color: inherit;
+	letter-spacing: inherit;
+	word-spacing: inherit;
+	text-decoration: inherit;
+	text-align: inherit;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+td.GenTOCText1
+{
+	margin: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	border-left-color: transparent;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-color: transparent;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-color: transparent;
+	border-top-style: none;
+	border-top-width: 0;
+	border-bottom-color: transparent;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	background-color: transparent;
+	background-image: none;
+	float: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-variant: inherit;
+	text-transform: inherit;
+	letter-spacing: inherit;
+	word-spacing: inherit;
+	text-decoration: inherit;
+	text-align: inherit;
+	mc-leader-format: '.';
+	mc-leader-indent: 5pt;
+	color: #363636;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+a.GenTOCText1:link
+{
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	border-left-color: transparent;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-color: transparent;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-color: transparent;
+	border-top-style: none;
+	border-top-width: 0;
+	border-bottom-color: transparent;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	background-color: transparent;
+	background-image: none;
+	float: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-variant: inherit;
+	text-transform: inherit;
+	letter-spacing: inherit;
+	word-spacing: inherit;
+	text-align: inherit;
+	mc-leader-format: '.';
+	mc-leader-indent: 5pt;
+	color: #363636;
+	font-size: 1em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.GenTOCText1
+{
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	border-left-color: transparent;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-color: transparent;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-color: transparent;
+	border-top-style: none;
+	border-top-width: 0;
+	border-bottom-color: transparent;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	background-color: transparent;
+	background-image: none;
+	float: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-variant: inherit;
+	text-transform: inherit;
+	letter-spacing: inherit;
+	word-spacing: inherit;
+	text-align: inherit;
+	mc-leader-format: '.';
+	mc-leader-indent: 5pt;
+	color: #363636;
+	font-size: 1em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+td.GenTOCAutoText1
+{
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	border-left-color: transparent;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-color: transparent;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-color: transparent;
+	border-top-style: none;
+	border-top-width: 0;
+	border-bottom-color: transparent;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	background-color: transparent;
+	background-image: none;
+	float: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-variant: inherit;
+	text-transform: inherit;
+	letter-spacing: inherit;
+	word-spacing: inherit;
+	text-decoration: inherit;
+	text-align: inherit;
+	margin: 0;
+	color: #363636;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+td.GenTOCPageText1
+{
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	border-left-color: transparent;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-color: transparent;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-color: transparent;
+	border-top-style: none;
+	border-top-width: 0;
+	border-bottom-color: transparent;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	background-color: transparent;
+	background-image: none;
+	float: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-variant: inherit;
+	text-transform: inherit;
+	letter-spacing: inherit;
+	word-spacing: inherit;
+	text-decoration: inherit;
+	margin: 0;
+	vertical-align: bottom;
+	color: #363636;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: right;
+	white-space: normal;
+}
+
+td.mcReset
+{
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	border-left-color: transparent;
+	border-left-style: none;
+	border-left-width: 0;
+	border-right-color: transparent;
+	border-right-style: none;
+	border-right-width: 0;
+	border-top-color: transparent;
+	border-top-style: none;
+	border-top-width: 0;
+	border-bottom-color: transparent;
+	border-bottom-style: none;
+	border-bottom-width: 0;
+	background-color: transparent;
+	background-image: none;
+	float: inherit;
+	font-size: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-variant: inherit;
+	text-transform: inherit;
+	color: inherit;
+	letter-spacing: inherit;
+	word-spacing: inherit;
+	text-decoration: inherit;
+	text-align: inherit;
+}
+
+MadCap|xref.TOCPageNumber_0
+{
+	text-decoration: inherit;
+	color: inherit;
+	font-weight: inherit;
+	font-family: inherit;
+	font-size: inherit;
+}
+
+.MCWebHelpFramesetLink a
+{
+	color: #0000ee;
+	font-family: 'Century Gothic';
+}
+
+.MCWebHelpFramesetLink.MCWebHelpFramesetLinkTop a
+{
+	
+}
+
+.MCWebHelpFramesetLink.MCWebHelpFramesetLinkBottom a
+{
+	
+}
+

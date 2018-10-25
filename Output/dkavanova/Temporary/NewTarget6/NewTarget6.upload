@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultUploadLog>
+  <Destination
+    Name="AEF">
+    <Uploaded
+      Source="Resources/Scripts/require.config.js" />
+    <Uploaded
+      Source="Data/Toc_Chunk0.js" />
+    <Uploaded
+      Source="Data/HelpSystem.xml" />
+    <Uploaded
+      Source="Data/HelpSystem.js" />
+    <Uploaded
+      Source="Default.mcwebhelp" />
+    <Removed>
+      <Url
+        Source="Content/Resources/Images/surf5_thumb_0_48.jpg" />
+      <Url
+        Source="Content/Resources/Images/surf4_thumb_0_48.jpg" />
+      <Url
+        Source="Content/Resources/Images/surf3_thumb_0_48.jpg" />
+      <Url
+        Source="Content/Resources/Images/surf2_thumb_0_48.jpg" />
+      <Url
+        Source="Content/Resources/Images/surf1_thumb_0_48.jpg" />
+    </Removed>
+  </Destination>
+</CatapultUploadLog>

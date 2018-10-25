@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/1_Introduction.htm" />
+    <Link
+      Url="Content/A_Objects/2_Project and model specifications.htm" />
+    <Link
+      Url="Content/A_Objects/3_StructuralMaterial.htm" />
+    <Link
+      Url="Content/A_Objects/4_StructuralCrossSection.htm" />
+    <Link
+      Url="Content/A_Objects/5_StructurePointConnection.htm" />
+    <Link
+      Url="Content/A_Objects/7_StructuralCurveMember.htm" />
+    <Link
+      Url="Content/A_Objects/8_StructuralSurfaceMember.htm" />
+    <Link
+      Url="Content/A_Objects/9_StructuralSurfaceMemberOpening.htm" />
+    <Link
+      Url="Content/A_Objects/10_StructuralSurfaceMemberRegion.htm" />
+    <Link
+      Url="Content/A_Objects/11_StructuralPointSupport.htm" />
+    <Link
+      Url="Content/A_Objects/12_StructuralSurfaceConnection.htm" />
+    <Link
+      Url="Content/A_Objects/13_StructuralEdgeConnection.htm" />
+    <Link
+      Url="Content/A_Objects/14_RelConnectsStructuralMember.htm" />
+    <Link
+      Url="Content/A_Objects/15_RelConnectsSurfaceEdge.htm" />
+    <Link
+      Url="Content/A_Objects/16_StructuralLoadGroup.htm" />
+    <Link
+      Url="Content/A_Objects/17_StructuralLoadCase.htm" />
+    <Link
+      Url="Content/A_Objects/18_StructuralPointAction.htm" />
+    <Link
+      Url="Content/A_Objects/19_StructuralCurveAction.htm" />
+    <Link
+      Url="Content/A_Objects/20_StructuralSurfaceAction.htm" />
+    <Link
+      Url="Content/A_Objects/21_StructuralPointMoment.htm" />
+    <Link
+      Url="Content/A_Objects/22_StructuralCurveActionFree.htm" />
+    <Link
+      Url="Content/A_Objects/23_StructuralSurfaceActionFree.htm" />
+    <Link
+      Url="Content/Annexes.htm" />
+    <Link
+      Url="Content/Description ID of the profile.htm" />
+  </Links>
+  <LongLinks />
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

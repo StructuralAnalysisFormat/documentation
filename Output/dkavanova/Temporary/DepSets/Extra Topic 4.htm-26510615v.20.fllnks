@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Images/surf2.png" />
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
+      Url="Project/ConditionTagSets/PrintGuides.flcts" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Images/surf2.png" />
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
+      Url="Project/ConditionTagSets/PrintGuides.flcts" />
+  </LongLinks>
+  <Anchors />
+  <Keywords>
+    <IndexCacheEntry
+      Term="Div tag"
+      Conditions="General.Online"
+      LocalConditions=""
+      Position="9" />
+    <IndexCacheEntry
+      Term="Image:positioned right"
+      Conditions=""
+      LocalConditions=""
+      Position="16" />
+    <IndexCacheEntry
+      Term="Blockquote"
+      Conditions=""
+      LocalConditions=""
+      Position="21" />
+  </Keywords>
+  <Concepts>
+    <ConceptCacheEntry
+      Term="ExtraTopics"
+      Conditions=""
+      LocalConditions=""
+      Position="4" />
+  </Concepts>
+  <ConceptControlNames>
+    <ConceptControlName
+      Term="ExtraTopics" />
+  </ConceptControlNames>
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="General.Online" />
+    <Condition
+      Tag="General.Print" />
+    <Condition
+      Tag="PrintGuides.PDFGuideA" />
+  </AllConditions>
+  <Stylesheets />
+</CatapultFileLinkSet>

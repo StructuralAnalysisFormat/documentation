@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MadCapLog Protocol="2" Description="MadBuild V11 Generated NewTarget6.fltar" Date="2015-05-18T15:33:37.7990331-07:00">
+    <Messages>Compiling target NewTarget6...
+Removing previously generated content...
+Build failed: Access to the path '\\fs1\Users\pstoecklein\Templates for Website\MadCap Classic\Web Print Mobile.flprj\Output\chernandez\NewTarget6\Content' is denied.
+Saving log to "\\fs1\Users\pstoecklein\Templates for Website\MadCap Classic\Web Print Mobile.flprj\Output\chernandez\NewTarget6\NewTarget6.mclog"
+</Messages>
+    <Warnings />
+    <Errors>
+        <LogEntry File="../../../Project/Targets/NewTarget6.fltar" Message="Build failed: Access to the path '\\fs1\Users\pstoecklein\Templates for Website\MadCap Classic\Web Print Mobile.flprj\Output\chernandez\NewTarget6\Content' is denied.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="NewTarget6" ErrorID="10086" />
+    </Errors>
+</MadCapLog>
