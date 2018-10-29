@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultFileLinkSet
-  FileSearchable="true"
+  FileSearchable="false"
   FileTimeEstimate="0"
   FilePriority="0">
   <Links>
     <Link
-      Url="Content/Resources/TableStyles/NewStyle.css" />
+      Url="Project/TOCs/OnlineOutputs.fltoc" />
     <Link
-      Url="Content/A_Objects/4_StructuralCrossSection.htm" />
+      Url="Content/Resources/Stylesheets/styles.css" />
   </Links>
   <LongLinks>
     <Link
-      Url="Content/Resources/TableStyles/NewStyle.css" />
+      Url="Project/TOCs/OnlineOutputs.fltoc" />
     <Link
-      Url="Content/A_Objects/4_StructuralCrossSection.htm" />
+      Url="Content/Resources/Stylesheets/styles.css" />
   </LongLinks>
   <Anchors />
   <Keywords />
@@ -24,8 +24,5 @@
   <FileConditions />
   <FileTags />
   <AllConditions />
-  <Stylesheets>
-    <Url
-      Source="Content/Resources/TableStyles/NewStyle.css" />
-  </Stylesheets>
+  <Stylesheets />
 </CatapultFileLinkSet>

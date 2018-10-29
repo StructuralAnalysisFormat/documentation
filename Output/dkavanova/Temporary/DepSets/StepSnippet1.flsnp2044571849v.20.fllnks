@@ -5,15 +5,11 @@
   FilePriority="0">
   <Links>
     <Link
-      Url="Content/Resources/TableStyles/NewStyle.css" />
-    <Link
-      Url="Content/A_Objects/4_StructuralCrossSection.htm" />
+      Url="Content/Resources/Stylesheets/styles.css" />
   </Links>
   <LongLinks>
     <Link
-      Url="Content/Resources/TableStyles/NewStyle.css" />
-    <Link
-      Url="Content/A_Objects/4_StructuralCrossSection.htm" />
+      Url="Content/Resources/Stylesheets/styles.css" />
   </LongLinks>
   <Anchors />
   <Keywords />
@@ -26,6 +22,6 @@
   <AllConditions />
   <Stylesheets>
     <Url
-      Source="Content/Resources/TableStyles/NewStyle.css" />
+      Source="Content/Resources/Stylesheets/styles.css" />
   </Stylesheets>
 </CatapultFileLinkSet>
