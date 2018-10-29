@@ -3,16 +3,130 @@
   <Destination
     Name="AEF">
     <Uploaded
+      Source="Content/Resources/Images/StructuralSurfaceActionFree3_765x460.png" />
+    <Uploaded
+      Source="Content/Resources/Images/StructuralSurfaceActionFree2_450x698.png" />
+    <Uploaded
+      Source="Content/Resources/Images/StructuralPointActionFree_763x434.png" />
+    <Uploaded
+      Source="Content/Resources/Images/StructuralCurveActionFree2_450x698.png" />
+    <Uploaded
+      Source="Content/Resources/Images/StructuralCurveAction2_600x600.png" />
+    <Uploaded
+      Source="Content/Resources/Images/surf5_thumb_0_48.png" />
+    <Uploaded
+      Source="Content/Resources/Images/surf4_thumb_0_48.png" />
+    <Uploaded
+      Source="Content/Resources/Images/surf3_thumb_0_48.png" />
+    <Uploaded
+      Source="Content/Resources/Images/surf2_thumb_0_48.png" />
+    <Uploaded
+      Source="Content/Resources/Images/surf1_thumb_0_48.png" />
+    <Uploaded
+      Source="Content/Print Only Topics/PrintGlossary.htm" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/tocInactive.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/tocActive.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/star-full.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/star-empty.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/ResponsiveTopic.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/ResponsiveTOCInactive.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/ResponsiveTOCActive.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/ResponsiveSearchFilterInactive.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/ResponsiveSearchFilterActive.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/ResponsiveSearch.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/ResponsiveOpenBook.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/ResponsiveMenuButton.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/ResponsiveIndexInactive.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/ResponsiveIndexActive.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/ResponsiveHome.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/ResponsiveGlossaryInactive.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/ResponsiveGlossaryActive.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/ResponsiveBrowseSequenceInactive.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/ResponsiveBrowseSequenceActive.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/ResponsiveBook.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/printer.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/new-indicator.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/navigate-previous.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/navigate-next.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/magnifying_glass.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/login.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/login-dialog-icon.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/indexInactive.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/indexActive.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/index.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/index-expanded.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/index-collapsed.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/highlight.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/glossaryInactive.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/glossaryActive.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/expand.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/edit-profile.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/communityInactive.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/communityActive.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/collapse.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/browseInactive.png" />
+    <Uploaded
+      Source="Skins/Default/Stylesheets/Images/browseActive.png" />
+    <Uploaded
       Source="Resources/Scripts/require.config.js" />
     <Uploaded
-      Source="Data/Toc_Chunk0.js" />
+      Source="Data/Search_Chunk9.xml" />
+    <Uploaded
+      Source="Data/Search_Chunk9.js" />
     <Uploaded
       Source="Data/HelpSystem.xml" />
     <Uploaded
       Source="Data/HelpSystem.js" />
     <Uploaded
+      Source="Content/A_Objects/3_StructuralMaterial.htm" />
+    <Uploaded
       Source="Default.mcwebhelp" />
     <Removed>
+      <Url
+        Source="Content/Resources/Images/second_bullet.png" />
+      <Url
+        Source="Content/Resources/Images/first_bullet.png" />
       <Url
         Source="Content/Resources/Images/surf5_thumb_0_48.jpg" />
       <Url
