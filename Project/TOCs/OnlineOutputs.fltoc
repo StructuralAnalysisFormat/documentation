@@ -103,5 +103,8 @@
     <TocEntry
       Title="Supported shapes of cross-section"
       Link="/Content/Annexes/Supported shapes of cross-section.htm" />
+    <TocEntry
+      Title="Supported design properties of material "
+      Link="/Content/Annexes/Supported design properties of material .htm" />
   </TocEntry>
 </CatapultToc>
