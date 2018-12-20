@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1801" MadCap:lastWidth="1409">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="2916" MadCap:lastWidth="1409">
     <head>
         <link href="../Resources/TableStyles/NewStyle.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -134,7 +134,7 @@
                         <p>Tilt of vector defined by point</p>
                     </td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">no</td>
-                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">Defines type of the local coordinate system of the StructuralSurfaceMember. Option “Tilt of vector defined by point” allows change of orientation of the LCS to one point (for each mesh element). For this, you have to specify coordinates of the vector.</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">Defines type of the local coordinate system of the StructuralSurfaceMember. Option “Tilt of vector defined by point” allows change of orientation of the LCS to one point (for all mesh elements). For this, you have to specify coordinates of the vector.</td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body1">
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Coordinate X [m]</td>
@@ -214,6 +214,22 @@
                 </tr>
             </tbody>
         </table>
+        <p>&#160;</p>
+        <p class="ExampleMiddleSection">Note: Rotation of LCS is measured from origin position of local x and y-axis and orientation follows positive rotation according to right-handed rule</p>
+        <p>&#160;</p>
+        <p class="ExampleMiddleSection">Note: An example of a definition of a curved wall defined in the StructuralPointConnection sheet and StructuralSurfaceMember sheet can be seen below, nodes N1, N2, N3 define the first arc and N4, N5, N6 define the second arc:</p>
+        <p style="text-align: left;">
+            <img src="../Resources/Images/StructuralSurfaceMember4.png" style="width: 414px;height: 347px;" />
+            <img src="../Resources/Images/StructuralSurfaceMember5.png" style="width: 687px;height: 208px;" />
+        </p>
+        <p>
+            <img src="../Resources/Images/StructuralSurfaceMember6.png" />
+        </p>
+        <p>&#160;</p>
+        <p class="ExampleMiddleSection">Note: An example of LCS Type Tilt of vector defined by point is shown below, the x-axis of each mesh element LCS is oriented to one defined point.</p>
+        <p>
+            <img src="../Resources/Images/StructuralSurfaceMember7.png" />
+        </p>
         <p>&#160;</p>
         <p>A template of use in excel, the download icon is situated in the bottom right corner:</p>
         <p>&#160;</p><iframe width="1147" height="300" frameborder="0" src="https://goo.gl/z9wrGo"></iframe>

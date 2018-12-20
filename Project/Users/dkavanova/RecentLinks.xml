@@ -5,6 +5,6 @@
     </Dialog>
     <Dialog Name="B3.XmlTextKit.InsertCrossReferenceDialog" />
     <Dialog Name="B3.XmlTextKit.InsertHyperlinkDialog">
-        <Link Value="C:\Users\dkavanova\OneDrive - SCIA nv\SCIA\Calatrava\MadCap\Web Print Mobile20181008.flprj\Web Print Mobile.flprj\Content\A_Objects\4_StructuralCrossSection.htm" />
+        <Link Value="D:\GIT\AEF_documentation\Content\A_Objects\8_StructuralSurfaceMember.htm" />
     </Dialog>
 </RecentLinks>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="3046" MadCap:lastWidth="1401">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="3571" MadCap:lastWidth="1409">
     <head>
         <link href="../Resources/TableStyles/NewStyle.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -174,7 +174,7 @@
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">
                         <p>no</p>
                     </td>
-                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">Defines co-ordinate system in which the load is applied</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">Defines the co-ordinate system of the member in which the load is applied</td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body2">
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Location</td>
@@ -214,7 +214,7 @@
                         <p>Span</p>
                     </td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">no</td>
-                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">The extent of force on the beam.</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">Defines if a load is extended just over a span instead of the whole 1D member, it is used if a 1D member consists of more than one span. This feature is not fully supported, only two spans are supported in the moment.</td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body2">
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Start point [m]</td>
@@ -248,15 +248,19 @@
         </table>
         <p>&#160;</p>
         <p>A template of use in excel, the download icon is situated in the bottom right corner:</p>
-        <p>&#160;</p>
-		<iframe width="1147" height="300" frameborder="0" src="https://goo.gl/CXwxLP">
-		</iframe>
+        <p>&#160;</p><iframe width="1147" height="300" frameborder="0" src="https://goo.gl/CXwxLP"></iframe>
         <p>&#160;</p>
         <p>&#160;</p>
         <p class="ExampleMiddleSection">Note: Difference between Location type Length and Projection can be seen in the picture. Location is used only if Coordinate system is Global.</p>
         <p>
             <img src="../Resources/Images/StructuralCurveAction2.png" style="mc-thumbnail-max-height: auto;mc-thumbnail-max-width: 800px;width: 600px;height: 600px;" />
         </p>
+        <p>&#160;</p>
+        <p class="ExampleMiddleSection">Note: An example of use of parameter Extent is in the in the picture below. In case of Span the load acts only on the span which is defined by internal nodes.</p>
+        <p>
+            <img src="../Resources/Images/StructuralCurveAction4.png" />
+        </p>
+        <p>&#160;</p>
         <p class="ExampleMiddleSection">Note: An example with Distribution type Trapez and with different values 1 and 2 can be seen in the following picture. Coordinate definition is relative, start point 0,5 and end point 1,0. In this case the parameter extent doesn’t make any difference, only in case of beams consisting of more parts.</p>
         <p>&#160;</p>
         <p>
