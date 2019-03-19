@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1283" MadCap:lastWidth="1655">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="2114" MadCap:lastWidth="1655">
     <head>
         <link href="../Resources/TableStyles/NewStyle.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -74,7 +74,7 @@
                     </td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">-</td>
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">
-                        <p>Name reference to the existing <a href="3_StructuralMaterial.htm">StructuralMaterial</a> object</p>
+                        <p>Name reference to the existing <a href="3_StructuralMaterial.htm">StructuralMaterial</a> object. The general type of cross-section can have more than one materials. Each material name is separated by a semicolon.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body2">
@@ -88,17 +88,19 @@
                         <p>Parametric</p>
                         <p>Manufactured</p>
                         <p>Combination</p>
+                        <p>Compound</p>
                     </td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
                         <p>yes</p>
                     </td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">Parametric</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">-</td>
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">
                         <p>Define type of profile library:</p>
                         <p>General parametric: Cross-sections defined by shape and dimensions (parameters).</p>
                         <p>Manufactured: This option refers to the industrially manufactured cross-sections.
 </p>
-                        <p>Combination: A combination of manufactured and parametric cross-section types is an attribute prepared for pairs of profiles, e.g. for two I-sections. Future supposed input: profile = IPE200 and parameters=10mm (distance between profiles)</p>
+                        <p>Combination: A combination of manufactured and parametric cross-section type. (Not supported yet)</p>
+                        <p>Compound: prepared for compounded section fom more manufactured profiles e.g. for two I-sections. Example of compound cross-section input: profile = IPE200 and parameters=10mm (distance between profiles). All supported shapes of compound section can be found in <a href="../Annexes/Supported shapes of compound section.htm">Annex</a></p>
                     </td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body1">
@@ -113,10 +115,11 @@
                     </td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
                         <p>yes, if Cross-section type = Parametric</p>
+                        <p>yes, if Cross-section type = Compound</p>
                     </td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">if Cross-section type is Parametric: Rectangle</td>
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">
-                        <p>This field defines geometrical shape of the cross-section, is required only if Cross-section type is not manufactured. Complete list of supported shapes is attached in <a href="../Annexes/Supported shapes of cross-section.htm">Supported shapes of cross-section.</a></p>
+                        <p>This field defines geometrical shape of the cross-section, is required only if Cross-section type is not manufactured. Complete list of supported shapes is attached in <a href="../Annexes/Supported shapes of parametric cross-section.htm">Supported shapes of cross-section.</a></p>
                     </td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body2">
@@ -124,7 +127,8 @@
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">String</td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">50; 80; 500; 450</td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
-                        <p>yes, if Cross-section type is not Manufactured</p>
+                        <p>yes, if Cross-section type = Parametric</p>
+                        <p>yes, if Cross-section type = Compound</p>
                     </td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">if Cross-section type is Parametric and Shape is Rectangle: 300; 500</td>
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">The parameters property is required only if Cross-section type is Parametric and it represents dimensions of the cross-section. The format of the parameters depends on cross-section shape. Each parameter has to be divided by a semicolon. Complete list of supported parameters is attached in Annex.</td>
@@ -137,6 +141,8 @@
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">HEB180</td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
                         <p>yes, if Cross-section type = Manufactured</p>
+                        <p>yes, if Cross-section type = Compound</p>
+                        <p>yes, if Cross-section type = General</p>
                     </td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">if Cross-section type is Manufactured: HEB180</td>
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">This field is required only if Cross-section type is Manufactured. Defines name of the industrially manufactured profile in the globally common format (naming).</td>
@@ -152,17 +158,163 @@
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">This field is valid only if profile type is Manufactured. It helps to define hot rolled or cold formed profiles. The shape of the cross-section is uniquely identified by a so-called Formcode. The Formcodedefines the shape and in some cases also additional parameters like distance between bolt holes, unit warping coordinates etc. Complete list of supported form codes is attached in <a href="../Annexes/Formcodes.htm">Formcodes.</a></td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body1">
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body1">Description ID of the profile</td>
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body1">Enum</td>
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body1">2</td>
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body1">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Description ID of the profile</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Enum</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">2</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
                         <p>no</p>
                     </td>
-                    <td class="TableStyle-NewStyle-BodyB-Column1-Body1" style="font-size: 9pt;">-</td>
-                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyA-Column1-Body1">This field is valid only if the cross-section type is Manufactured. The description of the hot rolled and cold formed cross-section referring to the source of manufacturer. Complete list  is attached in <a href="../Annexes/Description ID of the profile.htm">Description ID of the profile.</a></td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">-</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">This field is valid only if the cross-section type is Manufactured. The description of the hot rolled and cold formed cross-section referring to the source of manufacturer. Complete list  is attached in <a href="../Annexes/Description ID of the profile.htm">Description ID of the profile.</a></td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body2">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">A [m2]</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">doube</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">0,075484</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">no</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">-</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">Section area</td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body1">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Iy [m4]</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">double</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">0,000641</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">no</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">-</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">Momennt of inertia about y-axis</td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body2">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Iz [m4]</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">double</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">0,013319</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">no</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">-</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">Momennt of inertia about z-axis</td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body1">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">It [m4]</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">double</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">0,0000591</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">no</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">-</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">Torsion moment of inertia</td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body2">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Iw[m6]</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">double</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">0,00015548</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">no</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">-</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">Warping constant</td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body1">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Wply [m3]</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">double</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">0,029497</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">no</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">-</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">Plastic modulus about the y-axis</td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body2">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body2">Wplz [m3]</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body2">double</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body2">0,029497</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body2">no</td>
+                    <td class="TableStyle-NewStyle-BodyB-Column1-Body2" style="font-size: 9pt;">-</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyA-Column1-Body2">Plastic modulus about the z-axis</td>
                 </tr>
             </tbody>
         </table>
+        <p>&#160;</p>
+        <p>The following table is used for general cross-section shape definition and it is represented as a separate sheet in Excel. It is required when the cross-section type is "General"</p>
+        <table style="mc-table-style: url('../Resources/TableStyles/NewStyle.css');" class="TableStyle-NewStyle" cellspacing="0">
+            <col style="width: 155px;" class="TableStyle-NewStyle-Column-Column1" />
+            <col style="width: 181px;" class="TableStyle-NewStyle-Column-Column1" />
+            <col style="width: 254px;" class="TableStyle-NewStyle-Column-Column1" />
+            <col style="width: 254px;" class="TableStyle-NewStyle-Column-Column1" />
+            <col style="width: 254px;" class="TableStyle-NewStyle-Column-Column1" />
+            <col style="width: 557px;" class="TableStyle-NewStyle-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-NewStyle-Body-Body1">
+                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p style="color: #ffffff;text-align: center;padding-left: 4px;padding-right: 4px;">Name
+ of the column header</p>
+                    </td>
+                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p style="text-align: center;padding-left: 4px;padding-right: 4px;color: #ffffff;">Type
+ of data</p>
+                    </td>
+                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p style="text-align: center;padding-left: 4px;padding-right: 4px;color: #ffffff;">Value
+ example or enum definition</p>
+                    </td>
+                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p style="text-align: center;padding-left: 4px;padding-right: 4px;color: #ffffff;">Required value</p>
+                    </td>
+                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p style="text-align: center;padding-left: 4px;padding-right: 4px;color: #ffffff;">Default value</p>
+                    </td>
+                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">
+                        <p style="color: #ffffff;padding-left: 4px;padding-right: 4px;text-align: left;">Description</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body2">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
+                        <p>CompositeShapeDef</p>
+                    </td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
+                        <p>String</p>
+                    </td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
+                        <p>GEN_1</p>
+                    </td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
+                        <p>yes</p>
+                    </td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">-</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">
+                        <p>Name of the profile from the StructuralCrossSection object sheet</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body1">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Material name #</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">String</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">MAT_1</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">yes, if polygon is not opening</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">-</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">Name reference to the existing <a href="3_StructuralMaterial.htm">StructuralMaterial</a> object</td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body2">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body2">Polygon contour #</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body2">String</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body2">-75.0; 105.0| -175.0; 5.0| 175.0; 5.0| 75.0; 105.0</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body2">yes (at least one)</td>
+                    <td class="TableStyle-NewStyle-BodyB-Column1-Body2" style="font-size: 9pt;">-</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyA-Column1-Body2">
+                        <p>This attribute is used to define the cross-section geometry as a polygon contour. One cross-section shape can consist of more polygons. Openings contour are defined clockwise. Common polygons counterclockwise. The format of the data is: </p>
+                        <p>y1; z1|y2; z2|y3; z3|yi; zi|yi+1; zi+1</p>
+                        <p>The coordinates of the vertices are divided by ";" and each vertex separated by "|"</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <p class="ExampleMiddleSection">note: </p>
+        <p class="ExampleMiddleSection">- symbol "#" means indexing of the name columns, depends on how many polygons is used, starts from 1</p>
+        <p class="ExampleMiddleSection">
+        - The contour defined clockwise is opening</p>
+        <p class="ExampleMiddleSection">
+        - The contour defined counter clockwise is polygon of the general cross-section</p>
+        <p class="ExampleMiddleSection">
+        - Each polygon has a defined material which is name reference to existing material in <a href="3_StructuralMaterial.htm">StructuralMateria</a>l sheet</p>
+        <p class="ExampleMiddleSection">
+        - The opening has no material definition</p>
+        <p class="ExampleMiddleSection">
+        - Each polygon contour has to be closed</p>
+        <p class="ExampleMiddleSection">
+        - The set of all polygons and openings defines one general cross-section (one row in the Excel table)</p>
+        <p class="ExampleMiddleSection">
+        - The number of polygons is limited to 99. The definition of the general shape has to consist of at least one polygon which is not the opening.</p>
         <p>&#160;</p>
         <p>A template of use in excel, the download icon is situated in the bottom right corner:</p>
         <p>&#160;</p><iframe width="1147" height="300" frameborder="0" src="https://goo.gl/nz6wui"></iframe>

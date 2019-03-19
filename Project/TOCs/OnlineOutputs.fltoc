@@ -47,6 +47,9 @@
       Title="StructuralSurfaceConnection"
       Link="/Content/A_Objects/12_StructuralSurfaceConnection.htm" />
     <TocEntry
+      Title="StructuralCurveConnection"
+      Link="/Content/A_Objects/26_StructuralCurveConnection.htm" />
+    <TocEntry
       Title="StructuralEdgeConnection"
       Link="/Content/A_Objects/13_StructuralEdgeConnection.htm" />
     <TocEntry
@@ -55,6 +58,9 @@
     <TocEntry
       Title="RelConnectsSurfaceEdge"
       Link="/Content/A_Objects/15_RelConnectsSurfaceEdge.htm" />
+    <TocEntry
+      Title="RelConnectsRigidLink"
+      Link="/Content/A_Objects/28_RelConnectsRigidLink.htm" />
   </TocEntry>
   <TocEntry
     Title="Loads"
@@ -71,6 +77,9 @@
       Title="StructuralLoadCase"
       Link="/Content/A_Objects/17_StructuralLoadCase.htm" />
     <TocEntry
+      Title="StructuralLoadCombination"
+      Link="/Content/A_Objects/29_StructuralLoadCombination.htm" />
+    <TocEntry
       Title="StructuralPointAction"
       Link="/Content/A_Objects/18_StructuralPointAction.htm" />
     <TocEntry
@@ -79,6 +88,9 @@
     <TocEntry
       Title="StructuralCurveAction"
       Link="/Content/A_Objects/19_StructuralCurveAction.htm" />
+    <TocEntry
+      Title="StructuralCurveMoment"
+      Link="/Content/A_Objects/27_StructuralCurveMoment.htm" />
     <TocEntry
       Title="StructuralSurfaceAction"
       Link="/Content/A_Objects/20_StructuralSurfaceAction.htm" />
@@ -102,7 +114,10 @@
       Link="/Content/Annexes/Description ID of the profile.htm" />
     <TocEntry
       Title="Supported shapes of cross-section"
-      Link="/Content/Annexes/Supported shapes of cross-section.htm" />
+      Link="/Content/Annexes/Supported shapes of parametric cross-section.htm" />
+    <TocEntry
+      Title="Supported shapes of compound section"
+      Link="/Content/Annexes/Supported shapes of compound section.htm" />
     <TocEntry
       Title="Supported design properties of material "
       Link="/Content/Annexes/Supported design properties of material .htm" />
