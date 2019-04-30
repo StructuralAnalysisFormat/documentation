@@ -2,9 +2,9 @@
 <RecentLinks>
     <Dialog Name="B3.XmlTextKit.InsertCrossReferenceDialog" />
     <Dialog Name="B3.XmlTextKit.InsertHyperlinkDialog">
-        <Link Value="E:\GIT\AEF_documentation\Content\A_Objects\7_StructuralCurveMember.htm" />
+        <Link Value="E:\GIT\AEF_documentation\Content\A_Objects\2_Project and model specifications.htm" />
     </Dialog>
     <Dialog Name="B3.XmlMdiEditorKit.ImageGeneralDialogPage">
-        <Link Value="C:\Users\avyskocil\AppData\Local\Temp\MadCap Software\Flare\SkinEditor\_12C2A755\SAF_logo_text_transparent.png" />
+        <Link Value="E:\GIT\AEF_documentation\Content\Resources\Images\RelConnectsStructuralMember.png" />
     </Dialog>
 </RecentLinks>

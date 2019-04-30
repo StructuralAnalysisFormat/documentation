@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="2114" MadCap:lastWidth="1655">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="2256" MadCap:lastWidth="1655" MadCap:ignoredWords="CompositeShapeDef">
     <head>
         <link href="../Resources/TableStyles/NewStyle.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -89,6 +89,7 @@
                         <p>Manufactured</p>
                         <p>Combination</p>
                         <p>Compound</p>
+                        <p>General</p>
                     </td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
                         <p>yes</p>
@@ -96,7 +97,8 @@
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">-</td>
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">
                         <p>Define type of profile library:</p>
-                        <p>General parametric: Cross-sections defined by shape and dimensions (parameters).</p>
+                        <p>General: Serves to define any general shape of the cross-section consisting of one or more closed polygons including openings. Shape of the cross-section (polygons) is defined on separate sheet "CompositeShapeDef"</p>
+                        <p>Parametric: Cross-sections defined by shape and dimensions (parameters).</p>
                         <p>Manufactured: This option refers to the industrially manufactured cross-sections.
 </p>
                         <p>Combination: A combination of manufactured and parametric cross-section type. (Not supported yet)</p>
@@ -145,7 +147,7 @@
                         <p>yes, if Cross-section type = General</p>
                     </td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">if Cross-section type is Manufactured: HEB180</td>
-                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">This field is required only if Cross-section type is Manufactured. Defines name of the industrially manufactured profile in the globally common format (naming).</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">This field is required only if Cross-section type is Manufactured or Compound. Defines name of the industrially manufactured profile in the globally common format (naming).</td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body2">
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Form code</td>
@@ -181,7 +183,7 @@
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">0,000641</td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">no</td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">-</td>
-                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">Momennt of inertia about y-axis</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">Moment of inertia about y-axis</td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body2">
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Iz [m4]</td>
@@ -189,7 +191,7 @@
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">0,013319</td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">no</td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">-</td>
-                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">Momennt of inertia about z-axis</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">Moment of inertia about z-axis</td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body1">
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">It [m4]</td>
@@ -226,7 +228,9 @@
             </tbody>
         </table>
         <p>&#160;</p>
-        <p>The following table is used for general cross-section shape definition and it is represented as a separate sheet in Excel. It is required when the cross-section type is "General"</p>
+        <p>The following table is used for <b>general cross-section</b> shape definition and it is represented as a separate sheet <b>CompositeShapeDef</b> in Excel. It is <b>required</b> when the cross-section type is "General".</p>
+        <p>For <b>manufactured</b> types of a cross-section, It is <b>optional</b>l.  For the possibility to share detailed shape definition, for better classification of the profile.</p>
+        <p>CompositeShapeDef sheet definition:</p>
         <table style="mc-table-style: url('../Resources/TableStyles/NewStyle.css');" class="TableStyle-NewStyle" cellspacing="0">
             <col style="width: 155px;" class="TableStyle-NewStyle-Column-Column1" />
             <col style="width: 181px;" class="TableStyle-NewStyle-Column-Column1" />
@@ -260,7 +264,7 @@
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body2">
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
-                        <p>CompositeShapeDef</p>
+                        <p>Name</p>
                     </td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
                         <p>String</p>
@@ -317,7 +321,7 @@
         - The number of polygons is limited to 99. The definition of the general shape has to consist of at least one polygon which is not the opening.</p>
         <p>&#160;</p>
         <p>A template of use in excel, the download icon is situated in the bottom right corner:</p>
-        <p>&#160;</p><iframe width="1147" height="300" frameborder="0" src="https://goo.gl/nz6wui"></iframe>
+        <p>&#160;</p><iframe width="1500" height="346" frameborder="0" scrolling="no" src="https://bit.ly/2WSlm4e"></iframe>
         <p>&#160;</p>
     </body>
 </html>
