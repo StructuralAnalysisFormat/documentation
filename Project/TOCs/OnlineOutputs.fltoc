@@ -17,6 +17,9 @@
       Title="StructuralCrossSection"
       Link="/Content/A_Objects/4_StructuralCrossSection.htm" />
     <TocEntry
+      Title="CompositeShapeDef"
+      Link="/Content/A_Objects/31_CompositeShapeDef.htm" />
+    <TocEntry
       Title="StructuralPointConnection"
       Link="/Content/A_Objects/5_StructuralPointConnection.htm" />
     <TocEntry
