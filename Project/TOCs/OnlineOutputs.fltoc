@@ -6,6 +6,9 @@
     Title="Introduction"
     Link="/Content/1_Introduction.htm"></TocEntry>
   <TocEntry
+    Title="Geometry"
+    Link="/Content/3_Geometry.htm" />
+  <TocEntry
     Title="Project and model specifications"
     Link="/Content/A_Objects/2_Project and model specifications.htm" />
   <TocEntry
