@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1131" MadCap:lastWidth="1655" MadCap:ignoredWords="CompositeShapeDef">
+    <head>
+        <link href="../Resources/TableStyles/NewStyle.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body style="font-family: 'Century Gothic';font-size: 11pt;">
+        <p style="font-size: 18pt;text-decoration: none;">CompositeShapeDef</p>
+        <hr />
+        <p style="font-size: 15pt;">Composite Shape Definition</p>
+        <p> Composite Shape definition is <b>required</b> when the cross-section type in <a href="4_StructuralCrossSection.htm">StructuralCrossSection</a> sheet is set as "General".</p>
+        <p>For <b>manufactured</b> types of a cross-section, is Composite Shape Definition <b>optional</b>,  offering the possibility to share detailed shape definition, for better classification of the profile.</p>
+        <p>CompositeShapeDef sheet definition:</p>
+        <table style="mc-table-style: url('../Resources/TableStyles/NewStyle.css');" class="TableStyle-NewStyle" cellspacing="0">
+            <col style="width: 155px;" class="TableStyle-NewStyle-Column-Column1" />
+            <col style="width: 181px;" class="TableStyle-NewStyle-Column-Column1" />
+            <col style="width: 254px;" class="TableStyle-NewStyle-Column-Column1" />
+            <col style="width: 254px;" class="TableStyle-NewStyle-Column-Column1" />
+            <col style="width: 254px;" class="TableStyle-NewStyle-Column-Column1" />
+            <col style="width: 557px;" class="TableStyle-NewStyle-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-NewStyle-Body-Body1">
+                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p style="color: #ffffff;text-align: center;padding-left: 4px;padding-right: 4px;">Name
+ of the column header</p>
+                    </td>
+                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p style="text-align: center;padding-left: 4px;padding-right: 4px;color: #ffffff;">Type
+ of data</p>
+                    </td>
+                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p style="text-align: center;padding-left: 4px;padding-right: 4px;color: #ffffff;">Value
+ example or enum definition</p>
+                    </td>
+                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p style="text-align: center;padding-left: 4px;padding-right: 4px;color: #ffffff;">Required value</p>
+                    </td>
+                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p style="text-align: center;padding-left: 4px;padding-right: 4px;color: #ffffff;">Default value</p>
+                    </td>
+                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">
+                        <p style="color: #ffffff;padding-left: 4px;padding-right: 4px;text-align: left;">Description</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body2">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
+                        <p>Name</p>
+                    </td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
+                        <p>String</p>
+                    </td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
+                        <p>GEN_1</p>
+                    </td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
+                        <p>yes</p>
+                    </td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">-</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">
+                        <p>Name of the profile from the StructuralCrossSection object sheet</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body1">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Material name #</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">String</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">MAT_1</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">yes, if polygon is not opening</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">-</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">Name reference to the existing <a href="3_StructuralMaterial.htm">StructuralMaterial</a> object</td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body2">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body2">Polygon contour #</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body2">String</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body2">-75.0; 105.0| -175.0; 5.0| 175.0; 5.0| 75.0; 105.0</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body2">yes (at least one)</td>
+                    <td class="TableStyle-NewStyle-BodyB-Column1-Body2" style="font-size: 9pt;">-</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyA-Column1-Body2">
+                        <p>This attribute is used to define the cross-section geometry as a polygon contour. One cross-section shape can consist of more polygons. Openings contour are defined clockwise. Common polygons counterclockwise. The format of the data is: </p>
+                        <p>y1; z1|y2; z2|y3; z3|yi; zi|yi+1; zi+1</p>
+                        <p>The coordinates of the vertices are divided by ";" and each vertex separated by "|"</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <p class="ExampleMiddleSection">notes: </p>
+        <p class="ExampleMiddleSection">- symbol "#" means indexing of the name columns, depends on how many polygons is used, starts from 1</p>
+        <p class="ExampleMiddleSection">
+        - The contour defined clockwise is opening</p>
+        <p class="ExampleMiddleSection">
+        - The contour defined counter clockwise is polygon of the general cross-section</p>
+        <p class="ExampleMiddleSection">
+        - Each polygon has a defined material which is name reference to existing material in <a href="3_StructuralMaterial.htm">StructuralMaterial</a> sheet</p>
+        <p class="ExampleMiddleSection">
+        - The opening has no material definition</p>
+        <p class="ExampleMiddleSection">
+        - Each polygon contour has to be closed</p>
+        <p class="ExampleMiddleSection">
+        - The set of all polygons and openings defines one general cross-section (one row in the Excel table)</p>
+        <p class="ExampleMiddleSection">
+        - The number of polygons is limited to 99. The definition of the general shape has to consist of at least one polygon which is not the opening.</p>
+        <p>&#160;</p>
+        <p>A template of use in excel, the download icon is situated in the bottom right corner:</p>
+        <p>&#160;</p><iframe width="1500" height="346" frameborder="0" scrolling="no" src="https://bit.ly/2GS3foK"></iframe>
+        <p>&#160;</p>
+    </body>
+</html>
