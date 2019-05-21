@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="621" MadCap:lastWidth="1655">
+    <head>
+        <link href="../Resources/TableStyles/NewStyle.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body style="font-family: 'Century Gothic';font-size: 11pt;">
+        <p style="font-size: 18pt;text-decoration: none;">StructuralSurfaceActionThermal</p>
+        <hr />
+        <p style="font-size: 15pt;">Thermal load on surface elements</p>
+        <p>The thermal load on the surface elements (<a href="8_StructuralSurfaceMember.htm">StructuralSurfaceMember</a>). The variation of the thermal load can be constant or linear over the cross-section of the beam.</p>
+        <p>Specification in the excel:</p>
+        <table style="mc-table-style: url('../Resources/TableStyles/NewStyle.css');" class="TableStyle-NewStyle" cellspacing="0">
+            <col style="width: 155px;" class="TableStyle-NewStyle-Column-Column1" />
+            <col style="width: 181px;" class="TableStyle-NewStyle-Column-Column1" />
+            <col style="width: 254px;" class="TableStyle-NewStyle-Column-Column1" />
+            <col style="width: 254px;" class="TableStyle-NewStyle-Column-Column1" />
+            <col style="width: 254px;" class="TableStyle-NewStyle-Column-Column1" />
+            <col style="width: 557px;" class="TableStyle-NewStyle-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-NewStyle-Body-Body1">
+                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p style="color: #ffffff;text-align: center;padding-left: 4px;padding-right: 4px;">Name
+ of the column header</p>
+                    </td>
+                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p style="text-align: center;padding-left: 4px;padding-right: 4px;color: #ffffff;">Type
+ of data</p>
+                    </td>
+                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p style="text-align: center;padding-left: 4px;padding-right: 4px;color: #ffffff;">Value
+ example or enum definition</p>
+                    </td>
+                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p style="text-align: center;padding-left: 4px;padding-right: 4px;color: #ffffff;">Required value</p>
+                    </td>
+                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p style="text-align: center;padding-left: 4px;padding-right: 4px;color: #ffffff;">Default value</p>
+                    </td>
+                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">
+                        <p style="color: #ffffff;padding-left: 4px;padding-right: 4px;text-align: left;">Description</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body2">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
+                        <p>Name</p>
+                    </td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
+                        <p>String</p>
+                    </td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
+                        <p>LT1</p>
+                    </td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">yes</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">-</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">
+                        <p>Human
+ readable unique name of the load</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body1">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Variation</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Enum</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p>Constant</p>
+                        <p>Linear</p>
+                    </td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">yes</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">-</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">
+                        <p>Specifies how the temperature varies</p>
+                        <p>Constant: The load is defined by means of a single value T1. The value specifies the warming to which the 1D member is subject.</p>
+                        <p>Linear: The load is defined by means of a set of two values T1 and T2. The individual values specify the temperature at individual surfaces - top, bottom of the 2D member.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body2">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">T1 [°C]</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Double</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">5</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">yes</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">-</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">Specifies the first size of the load in Celsius</td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body1">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">T2 [°C]</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Double</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">18</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">yes, if Variation = Linear</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">-</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">Specifies the second size of the load in Celsius</td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body2">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">2D Member</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">String</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">B11</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">yes</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">-</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">The name of the <a href="8_StructuralSurfaceMember.htm">StructuralSurfaceMember</a> on which the load is applied</td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body1">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body1">Load case</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body1">String</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body1">LC1</td>
+                    <td class="TableStyle-NewStyle-BodyB-Column1-Body1" style="font-size: 9pt;">yes</td>
+                    <td class="TableStyle-NewStyle-BodyB-Column1-Body1" style="font-size: 9pt;">-</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyA-Column1-Body1">The name of the load case to which the load belongs</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <p>&#160;</p>
+    </body>
+</html>
