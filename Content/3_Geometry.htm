@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1075" MadCap:lastWidth="1549">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1885" MadCap:lastWidth="2067">
     <head>
         <link href="Resources/TableStyles/NewStyle.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -18,6 +18,7 @@
             <col style="width: 90px;" class="TableStyle-NewStyle-Column-Column1" />
             <col style="width: 354px;" class="TableStyle-NewStyle-Column-Column1" />
             <col style="width: 454px;" class="TableStyle-NewStyle-Column-Column1" />
+            <col style="width: -195px;" class="TableStyle-NewStyle-Column-Column1" />
             <col style="width: 354px;" class="TableStyle-NewStyle-Column-Column1" />
             <tbody>
                 <tr class="TableStyle-NewStyle-Body-Body1">
@@ -25,9 +26,10 @@
                         <p style="color: #ffffff;text-align: center;padding-left: 4px;padding-right: 4px;">Geometry type</p>
                     </td>
                     <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
-                        <p style="text-align: center;padding-left: 4px;padding-right: 4px;color: #ffffff;">Definition</p>
+                        <p style="text-align: center;padding-left: 4px;padding-right: 4px;color: #ffffff;">Type definition</p>
                     </td>
-                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Insertion data</td>
+                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Insertion data explanation</td>
+                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Value example</td>
                     <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">Notes</td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body2">
@@ -45,6 +47,7 @@
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
                         <p>Start point , End point</p>
                     </td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2">N1;N2</td>
                     <td class="TableStyle-NewStyle-BodyD-Column1-Body2" style="font-size: 9pt;">-</td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body1">
@@ -54,7 +57,7 @@
                         </p>
                     </td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
-                        <p>Circular arch</p>
+                        <p>Circular arc</p>
                     </td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
                         <p>Arch defined with 3 nodes</p>
@@ -62,15 +65,17 @@
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
                         <p>Start point, Intermediate point, End point </p>
                     </td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1">N3;N4;N5</td>
                     <td class="TableStyle-NewStyle-BodyD-Column1-Body1" style="font-size: 9pt;">-</td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body2">
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
                         <img src="Resources/Images/geometry_PA.PNG" style="width: 286px;height: 76px;" />
                     </td>
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Parabolic arch</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Parabolic arc</td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Parabolic arch defined with 3 nodes</td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Start point, Intermediate point, End point</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2">N6;N7;N8</td>
                     <td class="TableStyle-NewStyle-BodyD-Column1-Body2" style="font-size: 9pt;">-</td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body1">
@@ -86,10 +91,15 @@
                         <p>Cubic Bezier curve</p>
                     </td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
-                        <p>Start point, 2nd point of control polygon, 3rd point of control polygon, End point</p>
+                        <p>Start point, 2nd point of control polygon (vertex), 3rd point of control polygon (vertex), End point</p>
+                    </td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p>N9;[15.0000;6.0000;0.0000];[12.0000;3.0000;0.0000];N10</p>
                     </td>
                     <td class="TableStyle-NewStyle-BodyD-Column1-Body1" style="font-size: 9pt;">
                         <p>Bezier curve is parabolic, when 2nd and 3rd control points are the identical (values of coordinates are the same)</p>
+                        <p>In square brackets are coordinates of vertexes. Vertexes are not structural nodes</p>
+                        <p>As decimal mark is possible to use point and comma as well</p>
                         <p>&#160;</p>
                     </td>
                 </tr>
@@ -108,6 +118,9 @@
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
                         <p>Start point, Set of mid points, End point</p>
                     </td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2">
+                        <p>N11;N12;N13;N14;N15;N16;N17;N18</p>
+                    </td>
                     <td class="TableStyle-NewStyle-BodyD-Column1-Body2" style="font-size: 9pt;">-</td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body1">
@@ -121,19 +134,38 @@
                         <p>Or</p>
                         <p>Three point on perimeter</p>
                     </td>
-                    <td class="TableStyle-NewStyle-BodyD-Column1-Body1" style="font-size: 9pt;">-</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1">Point1;Point2;(Point3)</td>
+                    <td class="TableStyle-NewStyle-BodyD-Column1-Body1" style="font-size: 9pt;">Points do not define structural member, only geometrical</td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body2">
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body2">
                         <img src="Resources/Images/geometry_spline.PNG" style="width: 286px;height: 72px;" />
                     </td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body2">Polyline</td>
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body2">Combination of geometry types</td>
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body2">Line, Line, Spline (7), Circular arch, Bezier, Line</td>
-                    <td class="TableStyle-NewStyle-BodyA-Column1-Body2" style="font-size: 9pt;">-</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body2">Combination of in nodes connected geometric types</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body2">
+                        <p>Line;Line;Spline-7;Line;Circular Arc;Line;Bezier;Line</p>
+                    </td>
+                    <td class="TableStyle-NewStyle-BodyB-Column1-Body2">
+                        <p>N21;N22;N23;N24;N25;N26;N27;N28;N29;N30;N31;N32;N33;</p>
+                        <p>[15.0000,6.0000,0.0000];[12.0000;3.0000,0.0000];N34;N35</p>
+                    </td>
+                    <td class="TableStyle-NewStyle-BodyA-Column1-Body2" style="font-size: 9pt;">Detail explanation can be found in notes below</td>
                 </tr>
             </tbody>
         </table>
+        <p>&#160;</p>
+        <p class="ExampleMiddleSection">notes: </p>
+        <p class="ExampleMiddleSection">- Mathematical definitions:</p>
+        <p class="ExampleMiddleSection">&#160;</p>
+        <p class="ExampleMiddleSection">-Polyline further explanation:</p>
+        <p class="ExampleMiddleSection">&#160;</p>
+        <p class="ExampleMiddleSection" style="text-align: left;">
+            <img src="Resources/Images/Geometry_poly_line.png" style="width: 1500px;height: 350px;" />
+        </p>
+        <p class="ExampleMiddleSection">&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
         <p>&#160;</p>
         <p>&#160;</p>
     </body>
