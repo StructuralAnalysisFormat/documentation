@@ -1,9 +1,798 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="2654" MadCap:lastWidth="2067">
     <head>
+        <link href="Resources/TableStyles/NewStyle.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
-    <body>
-        <h1>Geometry</h1>
-        <p>Delete this text and replace it with your own content.</p>
+    <body style="font-family: 'Century Gothic';font-size: 11pt;">
+        <p style="font-size: 18pt;text-decoration: none;">Geometry</p>
+        <hr>
+        </hr>
+        <p style="font-size: 15pt;">Basic construction elements</p>
+        <p>Basic construction elements are simple geometry types, that are used for shape definition of structural members. With defining the further attributes to these elements from the lists Structural analysis elements, Supports and hinges and Loads the complete structural model is created. </p>
+        <p>&#160;</p>
+        <p>Following geometrical types are available for structural members. </p>
+        <p>&#160;</p>
+        <p>Specification:</p>
+        <table style="mc-table-style: url('Resources/TableStyles/NewStyle.css');" class="TableStyle-NewStyle" cellspacing="0">
+            <col style="width: 205px;" class="TableStyle-NewStyle-Column-Column1" />
+            <col style="width: 90px;" class="TableStyle-NewStyle-Column-Column1" />
+            <col style="width: 354px;" class="TableStyle-NewStyle-Column-Column1" />
+            <col style="width: 454px;" class="TableStyle-NewStyle-Column-Column1" />
+            <col style="width: -195px;" class="TableStyle-NewStyle-Column-Column1" />
+            <col style="width: 354px;" class="TableStyle-NewStyle-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-NewStyle-Body-Body1">
+                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1" colspan="2">
+                        <p style="color: #ffffff;text-align: center;padding-left: 4px;padding-right: 4px;">Geometry type</p>
+                    </td>
+                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p style="text-align: center;padding-left: 4px;padding-right: 4px;color: #ffffff;">Type definition</p>
+                    </td>
+                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Insertion data explanation</td>
+                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Value example</td>
+                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">Notes</td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body2">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
+                        <p>
+                            <img src="Resources/Images/line1.PNG" style="width: 286px;height: 43px;" />
+                        </p>
+                    </td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
+                        <p>Line</p>
+                    </td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
+                        <p>Straight line between two nodes</p>
+                    </td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
+                        <p>Start point , End point</p>
+                    </td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2">N1;N2</td>
+                    <td class="TableStyle-NewStyle-BodyD-Column1-Body2" style="font-size: 9pt;">-</td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body1">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p>
+                            <img src="Resources/Images/geometry_CA.PNG" style="width: 286px;height: 76px;" />
+                        </p>
+                    </td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p>Circular arc</p>
+                    </td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p>Arch defined with 3 nodes</p>
+                    </td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p>Start point, Intermediate point, End point </p>
+                    </td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1">N3;N4;N5</td>
+                    <td class="TableStyle-NewStyle-BodyD-Column1-Body1" style="font-size: 9pt;">-</td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body2">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
+                        <img src="Resources/Images/geometry_PA.PNG" style="width: 286px;height: 76px;" />
+                    </td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Parabolic arc</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Parabolic arch defined with 3 nodes</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Start point, Intermediate point, End point</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2">N6;N7;N8</td>
+                    <td class="TableStyle-NewStyle-BodyD-Column1-Body2" style="font-size: 9pt;">-</td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body1">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p>
+                            <img src="Resources/Images/geometry_bezier.PNG" style="width: 286px;height: 71px;" />
+                        </p>
+                    </td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p>Bezier</p>
+                    </td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p>Cubic Bezier curve</p>
+                    </td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p>Start point, 2nd point of control polygon (vertex), 3rd point of control polygon (vertex), End point</p>
+                    </td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p>N9;[15.0000;6.0000;0.0000];[12.0000;3.0000;0.0000];N10</p>
+                    </td>
+                    <td class="TableStyle-NewStyle-BodyD-Column1-Body1" style="font-size: 9pt;">
+                        <p>Bezier curve is parabolic, when 2nd and 3rd control points are the identical (values of coordinates are the same)</p>
+                        <p>In square brackets are coordinates of vertexes. Vertexes are not structural nodes</p>
+                        <p>As decimal mark is possible to use point and comma as well</p>
+                        <p>&#160;</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body2">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
+                        <p>
+                            <img src="Resources/Images/geomery_spline.PNG" style="width: 286px;height: 66px;" />
+                        </p>
+                    </td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
+                        <p>Spline</p>
+                    </td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
+                        <p>Curved line defined by polynomial function</p>
+                    </td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
+                        <p>Start point, Set of mid points, End point</p>
+                    </td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2">
+                        <p>N11;N12;N13;N14;N15;N16;N17;N18</p>
+                    </td>
+                    <td class="TableStyle-NewStyle-BodyD-Column1-Body2" style="font-size: 9pt;">-</td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body1">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <img src="Resources/Images/geometry_circle.PNG" style="width: 286px;height: 82px;" />
+                    </td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Circle</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Circle</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
+                        <p>Center Point, Point on the perimeter</p>
+                        <p>Or</p>
+                        <p>Three point on perimeter</p>
+                    </td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1">Point1;Point2;(Point3)</td>
+                    <td class="TableStyle-NewStyle-BodyD-Column1-Body1" style="font-size: 9pt;">Points do not define structural member, only geometrical</td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body2">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body2">
+                        <img src="Resources/Images/geometry_spline.PNG" style="width: 286px;height: 72px;" />
+                    </td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body2">Polyline</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body2">Combination of in nodes connected geometric types</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body2">
+                        <p>Line;Line;Spline-7;Line;Circular Arc;Line;Bezier;Line</p>
+                    </td>
+                    <td class="TableStyle-NewStyle-BodyB-Column1-Body2">
+                        <p>N21;N22;N23;N24;N25;N26;N27;N28;N29;N30;N31;N32;N33;</p>
+                        <p>[15.0000,6.0000,0.0000];[12.0000;3.0000,0.0000];N34;N35</p>
+                    </td>
+                    <td class="TableStyle-NewStyle-BodyA-Column1-Body2" style="font-size: 9pt;">Detail explanation can be found in notes below</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <p class="ExampleMiddleSection">notes: </p>
+        <p class="ExampleMiddleSection">Mathematical definitions:</p>
+        <p class="ExampleMiddleSection">-Bezier</p>
+        <p class="ExampleMiddleSection">
+            <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mtable class="m-equation" displaystyle="true" style="display: block; margin-top: 1.0em; margin-bottom: 2.0em">
+                        <mtr xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mtd columnalign="left">
+                                <mi>Q</mi>
+                                <mrow>
+                                    <mo form="prefix">(</mo>
+                                    <mi>t</mi>
+                                    <mo form="postfix">)</mo>
+                                </mrow>
+                                <mo>=</mo>
+                                <mstyle displaystyle="true">
+                                    <munderover>
+                                        <mo>∑</mo>
+                                        <mrow>
+                                            <mi>i</mi>
+                                            <mo>=</mo>
+                                            <mn>0</mn>
+                                        </mrow>
+                                        <mn>3</mn>
+                                    </munderover>
+                                </mstyle>
+                                <msub>
+                                    <mi>P</mi>
+                                    <mi>i</mi>
+                                </msub>
+                                <msub>
+                                    <mi>B</mi>
+                                    <mi>i</mi>
+                                </msub>
+                                <mrow>
+                                    <mo form="prefix">(</mo>
+                                    <mi>t</mi>
+                                    <mo form="postfix">)</mo>
+                                </mrow>
+                                <mo>,</mo>
+                                <mspace width="1.0em" />
+                                <mi>t</mi>
+                                <mo>∈</mo>
+                                <mo>&lt;</mo>
+                                <mn>0,1 </mn>
+                                <mo>&gt;</mo>
+                            </mtd>
+                            <mtd columnalign="right" style="width: 100%">
+                                <mspace width="6.0em" />
+                            </mtd>
+                        </mtr>
+                    </mtable>
+                </math>
+            </MadCap:equation>
+            <!-- end MathToWeb -->
+        </p>
+        <p class="ExampleMiddleSection">
+            <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mtable class="m-equation" displaystyle="true" style="display: block; margin-top: 1.0em; margin-bottom: 2.0em">
+                        <mtr xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mtd columnalign="left">
+                                <msub>
+                                    <mi>B</mi>
+                                    <mn>0</mn>
+                                </msub>
+                                <mrow>
+                                    <mo form="prefix">(</mo>
+                                    <mi>t</mi>
+                                    <mo form="postfix">)</mo>
+                                </mrow>
+                                <mo>=</mo>
+                                <msup>
+                                    <mrow>
+                                        <mo form="prefix">(</mo>
+                                        <mn>1</mn>
+                                        <mo>-</mo>
+                                        <mi>t</mi>
+                                        <mo form="postfix">)</mo>
+                                    </mrow>
+                                    <mn>3</mn>
+                                </msup>
+                                <mo>,</mo>
+                                <msub>
+                                    <mi>B</mi>
+                                    <mn>1</mn>
+                                </msub>
+                                <mrow>
+                                    <mo form="prefix">(</mo>
+                                    <mi>t</mi>
+                                    <mo form="postfix">)</mo>
+                                </mrow>
+                                <mo>=</mo>
+                                <mn>3</mn>
+                                <mi>t</mi>
+                                <msup>
+                                    <mrow>
+                                        <mo form="prefix">(</mo>
+                                        <mn>1</mn>
+                                        <mo>-</mo>
+                                        <mi>t</mi>
+                                        <mo form="postfix">)</mo>
+                                    </mrow>
+                                    <mn>2</mn>
+                                </msup>
+                                <mo>,</mo>
+                                <msub>
+                                    <mi>B</mi>
+                                    <mn>2</mn>
+                                </msub>
+                                <mrow>
+                                    <mo form="prefix">(</mo>
+                                    <mi>t</mi>
+                                    <mo form="postfix">)</mo>
+                                </mrow>
+                                <mo>=</mo>
+                                <mn>3</mn>
+                                <msup>
+                                    <mi>t</mi>
+                                    <mn>2</mn>
+                                </msup>
+                                <mrow>
+                                    <mo form="prefix">(</mo>
+                                    <mn>1</mn>
+                                    <mo>-</mo>
+                                    <mi>t</mi>
+                                    <mo form="postfix">)</mo>
+                                </mrow>
+                                <mo>,</mo>
+                                <msub>
+                                    <mi>B</mi>
+                                    <mn>3</mn>
+                                </msub>
+                                <mrow>
+                                    <mo form="prefix">(</mo>
+                                    <mi>t</mi>
+                                    <mo form="postfix">)</mo>
+                                </mrow>
+                                <mo>=</mo>
+                                <msup>
+                                    <mi>t</mi>
+                                    <mn>3</mn>
+                                </msup>
+                            </mtd>
+                            <mtd columnalign="right" style="width: 100%">
+                                <mspace width="6.0em" />
+                            </mtd>
+                        </mtr>
+                    </mtable>
+                </math>
+            </MadCap:equation>
+        </p>
+        <p class="ExampleMiddleSection">
+            <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mtable class="m-equation" displaystyle="true" style="display: block; margin-top: 1.0em; margin-bottom: 2.0em">
+                        <mtr>
+                            <mtd>
+                                <mspace width="1.0em" />
+                            </mtd>
+                            <mtd columnalign="left">
+                                <mi>Q</mi>
+                                <mrow>
+                                    <mo form="prefix">(</mo>
+                                    <mi>t</mi>
+                                    <mo form="postfix">)</mo>
+                                </mrow>
+                            </mtd>
+                            <mtd columnalign="right" style="width: 100%">
+                                <mspace width="1.0em" />
+                            </mtd>
+                        </mtr>
+                    </mtable>
+                </math>
+            </MadCap:equation>
+			is for the Bezier curve </p>
+        <p class="ExampleMiddleSection">
+            <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mtable class="m-equation" displaystyle="true" style="display: block; margin-top: 1.0em; margin-bottom: 2.0em">
+                        <mtr>
+                            <mtd>
+                                <mspace width="1.0em" />
+                            </mtd>
+                            <mtd columnalign="left">
+                                <msub>
+                                    <mi>P</mi>
+                                    <mi>i</mi>
+                                </msub>
+                                <mrow>
+                                    <mo form="prefix">
+                                    </mo>
+                                    <mi>
+                                    </mi>
+                                    <mo form="postfix">
+                                    </mo>
+                                </mrow>
+                            </mtd>
+                            <mtd columnalign="right" style="width: 100%">
+                                <mspace width="1.5em" xmlns="http://www.w3.org/1998/Math/MathML" />
+                            </mtd>
+                        </mtr>
+                    </mtable>
+                </math>
+            </MadCap:equation>
+			is for coordinates, and </p>
+        <p class="ExampleMiddleSection">
+            <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mtable class="m-equation" displaystyle="true" style="display: block; margin-top: 1.0em; margin-bottom: 2.0em">
+                        <mtr>
+                            <mtd>
+                                <mspace width="1.0em" />
+                            </mtd>
+                            <mtd columnalign="left">
+                                <msub>
+                                    <mi>B</mi>
+                                    <mi>i</mi>
+                                </msub>
+                                <mrow>
+                                    <mo form="prefix">(</mo>
+                                    <mi>t</mi>
+                                    <mo form="postfix">)</mo>
+                                </mrow>
+                            </mtd>
+                            <mtd columnalign="right" style="width: 100%">
+                                <mspace width="1.0em" />
+                            </mtd>
+                        </mtr>
+                    </mtable>
+                </math>
+            </MadCap:equation>
+			is for basis functions </p>
+        <p class="ExampleMiddleSection">
+        </p>
+        <p class="ExampleMiddleSection">-Spline:</p>
+        <p class="ExampleMiddleSection">
+            <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mtable class="m-equation" displaystyle="true" style="display: block; margin-top: 1.0em; margin-bottom: 2.0em">
+                        <mtr xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mtd columnalign="left" xmlns="http://www.w3.org/1998/Math/MathML">
+                                <mi>Q</mi>
+                                <mrow>
+                                    <mo form="prefix">(</mo>
+                                    <mi>t</mi>
+                                    <mo form="postfix">)</mo>
+                                </mrow>
+                                <mo>=</mo>
+                                <mstyle displaystyle="true">
+                                    <munderover>
+                                        <mo>∑</mo>
+                                        <mrow>
+                                            <mi>i</mi>
+                                            <mo>=</mo>
+                                            <mn>0</mn>
+                                        </mrow>
+                                        <mi>m</mi>
+                                    </munderover>
+                                </mstyle>
+                                <msub>
+                                    <mi>P</mi>
+                                    <mi>i</mi>
+                                </msub>
+                                <msubsup>
+                                    <mi>N</mi>
+                                    <mi>i</mi>
+                                    <mi>n</mi>
+                                </msubsup>
+                                <mrow>
+                                    <mo form="prefix">(</mo>
+                                    <mi>t</mi>
+                                    <mo form="postfix">)</mo>
+                                </mrow>
+                            </mtd>
+                            <mtd columnalign="right" style="width: 100%" xmlns="http://www.w3.org/1998/Math/MathML">
+                                <mspace width="6.0em" />
+                            </mtd>
+                        </mtr>
+                    </mtable>
+                </math>
+            </MadCap:equation>
+        </p>
+        <p class="ExampleMiddleSection">
+            <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mtable class="m-equation" displaystyle="true" style="display: block; margin-top: 1.0em; margin-bottom: 2.0em">
+                        <mtr>
+                            <mtd columnalign="left">
+                                <msubsup>
+                                    <mi>N</mi>
+                                    <mi>i</mi>
+                                    <mn>0</mn>
+                                </msubsup>
+                                <mrow>
+                                    <mo form="prefix">(</mo>
+                                    <mi>t</mi>
+                                    <mo form="postfix">)</mo>
+                                </mrow>
+                                <mo>=</mo>
+                                <mrow>
+                                    <mo rspace="0.3em" lspace="0em" stretchy="true" fence="true" form="prefix">{</mo>
+                                    <mtable class="m-matrix">
+                                        <mtr>
+                                            <mtd>
+                                                <mn>1</mn>
+                                            </mtd>
+                                            <mtd>
+                                                <mi>f</mi>
+                                                <mi>o</mi>
+                                                <mi>r</mi>
+                                            </mtd>
+                                            <mtd>
+                                                <mi>t</mi>
+                                                <mo>∈</mo>
+                                                <mo>&lt;</mo>
+                                                <msub>
+                                                    <mi>t</mi>
+                                                    <mi>i</mi>
+                                                </msub>
+                                                <mo>,</mo>
+                                                <msub>
+                                                    <mi>t</mi>
+                                                    <mrow>
+                                                        <mi>i</mi>
+                                                        <mo>+</mo>
+                                                        <mn>1</mn>
+                                                    </mrow>
+                                                </msub>
+                                                <mo>&gt;</mo>
+                                            </mtd>
+                                        </mtr>
+                                        <mtr>
+                                            <mtd>
+                                                <mn>0</mn>
+                                            </mtd>
+                                            <mtd>
+                                                <mi>o</mi>
+                                                <mi>t</mi>
+                                                <mi>h</mi>
+                                                <mi>e</mi>
+                                                <mi>r</mi>
+                                                <mi>w</mi>
+                                                <mi>i</mi>
+                                                <mi>s</mi>
+                                                <mi>e</mi>
+                                            </mtd>
+                                            <mtd>
+                                            </mtd>
+                                        </mtr>
+                                    </mtable>
+                                </mrow>
+                            </mtd>
+                            <mtd columnalign="right" style="width: 100%">
+                                <mspace width="6.0em" />
+                            </mtd>
+                        </mtr>
+                    </mtable>
+                </math>
+            </MadCap:equation>
+            <!-- end MathToWeb -->
+        </p>
+        <p class="ExampleMiddleSection">
+            <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mtable class="m-equation" displaystyle="true" style="display: block; margin-top: 1.0em; margin-bottom: 2.0em">
+                        <mtr>
+                            <mtd columnalign="left">
+                                <msubsup>
+                                    <mi>N</mi>
+                                    <mi>i</mi>
+                                    <mi>k</mi>
+                                </msubsup>
+                                <mrow>
+                                    <mo form="prefix">(</mo>
+                                    <mi>t</mi>
+                                    <mo form="postfix">)</mo>
+                                </mrow>
+                                <mo>=</mo>
+                                <mfrac linethickness="1">
+                                    <mrow>
+                                        <mi>t</mi>
+                                        <mo>-</mo>
+                                        <msub>
+                                            <mi>t</mi>
+                                            <mi>i</mi>
+                                        </msub>
+                                    </mrow>
+                                    <mrow>
+                                        <msub>
+                                            <mi>t</mi>
+                                            <mrow>
+                                                <mi>i</mi>
+                                                <mo>+</mo>
+                                                <mi>k</mi>
+                                            </mrow>
+                                        </msub>
+                                        <mo>-</mo>
+                                        <msub>
+                                            <mi>t</mi>
+                                            <mi>i</mi>
+                                        </msub>
+                                    </mrow>
+                                </mfrac>
+                                <msubsup>
+                                    <mi>N</mi>
+                                    <mi>i</mi>
+                                    <mrow>
+                                        <mi>k</mi>
+                                        <mo>-</mo>
+                                        <mn>1</mn>
+                                    </mrow>
+                                </msubsup>
+                                <mrow>
+                                    <mo form="prefix">(</mo>
+                                    <mi>t</mi>
+                                    <mo form="postfix">)</mo>
+                                </mrow>
+                                <mo>+</mo>
+                                <mfrac linethickness="1">
+                                    <mrow>
+                                        <msub>
+                                            <mi>t</mi>
+                                            <mrow>
+                                                <mi>i</mi>
+                                                <mo>+</mo>
+                                                <mi>k</mi>
+                                                <mo>+</mo>
+                                                <mn>1</mn>
+                                            </mrow>
+                                        </msub>
+                                        <mo>-</mo>
+                                        <mi>t</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <msub>
+                                            <mi>t</mi>
+                                            <mrow>
+                                                <mi>i</mi>
+                                                <mo>+</mo>
+                                                <mi>k</mi>
+                                                <mo>+</mo>
+                                                <mn>1</mn>
+                                            </mrow>
+                                        </msub>
+                                        <mo>-</mo>
+                                        <msub>
+                                            <mi>t</mi>
+                                            <mrow>
+                                                <mi>i</mi>
+                                                <mo>+</mo>
+                                                <mn>1</mn>
+                                            </mrow>
+                                        </msub>
+                                    </mrow>
+                                </mfrac>
+                                <msubsup>
+                                    <mi>N</mi>
+                                    <mrow>
+                                        <mi>i</mi>
+                                        <mo>+</mo>
+                                        <mn>1</mn>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>k</mi>
+                                        <mo>-</mo>
+                                        <mn>1</mn>
+                                    </mrow>
+                                </msubsup>
+                                <mrow>
+                                    <mo form="prefix">(</mo>
+                                    <mi>t</mi>
+                                    <mo form="postfix">),</mo>
+                                </mrow>
+                                <mtd>
+                                    <mspace width="6.0em" />
+                                </mtd>
+                                <mn>0</mn>
+                                <mo>≤</mo>
+                                <mi>i</mi>
+                                <mo>≤</mo>
+                                <mi>n</mi>
+                                <mo>-</mo>
+                                <mi>k</mi>
+                                <mo>-</mo>
+                                <mn>1,</mn>
+                                <mtd>
+                                    <mspace width="6.0em" />
+                                </mtd>
+                                <mn>1</mn>
+                                <mo>≤</mo>
+                                <mi>k</mi>
+                                <mo>≤</mo>
+                                <mi>n</mi>
+                                <mo>-</mo>
+                                <mn>1</mn>
+                            </mtd>
+                            <mtd columnalign="right" style="width: 100%">
+                                <mspace width="6.0em" />
+                            </mtd>
+                        </mtr>
+                    </mtable>
+                </math>
+            </MadCap:equation>
+        </p>
+        <p class="ExampleMiddleSection">
+            <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mtable class="m-equation" displaystyle="true" style="display: block; margin-top: 1.0em; margin-bottom: 2.0em">
+                        <mtr>
+                            <mtd>
+                                <mspace width="1.0em" />
+                            </mtd>
+                            <mtd columnalign="left">
+                                <mi>Q</mi>
+                                <mrow>
+                                    <mo form="prefix">(</mo>
+                                    <mi>t</mi>
+                                    <mo form="postfix">)</mo>
+                                </mrow>
+                            </mtd>
+                            <mtd columnalign="right" style="width: 100%">
+                                <mspace width="1.0em" />
+                            </mtd>
+                        </mtr>
+                    </mtable>
+                </math>
+            </MadCap:equation>
+			is for the Spline curve </p>
+        <p class="ExampleMiddleSection">
+            <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mtable class="m-equation" displaystyle="true" style="display: block; margin-top: 1.0em; margin-bottom: 2.0em">
+                        <mtr>
+                            <mtd>
+                                <mspace width="1.0em" xmlns="http://www.w3.org/1998/Math/MathML" />
+                            </mtd>
+                            <mtd columnalign="left">
+                                <msub>
+                                    <mi>P</mi>
+                                    <mi>i</mi>
+                                </msub>
+                                <mrow>
+                                    <mo form="prefix">
+                                    </mo>
+                                    <mi>
+                                    </mi>
+                                    <mo form="postfix">
+                                    </mo>
+                                </mrow>
+                            </mtd>
+                            <mtd columnalign="right" style="width: 100%">
+                                <mspace width="1.0em" />
+                            </mtd>
+                        </mtr>
+                    </mtable>
+                </math>
+            </MadCap:equation>
+			is for coordinates </p>
+        <p class="ExampleMiddleSection">
+            <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mtable class="m-equation" displaystyle="true" style="display: block; margin-top: 1.0em; margin-bottom: 2.0em">
+                        <mtr>
+                            <mtd>
+                                <mspace width="1.0em" />
+                            </mtd>
+                            <mtd columnalign="left">
+                                <msubsup>
+                                    <mi>N</mi>
+                                    <mi>i</mi>
+                                    <mi>n</mi>
+                                </msubsup>
+                                <mrow>
+                                    <mo form="prefix">(</mo>
+                                    <mi>t</mi>
+                                    <mo form="postfix">)</mo>
+                                </mrow>
+                            </mtd>
+                            <mtd columnalign="right" style="width: 100%">
+                                <mspace width="1.0em" />
+                            </mtd>
+                        </mtr>
+                    </mtable>
+                </math>
+            </MadCap:equation>
+		is for basis functions  </p>
+        <p class="ExampleMiddleSection">
+            <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mtable class="m-equation" displaystyle="true" style="display: block; margin-top: 1.0em; margin-bottom: 2.0em">
+                        <mtr>
+                            <mtd>
+                                <mspace width="1.0em" />
+                            </mtd>
+                            <mtd columnalign="left">
+                                <mi>n</mi>
+                            </mtd>
+                            <mtd columnalign="right" style="width: 100%">
+                                <mspace width="1.0em" />
+                            </mtd>
+                        </mtr>
+                    </mtable>
+                </math>
+            </MadCap:equation>
+		is for degree of the curve </p>
+        <p class="ExampleMiddleSection">
+            <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mtable class="m-equation" displaystyle="true" style="display: block; margin-top: 1.0em; margin-bottom: 2.0em">
+                        <mtr>
+                            <mtd>
+                                <mspace width="1.0em" />
+                            </mtd>
+                            <mtd columnalign="left">
+                                <mi>m</mi>
+                            </mtd>
+                            <mtd columnalign="right" style="width: 100%">
+                                <mspace width="1.0em" />
+                            </mtd>
+                        </mtr>
+                    </mtable>
+                </math>
+            </MadCap:equation> 
+		is for points of the control polygon
+</p>
+        <p class="ExampleMiddleSection">			</p>
+        <p class="ExampleMiddleSection">Polyline schematics:</p>
+        <p class="ExampleMiddleSection">&#160;</p>
+        <p class="ExampleMiddleSection" style="text-align: center;">
+            <img src="Resources/Images/Geometry_poly_line.png" style="width: 1500px;height: 350px;" />
+        </p>
+        <p class="ExampleMiddleSection">&#160;</p>
+        <p>
+        </p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
     </body>
 </html>
