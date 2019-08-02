@@ -65,8 +65,14 @@
       Title="RelConnectsSurfaceEdge"
       Link="/Content/A_Objects/15_RelConnectsSurfaceEdge.htm" />
     <TocEntry
+      Title="RelConnectsRigidCross"
+      Link="/Content/A_Objects/33_RelConnectsRigidCross.htm" />
+    <TocEntry
       Title="RelConnectsRigidLink"
-      Link="/Content/A_Objects/28_RelConnectsRigidLink.htm" />
+      Link="/Content/A_Objects/28_RelConnectsRigidLink.htm"></TocEntry>
+    <TocEntry
+      Title="RelConnectsRigidMember"
+      Link="/Content/A_Objects/34_RelConnectsRigidMember.htm" />
   </TocEntry>
   <TocEntry
     Title="Loads"
