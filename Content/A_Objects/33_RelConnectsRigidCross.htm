@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="3339" MadCap:lastWidth="1826">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="3765" MadCap:lastWidth="1826">
     <head>
         <link href="../Resources/TableStyles/NewStyle.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -7,7 +7,7 @@
         <p style="font-size: 18pt;text-decoration: none;">RelConnectsRigidCross</p>
         <hr />
         <p style="font-size: 15pt;">Rigid Cross</p>
-        <p>Rigit cross is defining structural behavior of node  (<a href="5_StructuralPointConnection.htm">StructuralPointConnection</a>), where two 1D elements (<a href="7_StructuralCurveMember.htm">StructuralCurveMember</a>) are being crossed. 1D members could be independent or dependency  could be defined in following excel sheet. Rigid cross is often used for bracing of the structure. </p>
+        <p>RigidCross is defining structural behavior of node  (<a href="5_StructuralPointConnection.htm">StructuralPointConnection</a>), where two 1D elements (<a href="7_StructuralCurveMember.htm">StructuralCurveMember</a>) are being crossed. 1D members could be independent or dependency  could be defined in following excel sheet. Rigid cross is often used for bracing of the structure. </p>
         <p style="text-align: left;">
             <img src="../Resources/Images/33_RigidCross.PNG" style="width: 409px;height: 336px;" />
         </p>
@@ -101,7 +101,11 @@
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
                         <p>Free</p>
                         <p>Rigid</p>
+                        <p>Rigid compression only</p>
+                        <p>Rigid tension only</p>
                         <p>Flexible</p>
+                        <p>Flexible compression only</p>
+                        <p>Flexible tension only</p>
                         <p>Non-linear</p>
                     </td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">no</td>
@@ -109,6 +113,7 @@
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">
                         <p>Displacement of first connected member</p>
                         <p>Free - That is it imposes no constraint in the direction. Rigid - The connection in fully rigid in the specified direction. Flexible - The connection is flexible (elastic) in the specified direction. Non-linear - resistance in specified direction could be defined</p>
+                        <p>Rigid/Flexible compression/tension only - acts rigid or flexible, only for defined strain (compression or tension)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body2">
@@ -119,7 +124,11 @@
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">
                         <p>Free</p>
                         <p>Rigid</p>
+                        <p>Rigid compression only</p>
+                        <p>Rigid tension only</p>
                         <p>Flexible</p>
+                        <p>Flexible compression only</p>
+                        <p>Flexible tension only</p>
                         <p>Non-linear</p>
                     </td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">no</td>
@@ -127,6 +136,7 @@
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">
                         <p>Displacement of second connected member</p>
                         <p>Free - That is it imposes no constraint in the direction. Rigid - The connection in fully rigid in the specified direction. Flexible - The connection is flexible (elastic) in the specified direction. Non-linear - resistance in specified direction could be defined</p>
+                        <p>Rigid/Flexible compression/tension only - acts rigid or flexible, only for defined strain (compression or tension)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body1">
@@ -137,7 +147,11 @@
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
                         <p>Free</p>
                         <p>Rigid</p>
+                        <p>Rigid compression only</p>
+                        <p>Rigid tension only</p>
                         <p>Flexible</p>
+                        <p>Flexible compression only</p>
+                        <p>Flexible tension only</p>
                         <p>Non-linear</p>
                     </td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">no</td>
@@ -145,6 +159,7 @@
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">
                         <p>Displacement of RigidCross</p>
                         <p>Free - That is it imposes no constraint in the direction. Rigid - The connection in fully rigid in the specified direction. Flexible - The connection is flexible (elastic) in the specified direction. Non-linear - resistance in specified direction could be defined</p>
+                        <p>Rigid/Flexible compression/tension only - acts rigid or flexible, only for defined strain (compression or tension)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body2">
@@ -203,11 +218,11 @@
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Stiffness u1 [MN/m]</td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Double</td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">3.0</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">yes, if u1 = Flexible or Non-linear</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">yes, if u1 = Flexible, Flexible compression/tension only or Non-linear</td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">-</td>
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">
                         <p>The flexibility  in direction of first member</p>
-                        <p> Use this property only if the u1 is set Flexible or Non-linear</p>
+                        <p> Use this property only if the u1 is set Flexible, Flexible compression/tension only or Non-linear</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body2">
@@ -225,11 +240,11 @@
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Stiffness u2 [MN/m]</td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Double</td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">3.0</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">yes, if u2 = Flexible or Non-linear</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">yes, if u2 = Flexible, Flexible compression/tension only or Non-linear</td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">-</td>
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">
                         <p>The flexibility in direction of second member</p>
-                        <p> Use this property only if the u2 is set Flexible or Non-linear</p>
+                        <p> Use this property only if the u2 is set Flexible, Flexible compression/tension only or Non-linear</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body2">
@@ -249,11 +264,11 @@
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
                         <p>5.0</p>
                     </td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">yes, if u = Flexible or Non-linear</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">yes, if u = Flexible, Flexible compression/tension only or Non-linear</td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">-</td>
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">
                         <p>The flexibility of the RigidCross</p>
-                        <p> Use this property only if the u is set Flexible or Non-linear</p>
+                        <p> Use this property only if the u is set Flexible, Flexible compression/tension only or Non-linear</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body2">
@@ -271,7 +286,7 @@
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Stiffness fi1 [MNm/rad]</td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Double</td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">1.0</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">yes, if fi1 = Flexible or Non-linear</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">yes, if fi1 = Flexible, Flexible compression/tension only or Non-linear</td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">-</td>
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">
                         <p>Torsional stiffness around the 1st member</p>
@@ -293,7 +308,7 @@
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Stiffness Fi2 [MNm/rad]</td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Double</td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">1.0</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">yes, if fi2 = Flexible or Non-linear</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">yes, if fi2 = Flexible, or Non-linear</td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">-</td>
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">
                         <p>Torsional stiffness around the 2st member</p>
