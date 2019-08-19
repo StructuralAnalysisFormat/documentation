@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="3511" MadCap:lastWidth="1890">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="4397" MadCap:lastWidth="1864">
     <head>
     </head>
     <body style="font-family: 'Century Gothic';font-size: 11pt;">
@@ -9,7 +9,7 @@
         <p>The row represents one item (member) – node, beam, plate, support, etc…</p>
         <p>The column represents one property attribute of a member – name, type, colour, shape, etc…</p>
         <p>The cell represents one property value – 3m, layer 1, wall (80), etc …</p>
-        <p>Excel screenshot examples:</p>
+        <p>Excel screen shot examples:</p>
         <p>Sheet:</p>
         <p>
             <img src="Resources/Images/introduction1.png" />
@@ -50,10 +50,10 @@
         <p><b>Local coordinate systems</b>
         </p>
         <p>Each structural entity, meaning each member, has got its own local co-ordinate system. This co-ordinate system is a three-dimensional right-handed Cartesian co-ordinate system.</p>
-        <p>For further undrestanding of enums defining the LCS of the <a href="A_Objects/7_StructuralCurveMember.htm">StrucutralCurveMember</a> and <a href="A_Objects/8_StructuralSurfaceMember.htm">StructuralSurfaceMember</a> see following:</p>
+        <p>Each member has several possibilities of enums, defining the Local Coordinate System (LCS). For further understanding of enums defining the LCS of the <a href="A_Objects/7_StructuralCurveMember.htm">StrucutralCurveMember</a> and <a href="A_Objects/8_StructuralSurfaceMember.htm">StructuralSurfaceMember</a> see following:</p>
         <p>&#160;</p>
         <blockquote>
-            <p>For curves, there is several option how to define LCS of <a href="A_Objects/7_StructuralCurveMember.htm">StrucutralCurveMember</a>. </p>
+            <p>For <b>1D members</b>, there is several option how to define LCS of <a href="A_Objects/7_StructuralCurveMember.htm">StrucutralCurveMember</a>: </p>
             <p>When is LCS enum set on <b>"axis </b><i style="font-weight: bold;">y</i><b> or </b><i style="font-weight: bold;">z</i><b> by point</b>" explanation is following:</p>
             <blockquote>
                 <p>•	X-axis orientation is given by system line of the member</p>
@@ -93,8 +93,36 @@
         </blockquote>
         <p>&#160;</p>
         <blockquote>
-            <p>For 2D members <a href="A_Objects/8_StructuralSurfaceMember.htm">StructuralSurfaceMember</a>, LCS&#160;is defined as followed:</p>
+            <p>For <b>2D members</b> <a href="A_Objects/8_StructuralSurfaceMember.htm">StructuralSurfaceMember</a>, LCS&#160;is defined as followed:</p>
+            <p>When is LCS enum set on <b>"axis </b><i style="font-weight: bold;">y</i><b> or </b><i style="font-weight: bold;">z</i><b> by vector"</b> explanation is similar to <a href="A_Objects/8_StructuralSurfaceMember.htm">StructuralCurveMember </a> presented above with following additional information:</p>
+            <blockquote>
+                <ul>
+                    <li>• For non-vertical 2D elements (slabs):</li>
+                </ul>
+                <blockquote>
+                    <ul>
+                        <li>• the Z axis direction is perpendicular to the plane of the slab, the orientation is always the same as the positive global Z axis (in the other words, the local Z axis is always upwards)</li>
+                    </ul>
+                </blockquote>
+                <ul>
+                    <li>• For vertical 2D members (walls):<ul><li>• the Z axis  direction is perpendicular to the plane of the wall, the orientation following the positive half plane of axis X</li></ul></li>
+                    <li>• Y or X axis is given by the vector (depending on chosen option in the SAF excel file)</li>
+                    <li>• The last axis of LCS is calculated by the right-hand rule</li>
+                </ul>
+            </blockquote>
         </blockquote>
+        <p>&#160;</p>
+        <blockquote>
+            <p>When is LCS enum set on <b>"Tilt of vector defined by point</b><b>"</b> explanation is following:</p>
+        </blockquote>
+        <blockquote>
+            <p>Tilt of vector defined by point is a special type of LCS for mesh elements of 2D members. You can define one point in global coordinates and all local x-axis (y-axis) of mesh elements follow this point. It is an analogy to LCS by point for 1D members. This special case is mostly used when you need to add data which are depending on LCS of meshes (e.g. reinforcement, results) and should follow radial layout (Circle slabs, silos, etc…). Example is presented below.</p>
+            <p>&#160;</p>
+            <p>
+                <img src="Resources/Images/introduction6_tilt_of vector.PNG" style="width: 682px;height: 329px;" />
+            </p>
+        </blockquote>
+        <p>&#160;</p>
         <p><b style="font-size: 14pt;">Unique IDs</b>
         </p>
         <p>Unique IDs – Unique identifier number for each object in the project and the model level. If the IDs are available in project, model and each object could be recognized and tracked for revisions with a third party software. Filling the cells with ID is not mandatory for analytical exchange format.</p>
