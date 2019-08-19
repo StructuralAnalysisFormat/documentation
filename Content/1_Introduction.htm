@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1403" MadCap:lastWidth="1409">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="3511" MadCap:lastWidth="1890">
     <head>
     </head>
     <body style="font-family: 'Century Gothic';font-size: 11pt;">
@@ -24,25 +24,84 @@
         <p><span style="font-weight: bold;font-style: normal;">Enum</span> - Ordered listing of all the items in a collection used for data validation. Only allowed values from the list can be inputted.</p>
         <p><span style="font-weight: bold;font-style: normal;">String</span> - A sequence of characters, Text.</p>
         <p>&#160;</p>
-        <p>All values are considered as a <b>metric unit</b>. For all orientation of loads and coordinate system <b>right-handed rule</b> is valid.</p>
-        <p>Each structural entity, meaning each member, has got its own local co-ordinate system. This co-ordinate system is a three-dimensional right-handed Cartesian co-ordinate system.</p>
+        <p>In SAF, supported are <b>metric units</b> and <b>imperial units</b>. Units are defined in model sheet in excel by user. </p>
+        <p>&#160;</p>
+        <p><b style="font-size: 14pt;">Coordinate systems</b>
+        </p>
+        <p>For all orientation of loads and coordinate system <b>right-handed rule</b> is valid.</p>
+        <p>&#160;</p>
         <p>The system provides for:</p>
-        <p>-	unambiguous positioning of the member in space,</p>
-        <p>-	unambiguous definition of load and boundary conditions,</p>
-        <p>-	unambiguous interpretation of results.</p>
+        <ul style="list-style-type: circle;">
+            <li> unambiguous positioning of the member in space,</li>
+            <li>	unambiguous definition of load and boundary conditions,</li>
+            <li>	unambiguous interpretation of results.</li>
+        </ul>
+        <p>&#160;</p>
         <p>It may help you to determine the direction of individual structural elements axis, if you remember what you (probably) learnt at school. Take your right hand, position your thumb, index finger and middle finger so that they are perpendicular to each other. Then the following applies (see also the image below):</p>
         <p>
             <img src="Resources/Images/introduction3.png" />
         </p>
-        <p>- the thumb points in the direction of the x-axis,</p>
-        <p>-	the index finger points in the direction of the y-axis,</p>
-        <p>-	the middle finger points in the direction of the z-axis.</p>
+        <ul style="list-style-type: circle;">
+            <li>the thumb points in the direction of the x-axis,</li>
+            <li>the index finger points in the direction of the y-axis,</li>
+            <li>the middle finger points in the direction of the z-axis.</li>
+        </ul>
         <p>&#160;</p>
+        <p><b>Local coordinate systems</b>
+        </p>
+        <p>Each structural entity, meaning each member, has got its own local co-ordinate system. This co-ordinate system is a three-dimensional right-handed Cartesian co-ordinate system.</p>
+        <p>For further undrestanding of enums defining the LCS of the <a href="A_Objects/7_StructuralCurveMember.htm">StrucutralCurveMember</a> and <a href="A_Objects/8_StructuralSurfaceMember.htm">StructuralSurfaceMember</a> see following:</p>
+        <p>&#160;</p>
+        <blockquote>
+            <p>For curves, there is several option how to define LCS of <a href="A_Objects/7_StructuralCurveMember.htm">StrucutralCurveMember</a>. </p>
+            <p>When is LCS enum set on <b>"axis </b><i style="font-weight: bold;">y</i><b> or </b><i style="font-weight: bold;">z</i><b> by point</b>" explanation is following:</p>
+            <blockquote>
+                <p>•	X-axis orientation is given by system line of the member</p>
+                <p>•	X-axis direction is defined by the start point and end point of the member</p>
+                <p>•	Y-axis orientation is given by the intersection of a plane perpendicular to x and a plane defined by x-axis and point</p>
+                <p>•	Y-axis direction follow the point</p>
+                <p>•	Z-axis orientation and direction is defined by the right-hand rule</p>
+                <p>
+                    <img src="Resources/Images/Introduction4_Y_by_point.PNG" style="width: 703px;height: 386px;" />
+                </p>
+                <p>&#160;</p>
+            </blockquote>
+        </blockquote>
+        <blockquote>
+            <p>When is LCS enum set on <b>"axis </b><i style="font-weight: bold;">y</i><b> or </b><i style="font-weight: bold;">z</i><b> by vector"</b> explanation is following:</p>
+            <blockquote>
+                <p>•	X-axis orientation is given by system line of the member</p>
+                <p>•	X-axis direction is defined by the start point and end point of the member</p>
+                <p>•	Y-axis orientation and direction is given by vector coordinates</p>
+                <p>•	Z-axis orientation and direction is defined by right-hand rule</p>
+                <p>
+                    <img src="Resources/Images/Introduction4_Y_by_point_2.PNG" style="width: 496px;height: 371px;" />
+                </p>
+            </blockquote>
+        </blockquote>
+        <p>&#160;</p>
+        <blockquote>
+            <p>&#160;</p>
+        </blockquote>
+        <blockquote>
+            <p>Difference between definition of LCS <b>"axis </b><i style="font-weight: bold;">y</i><b> or </b><i style="font-weight: bold;">z</i><b> by point</b>" and <b>"axis </b><i style="font-weight: bold;">y</i><b> or </b><i style="font-weight: bold;">z</i><b> by vector"</b> is presented on picture below.</p>
+        </blockquote>
+        <blockquote>
+            <p>
+                <img src="Resources/Images/Introduction5.PNG" style="width: 781px;height: 254px;" />
+            </p>
+        </blockquote>
+        <p>&#160;</p>
+        <blockquote>
+            <p>For 2D members <a href="A_Objects/8_StructuralSurfaceMember.htm">StructuralSurfaceMember</a>, LCS&#160;is defined as followed:</p>
+        </blockquote>
+        <p><b style="font-size: 14pt;">Unique IDs</b>
+        </p>
         <p>Unique IDs – Unique identifier number for each object in the project and the model level. If the IDs are available in project, model and each object could be recognized and tracked for revisions with a third party software. Filling the cells with ID is not mandatory for analytical exchange format.</p>
         <p>&#160;</p>
         <p class="ExampleMiddleSection">Note: The order of lists and columns does not matter, for import. Important is to consistently follow its naming.</p>
-		<p>&#160;</p>
-		<p>&#160;</p>
-		<p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
     </body>
 </html>
