@@ -2,7 +2,7 @@
 <RecentLinks>
     <Dialog Name="B3.XmlTextKit.InsertCrossReferenceDialog" />
     <Dialog Name="B3.XmlTextKit.InsertHyperlinkDialog">
-        <Link Value="E:\GIT\AEF_documentation\Content\A_Objects\2_Project and model specifications.htm" />
+        <Link Value="C:\Users\avyskocil\Documents\GitHub\AEF_documentation\Content\2_Project and model specifications.htm" />
     </Dialog>
     <Dialog Name="B3.XmlMdiEditorKit.ImageGeneralDialogPage">
         <Link Value="E:\GIT\AEF_documentation\Content\Resources\Images\RelConnectsStructuralMember.png" />
