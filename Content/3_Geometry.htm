@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="2586" MadCap:lastWidth="1649">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="2594" MadCap:lastWidth="1824">
     <head>
         <link href="Resources/TableStyles/NewStyle.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -8,9 +8,9 @@
         <hr>
         </hr>
         <p style="font-size: 15pt;">Basic construction elements</p>
-        <p>Basic construction elements are simple geometry types, that are used for shape definition of structural members. With defining the further attributes to these elements from the lists Structural analysis elements, Supports and hinges and Loads the complete structural model is created. </p>
+        <p>Basic construction elements are simple geometry types, that are used for shape definition of structural members and geometrical object. With defining the further attributes to these elements from the lists Structural analysis elements, Supports and hinges and Loads the complete structural model is created. All values refers to list <a href="A_Objects/5_StructuralPointConnection.htm">StrucutralPointConnection</a>.</p>
         <p>&#160;</p>
-        <p>Following geometrical types are available for structural members. </p>
+        <p>Following geometrical types are available.</p>
         <p>&#160;</p>
         <p>Specification:</p>
         <table style="mc-table-style: url('Resources/TableStyles/NewStyle.css');" class="TableStyle-NewStyle" cellspacing="0">
@@ -94,13 +94,14 @@
                         <p>Start point, 2nd point of control polygon (vertex), 3rd point of control polygon (vertex), End point</p>
                     </td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body1">
-                        <p>N9;[15.0000;6.0000;0.0000];</p>
-                        <p>[12.0000;3.0000;0.0000];N10</p>
+                        <p>N9;Vertex_B1_1;</p>
+                        <p>Vertex_B1_2;N10</p>
                     </td>
                     <td class="TableStyle-NewStyle-BodyD-Column1-Body1" style="font-size: 9pt;">
+                        <p>N9 and N10 stands for start and end node</p>
+                        <p>Vertex_B1_1, Vertex_B1_2 define vertexes of bezier curve</p>
+                        <p>All values refers to list <a href="A_Objects/5_StructuralPointConnection.htm">StrucutralPointConnection</a></p>
                         <p>Bezier curve is parabolic, when 2nd and 3rd control points are the identical (values of coordinates are the same)</p>
-                        <p>In square brackets are coordinates of vertexes. Vertexes are not structural nodes</p>
-                        <p>As decimal mark is possible to use point and comma as well</p>
                         <p>&#160;</p>
                     </td>
                 </tr>
@@ -136,7 +137,7 @@
                         <p>Three point on perimeter</p>
                     </td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body1">Point1;Point2;(Point3)</td>
-                    <td class="TableStyle-NewStyle-BodyD-Column1-Body1" style="font-size: 9pt;">Points do not define structural member, only geometrical</td>
+                    <td class="TableStyle-NewStyle-BodyD-Column1-Body1" style="font-size: 9pt;">Points do not define structural member, only geometrical one</td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body2">
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body2">
@@ -149,8 +150,7 @@
                     </td>
                     <td class="TableStyle-NewStyle-BodyB-Column1-Body2">
                         <p>N21;N22;N23;N24;N25;N26;N27;N28;N29;
-                        N30;N31;N32;N33[15.0000,6.0000,0.0000];
-							[12.0000;3.0000,0.0000];N34;N35</p>
+                        N30;N31;N32;N33;V1;V2;N34;N35</p>
                     </td>
                     <td class="TableStyle-NewStyle-BodyA-Column1-Body2" style="font-size: 9pt;">Detail explanation can be found in notes below</td>
                 </tr>
