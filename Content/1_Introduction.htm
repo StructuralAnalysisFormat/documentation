@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="4633" MadCap:lastWidth="1863">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="5504" MadCap:lastWidth="1798">
     <head>
     </head>
     <body style="font-family: 'Century Gothic';font-size: 11pt;">
@@ -53,20 +53,20 @@
             <li>the middle finger points in the direction of the z-axis.</li>
         </ul>
         <p>&#160;</p>
-        <p><b>Local coordinate systems</b>
+        <p><b>LCS&#160;- Local coordinate systems</b>
         </p>
         <p>Each structural entity, meaning each member, has got its own local co-ordinate system. This co-ordinate system is a three-dimensional right-handed Cartesian co-ordinate system.</p>
         <p>Each member has several possibilities of enums, defining the Local Coordinate System (LCS). For further understanding of enums defining the LCS of the <a href="A_Objects/7_StructuralCurveMember.htm">StrucutralCurveMember</a> and <a href="A_Objects/8_StructuralSurfaceMember.htm">StructuralSurfaceMember</a> see following:</p>
         <p>&#160;</p>
         <blockquote>
             <p>For <b>1D members</b>, there is several option how to define LCS of <a href="A_Objects/7_StructuralCurveMember.htm">StrucutralCurveMember</a>: </p>
-            <p>When is LCS enum set on <b>"axis </b><i style="font-weight: bold;">y</i><b> or </b><i style="font-weight: bold;">z</i><b> by point</b>" explanation is following:</p>
+            <p>When is LCS enum set on <b>" by point"</b> explanation is following:</p>
             <blockquote>
                 <p>•	X-axis orientation is given by system line of the member</p>
                 <p>•	X-axis direction is defined by the start point and end point of the member</p>
-                <p>•	Y-axis orientation is given by the intersection of a plane perpendicular to x and a plane defined by x-axis and point</p>
-                <p>•	Y-axis direction follow the point</p>
-                <p>•	Z-axis orientation and direction is defined by the right-hand rule</p>
+                <p>•	Z-axis orientation is given by the intersection of a plane perpendicular to x and a plane defined by x-axis and point</p>
+                <p>•	Z-axis direction follow the point</p>
+                <p>•	Y-axis orientation and direction is defined by the right-hand rule</p>
                 <p style="text-align: left;">
                     <img src="Resources/Images/introduction_LCS_by_point_v2.PNG" style="width: 858px;height: 508px;" />
                 </p>
@@ -74,20 +74,30 @@
             </blockquote>
         </blockquote>
         <blockquote>
-            <p>When is LCS enum set on <b>"axis </b><i style="font-weight: bold;">y</i><b> or </b><i style="font-weight: bold;">z</i><b> by vector"</b> explanation is following:</p>
+            <p>When is LCS enum set on <b>"by vector"</b> explanation is following:</p>
             <blockquote>
                 <p>•	X-axis orientation is given by system line of the member</p>
                 <p>•	X-axis direction is defined by the start point and end point of the member</p>
-                <p>•	Y-axis orientation and direction is given by vector coordinates</p>
-                <p>•	Z-axis orientation and direction is defined by right-hand rule</p>
+                <p>•	Z-axis orientation and direction is given by vector coordinates</p>
+                <p>•	Y-axis orientation and direction is defined by right-hand rule</p>
                 <blockquote>
                     <p style="text-align: left;">
                         <img src="Resources/Images/introduction_LCS_by_vector_v2.PNG" style="width: 868px;height: 476px;" />
                     </p>
+                    <p>General vector as LCS <b>"by vector"</b></p>
+                    <p>User can set the LCS "by vector" with the vector which is not perpendicular to the centre line of the 1D member. Such a vector is projected to perpendicular as shown in animation below. The user-defined vector is the yellow one. The yellow vector is not in perpendicular plane to the centre line of the member, so blue and yellow vector are not parallel.</p>
                 </blockquote>
             </blockquote>
         </blockquote>
-        <p>&#160;</p>
+        <blockquote>
+            <blockquote>
+                <blockquote>
+                    <p>
+                        <img src="Resources/Images/introduction_LCS_by_general_vector.gif" />
+                    </p>
+                </blockquote>
+            </blockquote>
+        </blockquote>
         <blockquote>
             <p>&#160;</p>
         </blockquote>

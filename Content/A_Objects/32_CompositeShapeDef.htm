@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1212" MadCap:lastWidth="1655" MadCap:ignoredWords="CompositeShapeDef">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1960" MadCap:lastWidth="1655" MadCap:ignoredWords="CompositeShapeDef">
     <head>
         <link href="../Resources/TableStyles/NewStyle.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -94,9 +94,12 @@
         <p class="ExampleMiddleSection">notes: </p>
         <p class="ExampleMiddleSection">- symbol "#" means indexing of the name columns, depends on how many polygons is used, starts from 1</p>
         <p class="ExampleMiddleSection">
-        - The contour defined clockwise is opening</p>
+        - The contour defined clockwise is opening </p>
         <p class="ExampleMiddleSection">
-        - The contour defined counter clockwise is polygon of the general cross-section</p>
+        - The contour defined counter clockwise is polygon of the general cross-section (relation between LCS and counter clockwise direction is shown below)</p>
+        <p class="ExampleMiddleSection">
+            <img src="../Resources/Images/CompositeShapeDef_counterclockwise.PNG" style="width: 469px;height: 302px;" />
+        </p>
         <p class="ExampleMiddleSection">
         - Each polygon has a defined material which is name reference to existing material in <a href="3_StructuralMaterial.htm">StructuralMaterial</a> sheet</p>
         <p class="ExampleMiddleSection">
@@ -107,6 +110,10 @@
         - The set of all polygons and openings defines one general cross-section (one row in the Excel table)</p>
         <p class="ExampleMiddleSection">
         - The number of polygons is limited to 99. The definition of the general shape has to consist of at least one polygon which is not the opening.</p>
+        <p class="ExampleMiddleSection">- CompositeShapeDef example with opening is shown below. A,B,C,D are defining the contour of cross-section (counter clockwise polygon) and E,F,K,L are defining the opening (clockwise polygon).</p>
+        <p class="ExampleMiddleSection">
+            <img src="../Resources/Images/CompositeShapeDef_animation.gif" />
+        </p>
         <p>&#160;</p>
         <p>A template of use in excel, the download icon is situated in the bottom right corner:</p>
         <p>&#160;</p><iframe width="1500" height="346" frameborder="0" scrolling="no" src="https://bit.ly/2GS3foK"></iframe>
