@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1852" MadCap:lastWidth="1655">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="2216" MadCap:lastWidth="1655">
     <head>
         <link href="Resources/TableStyles/NewStyle.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -287,18 +287,47 @@
                     <td class="TableStyle-NewStyle-BodyD-Column1-Body1" style="font-size: 9pt;text-align: left;">Define the space orientation of the coordinates system for model</td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body2">
-                    <td style="text-align: center;font-size: 9pt;" class="TableStyle-NewStyle-BodyB-Column1-Body2">System of units</td>
-                    <td style="font-size: 9pt;text-align: center;" class="TableStyle-NewStyle-BodyB-Column1-Body2">Enum</td>
-                    <td class="TableStyle-NewStyle-BodyB-Column1-Body2" style="font-size: 9pt;">
+                    <td style="text-align: center;font-size: 9pt;" class="TableStyle-NewStyle-BodyE-Column1-Body2">System of units</td>
+                    <td style="font-size: 9pt;text-align: center;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Enum</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">
                         <p>Metric</p>
                         <p>Imperial</p>
                     </td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">no</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">Metric</td>
+                    <td class="TableStyle-NewStyle-BodyD-Column1-Body2" style="font-size: 9pt;text-align: left;">Define the type of units system used in model</td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body1">
+                    <td style="text-align: center;font-size: 9pt;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Ignored objects</td>
+                    <td style="font-size: 9pt;text-align: center;" class="TableStyle-NewStyle-BodyE-Column1-Body1">String</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;"> StructuralPointAction</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">no</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">-</td>
+                    <td class="TableStyle-NewStyle-BodyD-Column1-Body1" style="font-size: 9pt;text-align: left;">
+                        <p>Field used for update workflow</p>
+                        <p>Specify the object(s) that should be excluded from update</p>
+                        <p>See notes for all SAF objects<br /></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body2">
+                    <td style="text-align: center;font-size: 9pt;" class="TableStyle-NewStyle-BodyB-Column1-Body2">Ignored groups</td>
+                    <td style="font-size: 9pt;text-align: center;" class="TableStyle-NewStyle-BodyB-Column1-Body2">String</td>
+                    <td class="TableStyle-NewStyle-BodyB-Column1-Body2" style="font-size: 9pt;">StructuralLoad</td>
                     <td class="TableStyle-NewStyle-BodyB-Column1-Body2" style="font-size: 9pt;">no</td>
-                    <td class="TableStyle-NewStyle-BodyB-Column1-Body2" style="font-size: 9pt;">Metric</td>
-                    <td class="TableStyle-NewStyle-BodyA-Column1-Body2" style="font-size: 9pt;text-align: left;">Define the type of units system used in model</td>
+                    <td class="TableStyle-NewStyle-BodyB-Column1-Body2" style="font-size: 9pt;">-</td>
+                    <td class="TableStyle-NewStyle-BodyA-Column1-Body2" style="font-size: 9pt;text-align: left;">
+                        <p>Field used for update workflow</p>
+                        <p>Specify the groups(s) that should be excluded from update</p>
+                        <p>Groups are parent to objects - each group consists of multiple objects</p>
+                        <p>See notes for all SAF groups</p>
+                    </td>
                 </tr>
             </tbody>
         </table>
+        <p>&#160;</p>
+        <p class="ExampleMiddleSection">notes: </p>
+        <p class="ExampleMiddleSection">- see the list of supported groups and objects below</p>
+        <p class="ExampleMiddleSection">- each group consist of multiple objects, ignoring the group is taken in to account as ignoring all objects in the group (groups are parent to objects)</p>
         <p>&#160;</p><iframe width="1147" height="300" frameborder="0" src="https://bit.ly/2V9eIae"></iframe>
         <p>&#160;</p>
     </body>
