@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="2216" MadCap:lastWidth="1655">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="3291" MadCap:lastWidth="1729">
     <head>
+        <link href="Resources/TableStyles/NewStyle_header_grey.css" rel="stylesheet" MadCap:stylesheetType="table" />
         <link href="Resources/TableStyles/NewStyle.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body style="font-family: 'Century Gothic';font-size: 11pt;">
@@ -14,7 +15,7 @@
             <img src="Resources/Images/projectandmodelspecifications1.png" />
         </p>
         <p>Specification in the excel:</p>
-        <table style="mc-table-style: url('Resources/TableStyles/NewStyle.css');" class="TableStyle-NewStyle" cellspacing="0">
+        <table style="mc-table-style: url('Resources/TableStyles/NewStyle.css');" class="TableStyle-NewStyle" cellspacing="6">
             <col style="width: 155px;" class="TableStyle-NewStyle-Column-Column1" />
             <col style="width: 181px;" class="TableStyle-NewStyle-Column-Column1" />
             <col style="width: 254px;" class="TableStyle-NewStyle-Column-Column1" />
@@ -139,7 +140,7 @@
             <img src="Resources/Images/projectandmodelspecifications2.png" />
         </p>
         <p>Specification in the excel:</p>
-        <table style="mc-table-style: url('Resources/TableStyles/NewStyle.css');" class="TableStyle-NewStyle" cellspacing="0">
+        <table style="mc-table-style: url('Resources/TableStyles/NewStyle.css');" class="TableStyle-NewStyle" cellspacing="6">
             <col style="width: 155px;" class="TableStyle-NewStyle-Column-Column1" />
             <col style="width: 181px;" class="TableStyle-NewStyle-Column-Column1" />
             <col style="width: 254px;" class="TableStyle-NewStyle-Column-Column1" />
@@ -194,7 +195,7 @@
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">-</td>
                     <td class="TableStyle-NewStyle-BodyD-Column1-Body2" style="font-size: 9pt;text-align: left;">Discipline can be set as Undefined, Architecture, HVAC, Load-bearing structure, Terrain, Facility etc.</td>
                 </tr>
-                <tr class="TableStyle-NewStyle-Body-Body1">
+                <tr class="TableStyle-NewStyle-Body-Body1" style="height: 9px;">
                     <td style="text-align: center;font-size: 9pt;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Level of detail</td>
                     <td style="font-size: 9pt;text-align: center;" class="TableStyle-NewStyle-BodyE-Column1-Body1">String</td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">Draft</td>
@@ -300,26 +301,28 @@
                 <tr class="TableStyle-NewStyle-Body-Body1">
                     <td style="text-align: center;font-size: 9pt;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Ignored objects</td>
                     <td style="font-size: 9pt;text-align: center;" class="TableStyle-NewStyle-BodyE-Column1-Body1">String</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;"> StructuralPointAction</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;"> StructuralCrossSection;StructuralPointAction</td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">no</td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">-</td>
                     <td class="TableStyle-NewStyle-BodyD-Column1-Body1" style="font-size: 9pt;text-align: left;">
-                        <p>Field used for update workflow</p>
-                        <p>Specify the object(s) that should be excluded from update</p>
-                        <p>See notes for all SAF objects<br /></p>
+                        <p style="font-size: 9pt;">Field used for update work-flow</p>
+                        <p style="font-size: 9pt;">Specify the object(s) that should be excluded from update</p>
+                        <p style="font-size: 9pt;">Multiple objects are divided by a semicolon</p>
+                        <p style="font-size: 9pt;">See notes for all SAF objects<br /></p>
                     </td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body2">
                     <td style="text-align: center;font-size: 9pt;" class="TableStyle-NewStyle-BodyB-Column1-Body2">Ignored groups</td>
                     <td style="font-size: 9pt;text-align: center;" class="TableStyle-NewStyle-BodyB-Column1-Body2">String</td>
-                    <td class="TableStyle-NewStyle-BodyB-Column1-Body2" style="font-size: 9pt;">StructuralLoad</td>
+                    <td class="TableStyle-NewStyle-BodyB-Column1-Body2" style="font-size: 9pt;">SupportsAndHinges;StructuralLoad</td>
                     <td class="TableStyle-NewStyle-BodyB-Column1-Body2" style="font-size: 9pt;">no</td>
                     <td class="TableStyle-NewStyle-BodyB-Column1-Body2" style="font-size: 9pt;">-</td>
                     <td class="TableStyle-NewStyle-BodyA-Column1-Body2" style="font-size: 9pt;text-align: left;">
-                        <p>Field used for update workflow</p>
-                        <p>Specify the groups(s) that should be excluded from update</p>
-                        <p>Groups are parent to objects - each group consists of multiple objects</p>
-                        <p>See notes for all SAF groups</p>
+                        <p style="font-size: 9pt;">Field used for update work-flow</p>
+                        <p style="font-size: 9pt;">Specify the groups(s) that should be excluded from update</p>
+                        <p style="font-size: 9pt;">Groups are parent to objects - each group consists of multiple objects</p>
+                        <p style="font-size: 9pt;">Multiple groups are divided by a semicolon</p>
+                        <p style="font-size: 9pt;">See notes for all SAF groups</p>
                     </td>
                 </tr>
             </tbody>
@@ -327,7 +330,177 @@
         <p>&#160;</p>
         <p class="ExampleMiddleSection">notes: </p>
         <p class="ExampleMiddleSection">- see the list of supported groups and objects below</p>
+        <p class="ExampleMiddleSection">- <b>SAF TOC group name</b> is a term used for navigation in the table of contents of SAF documentation. Do not use it in "ignored groups" cells.</p>
         <p class="ExampleMiddleSection">- each group consist of multiple objects, ignoring the group is taken in to account as ignoring all objects in the group (groups are parent to objects)</p>
+        <p>&#160;</p>
+        <table style="mc-table-style: url('Resources/TableStyles/NewStyle_header_grey.css');margin-left: 0;margin-right: auto;width: 990px;" class="TableStyle-NewStyle_header_grey" cellspacing="0">
+            <col style="width: 330px;" class="TableStyle-NewStyle_header_grey-Column-Column1" />
+            <col style="width: 330px;" class="TableStyle-NewStyle_header_grey-Column-Column1" />
+            <col style="width: 330px;" class="TableStyle-NewStyle_header_grey-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-NewStyle_header_grey-Head-Header1">
+                    <th class="TableStyle-NewStyle_header_grey-HeadE-Column1-Header1" style="font-size: 1em;">SAF&#160;TOC Group name</th>
+                    <th class="TableStyle-NewStyle_header_grey-HeadE-Column1-Header1" style="font-size: 1em;">Group name</th>
+                    <th class="TableStyle-NewStyle_header_grey-HeadD-Column1-Header1" style="font-size: 1em;">Object name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-NewStyle_header_grey-Body-Body1">
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;text-align: left;">Structural analysis elements</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;text-align: left;">StructuralElements</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body1" style="font-size: 9pt;text-align: left;">StructuralMaterial</td>
+                </tr>
+                <tr class="TableStyle-NewStyle_header_grey-Body-Body2">
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;text-align: left;">Structural analysis elements</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;text-align: left;">StructuralElements</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body2" style="font-size: 9pt;text-align: left;">StructuralCrossSection</td>
+                </tr>
+                <tr class="TableStyle-NewStyle_header_grey-Body-Body1">
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;text-align: left;">Structural analysis elements</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;text-align: left;">StructuralElements</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body1" style="font-size: 9pt;text-align: left;">CompositeShapeDef</td>
+                </tr>
+                <tr class="TableStyle-NewStyle_header_grey-Body-Body2">
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;text-align: left;">Structural analysis elements</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;text-align: left;">StructuralElements</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body2" style="font-size: 9pt;text-align: left;">StructuralPointConnection</td>
+                </tr>
+                <tr class="TableStyle-NewStyle_header_grey-Body-Body1">
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;text-align: left;">Structural analysis elements</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;text-align: left;">StructuralElements</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body1" style="font-size: 9pt;text-align: left;">StructuralCurveMember</td>
+                </tr>
+                <tr class="TableStyle-NewStyle_header_grey-Body-Body2">
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;text-align: left;">Structural analysis elements</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;text-align: left;">StructuralElements</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body2" style="font-size: 9pt;text-align: left;">StructuralCurveEdge</td>
+                </tr>
+                <tr class="TableStyle-NewStyle_header_grey-Body-Body1">
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;text-align: left;">Structural analysis elements</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;text-align: left;">StructuralElements</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body1" style="font-size: 9pt;text-align: left;">StructuralSurfaceMember</td>
+                </tr>
+                <tr class="TableStyle-NewStyle_header_grey-Body-Body2">
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;text-align: left;">Structural analysis elements</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;text-align: left;">StructuralElements</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body2" style="font-size: 9pt;text-align: left;">StructuralSurfaceMemberOpening</td>
+                </tr>
+                <tr class="TableStyle-NewStyle_header_grey-Body-Body1">
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;text-align: left;">Structural analysis elements</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;text-align: left;">StructuralElements</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body1" style="font-size: 9pt;text-align: left;">StructuralSurfaceMemberRegion</td>
+                </tr>
+                <tr class="TableStyle-NewStyle_header_grey-Body-Body2">
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;text-align: left;">Structural analysis elements</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;text-align: left;">StructuralElements</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body2" style="font-size: 9pt;text-align: left;">StructuralCurveMemberRib</td>
+                </tr>
+                <tr class="TableStyle-NewStyle_header_grey-Body-Body1">
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;text-align: left;">Supports and hinges</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;text-align: left;">SupportsAndHinges</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body1" style="font-size: 9pt;text-align: left;">StructuralPointSupport</td>
+                </tr>
+                <tr class="TableStyle-NewStyle_header_grey-Body-Body2">
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;text-align: left;">Supports and hinges</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;text-align: left;">SupportsAndHinges</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body2" style="font-size: 9pt;text-align: left;">StructuralEdgeConnection</td>
+                </tr>
+                <tr class="TableStyle-NewStyle_header_grey-Body-Body1">
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;text-align: left;">Supports and hinges</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;text-align: left;">SupportsAndHinges</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body1" style="font-size: 9pt;text-align: left;">StructuralCurveConnection</td>
+                </tr>
+                <tr class="TableStyle-NewStyle_header_grey-Body-Body2">
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;text-align: left;">Supports and hinges</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;text-align: left;">SupportsAndHinges</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body2" style="font-size: 9pt;text-align: left;">
+                        <p>StructuralSurfaceConnection</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-NewStyle_header_grey-Body-Body1">
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;text-align: left;">Supports and hinges</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;text-align: left;">SupportsAndHinges</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body1" style="font-size: 9pt;text-align: left;">
+                        <p>RelConnectsStructuralMember</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-NewStyle_header_grey-Body-Body2">
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;text-align: left;">Supports and hinges</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;text-align: left;">SupportsAndHinges</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body2" style="font-size: 9pt;text-align: left;">RelConnectsRigidLink</td>
+                </tr>
+                <tr class="TableStyle-NewStyle_header_grey-Body-Body1">
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;text-align: left;">Supports and hinges</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;text-align: left;">SupportsAndHinges</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body1" style="font-size: 9pt;text-align: left;">RelConnectsRigidMember</td>
+                </tr>
+                <tr class="TableStyle-NewStyle_header_grey-Body-Body2">
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;text-align: left;">Supports and hinges</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;text-align: left;">SupportsAndHinges</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body2" style="font-size: 9pt;text-align: left;">RelConnectsSurfaceEdge</td>
+                </tr>
+                <tr class="TableStyle-NewStyle_header_grey-Body-Body1">
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;text-align: left;">Loads</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;text-align: left;">StructuralLoad</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body1" style="font-size: 9pt;text-align: left;">StructuralLoadGroup</td>
+                </tr>
+                <tr class="TableStyle-NewStyle_header_grey-Body-Body2">
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;text-align: left;">Loads</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;text-align: left;">StructuralLoad</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body2" style="font-size: 9pt;text-align: left;">StructuralLoadCase</td>
+                </tr>
+                <tr class="TableStyle-NewStyle_header_grey-Body-Body1">
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;text-align: left;">Loads</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;text-align: left;">StructuralLoad</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body1" style="font-size: 9pt;text-align: left;">StructuralLoadCombination</td>
+                </tr>
+                <tr class="TableStyle-NewStyle_header_grey-Body-Body2">
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;text-align: left;">Loads</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;text-align: left;">StructuralLoad</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body2" style="font-size: 9pt;text-align: left;">StructuralPointAction</td>
+                </tr>
+                <tr class="TableStyle-NewStyle_header_grey-Body-Body1">
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;text-align: left;">Loads</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;text-align: left;">StructuralLoad</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body1" style="font-size: 9pt;text-align: left;">StructuralPointActionFree</td>
+                </tr>
+                <tr class="TableStyle-NewStyle_header_grey-Body-Body2">
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;text-align: left;">Loads</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;text-align: left;">StructuralLoad</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body2" style="font-size: 9pt;text-align: left;">StructuralCurveAction</td>
+                </tr>
+                <tr class="TableStyle-NewStyle_header_grey-Body-Body1">
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;text-align: left;">Loads</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;text-align: left;">StructuralLoad</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body1" style="font-size: 9pt;text-align: left;">StructuralCurveActionFree</td>
+                </tr>
+                <tr class="TableStyle-NewStyle_header_grey-Body-Body2">
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;text-align: left;">Loads</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;text-align: left;">StructuralLoad</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body2" style="font-size: 9pt;text-align: left;">StructuralSurfaceAction</td>
+                </tr>
+                <tr class="TableStyle-NewStyle_header_grey-Body-Body1">
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;text-align: left;">Loads</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;text-align: left;">StructuralLoad</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body1" style="font-size: 9pt;text-align: left;">StructuralSurfaceActionFree</td>
+                </tr>
+                <tr class="TableStyle-NewStyle_header_grey-Body-Body2">
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;text-align: left;">Loads</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;text-align: left;">StructuralLoad</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body2" style="font-size: 9pt;text-align: left;">StructuralSurfaceActionThermal</td>
+                </tr>
+                <tr class="TableStyle-NewStyle_header_grey-Body-Body1">
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;text-align: left;">Loads</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;text-align: left;">StructuralLoad</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body1" style="font-size: 9pt;text-align: left;">StructuralPointMoment</td>
+                </tr>
+                <tr class="TableStyle-NewStyle_header_grey-Body-Body2">
+                    <td class="TableStyle-NewStyle_header_grey-BodyB-Column1-Body2" style="font-size: 9pt;text-align: left;">Loads</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyB-Column1-Body2" style="font-size: 9pt;text-align: left;">StructuralLoad</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyA-Column1-Body2" style="font-size: 9pt;text-align: left;">StructuralCurveMoment</td>
+                </tr>
+            </tbody>
+        </table>
         <p>&#160;</p><iframe width="1147" height="300" frameborder="0" src="https://bit.ly/2V9eIae"></iframe>
         <p>&#160;</p>
     </body>

@@ -23,6 +23,7 @@ mcTableStyle
 	border-top-right-radius: 0px;
 	border-bottom-right-radius: 0px;
 	border-bottom-left-radius: 0px;
+	border-spacing-x: 6;
 }
 
 mcTableColumnStyle
@@ -115,7 +116,7 @@ mcTableBodyStyle
 	border-top-right-radius: 0px;
 	border-bottom-right-radius: 0px;
 	border-bottom-left-radius: 0px;
-	border-spacing: 0px 0px;
+	border-spacing: 6px 0px;
 }
 
 .TableStyle-NewStyle-Column-Column1
@@ -134,7 +135,7 @@ mcTableBodyStyle
 	font-family: 'Century Gothic';
 	font-weight: normal;
 	vertical-align: middle;
-	background-color: #0f486e;
+	background-color: #7290a3;
 	padding-left: 4px;
 	padding-right: 4px;
 	padding-top: 4px;
@@ -157,7 +158,7 @@ mcTableBodyStyle
 	font-family: 'Century Gothic';
 	font-weight: normal;
 	vertical-align: middle;
-	background-color: #0f486e;
+	background-color: #7290a3;
 	padding-left: 4px;
 	padding-right: 4px;
 	padding-top: 4px;
@@ -180,7 +181,7 @@ mcTableBodyStyle
 	font-family: 'Century Gothic';
 	font-weight: normal;
 	vertical-align: middle;
-	background-color: #0f486e;
+	background-color: #7290a3;
 	padding-left: 4px;
 	padding-right: 4px;
 	padding-top: 4px;
@@ -206,7 +207,7 @@ mcTableBodyStyle
 	font-family: 'Century Gothic';
 	font-weight: normal;
 	vertical-align: middle;
-	background-color: #0f486e;
+	background-color: #7290a3;
 	padding-left: 4px;
 	padding-right: 4px;
 	padding-top: 4px;
@@ -226,7 +227,7 @@ mcTableBodyStyle
 	font-family: 'Century Gothic';
 	font-weight: normal;
 	vertical-align: middle;
-	background-color: #0f486e;
+	background-color: #7290a3;
 	padding-left: 4px;
 	padding-right: 4px;
 	padding-top: 4px;
@@ -249,7 +250,7 @@ mcTableBodyStyle
 	font-family: 'Century Gothic';
 	font-weight: normal;
 	vertical-align: middle;
-	background-color: #0f486e;
+	background-color: #7290a3;
 	padding-left: 4px;
 	padding-right: 4px;
 	padding-top: 4px;
@@ -272,7 +273,7 @@ mcTableBodyStyle
 	font-family: 'Century Gothic';
 	font-weight: normal;
 	vertical-align: middle;
-	background-color: #0f486e;
+	background-color: #7290a3;
 	padding-left: 4px;
 	padding-right: 4px;
 	padding-top: 4px;
@@ -292,7 +293,7 @@ mcTableBodyStyle
 	font-family: 'Century Gothic';
 	font-weight: normal;
 	vertical-align: middle;
-	background-color: #0f486e;
+	background-color: #7290a3;
 	padding-left: 4px;
 	padding-right: 4px;
 	padding-top: 4px;
@@ -312,7 +313,7 @@ mcTableBodyStyle
 	font-family: 'Century Gothic';
 	font-weight: normal;
 	vertical-align: middle;
-	background-color: #0f486e;
+	background-color: #7290a3;
 	padding-left: 4px;
 	padding-right: 4px;
 	padding-top: 4px;
