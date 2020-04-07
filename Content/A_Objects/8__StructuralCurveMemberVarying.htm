@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="4412" MadCap:lastWidth="1655">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="4868" MadCap:lastWidth="1655">
     <head>
         <link href="../Resources/TableStyles/NewStyle.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -131,9 +131,15 @@ Sum of all values per line has to be equal to 1,0.<br /><b>#</b> means indexing 
                     <td class="TableStyle-NewStyle-BodyB-Column1-Body1" style="font-size: 9pt;">Centre</td>
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyA-Column1-Body1">
                         <p>Alignment of each segment (span) can be defined here.</p>
-                        <p>There is a slight difference of outcome for an alignment of prismatic (one CSS or two same CSS in pair) and variable beam (two different CSS in pair).<br /><br />Prismatic</p>
-                        <p>
-                            <br /><b>#</b> means indexing of the Alignment, e.g.  Alignment 1, Alignment 2, … Alignment 99. It depends on how many spans are defined in the arbitrary definition.</p>
+                        <p><b>First span:</b>
+                        </p>
+                        <p><b>Centre</b> - In plan view as well as in side view the midline of the 1D member remains straight and horizontal. Both left and right surface are inclined to allow the cross-section change its width. The centre line of the 1D member (i.e. the centroid axis) of the 1D member remains straight. Both top and bottom surface are symmetrically inclined to allow the cross-section change its height.</p>
+                        <p><b>Top</b> - The top surface of the 1D member remains flat and horizontal. The bottom surface is inclined in order to provide for the change of the height. Top surface is in direction of vertical axis of CSS.</p>
+                        <p><b>Bottom</b> - The bottom surface of the 1D member remains flat and horizontal. The top surface is inclined in order to provide for the change of the height. Bottom surface is in opposite direction of vertical axis of CSS.</p>
+                        <p><b>Left</b> - The left surface of the 1D member remains flat and horizontal. The right surface is inclined in order to provide for the change of the width. Left surface is in direction of horizontal axis of CSS.</p>
+                        <p><b>Right</b> - The right surface of the 1D member remains flat and horizontal. The left surface is inclined in order to provide for the change of the width. Right surface is in opposite direction of horizontal axis of CSS.</p>
+                        <p><b>Other than first span:</b>Same rules applies with respect to previous span. See pictures in notes section.</p>
+                        <p><b>#</b> means indexing of the Alignment, e.g.  Alignment 1, Alignment 2, … Alignment 99. It depends on how many spans are defined in the arbitrary definition.</p>
                     </td>
                 </tr>
             </tbody>
@@ -150,6 +156,8 @@ Sum of all values per line has to be equal to 1,0.<br /><b>#</b> means indexing 
             <img src="../Resources/Images/Beam_Alignment_Side_left-left.png" style="margin-left: 2cm;width: 601px;height: 261px;" />
             <br />
             <img src="../Resources/Images/Beam_Alignment_Side_right-right.png" style="margin-left: 2cm;width: 601px;height: 261px;" />
+            <br />
+            <img src="../Resources/Images/Beam_Alignment_Side_top-bottom.png" style="margin-left: 2cm;width: 603px;height: 219px;" />
         </p>
         <p>&#160;</p><iframe width="1147" height="300" frameborder="0" src="https://scia.sharepoint.com/:x:/s/Calatrava/EcqFVPEWjUJKh11LK547EbgBI2s93In7jcB2EzyaBKBhFQ?e=NUpWOE"></iframe>
         <p>&#160;</p>
