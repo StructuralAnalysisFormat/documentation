@@ -32,6 +32,9 @@
       Title="StructuralCurveMember"
       Link="/Content/A_Objects/7_StructuralCurveMember.htm" />
     <TocEntry
+      Title="StructuralCurveMemberVarying"
+      Link="/Content/A_Objects/8__StructuralCurveMemberVarying.htm" />
+    <TocEntry
       Title="StructuralCurveMemberRib"
       Link="/Content/A_Objects/25_StructuralCurveMemberRib.htm" />
     <TocEntry
