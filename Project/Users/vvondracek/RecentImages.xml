@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UrlList>
+    <Url Source="Resources/Images/Beam_Alignment_Side_right-right.png" />
+    <Url Source="Resources/Images/Beam_Alignment_Side_left-left.png" />
+    <Url Source="Resources/Images/Beam_Alignment_Side_bot-bot.png" />
+    <Url Source="Resources/Images/Beam_Alignment_Plan+Side_Centre.png" />
+    <Url Source="Resources/Images/Beam_Alignment_Side_top-top.png" />
+    <Url Source="Resources/Images/Beam_Alignment_Plan_Centre.gif" />
+    <Url Source="Resources/Images/StructuralCurveMemberVarying_5.png" />
+    <Url Source="Resources/Images/StructuralCurveMemberVarying_3.png" />
+    <Url Source="Resources/Images/CSS AlignmentRight.png" />
+    <Url Source="Resources/Images/CSS AlignmentLeft.png" />
+    <Url Source="Resources/Images/CSS AlignmentBottom.png" />
+    <Url Source="Resources/Images/CSS AlignmentTop.png" />
+    <Url Source="Resources/Images/CSS AlignmentCentre.png" />
+    <Url Source="Resources/Images/CSS AlignmentXaxis.png" />
+    <Url Source="Resources/Images/StructuralCurveMemberVarying_1.png" />
+    <Url Source="Resources/Images/StructuralCurveMemberVarying_2.png" />
+</UrlList>
