@@ -45,7 +45,10 @@
       Link="/Content/A_Objects/9_StructuralSurfaceMemberOpening.htm" />
     <TocEntry
       Title="StructuralSurfaceMemberRegion"
-      Link="/Content/A_Objects/10_StructuralSurfaceMemberRegion.htm" />
+      Link="/Content/A_Objects/10_StructuralSurfaceMemberRegion.htm"></TocEntry>
+    <TocEntry
+      Title="StructuralStorey"
+      Link="/Content/A_Objects/35_StructuralStorey.htm" />
   </TocEntry>
   <TocEntry
     Title="Supports and hinges">

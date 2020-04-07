@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Images/StructuralStorey_2.png" />
+    <Url Source="Resources/Images/StructuralStorey_1.png" />
     <Url Source="Resources/Images/Beam_Alignment_Side_top-bottom.png" />
     <Url Source="Resources/Images/Beam_Alignment_Side_right-right.png" />
     <Url Source="Resources/Images/Beam_Alignment_Side_left-left.png" />
