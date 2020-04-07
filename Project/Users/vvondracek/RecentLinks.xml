@@ -3,4 +3,7 @@
     <Dialog Name="B3.XmlMdiEditorKit.ImageGeneralDialogPage">
         <Link Value="E:\_Repos\Help\SAF\Content\Resources\Images\StructuralStorey_2.png" />
     </Dialog>
+    <Dialog Name="B3.XmlTextKit.InsertHyperlinkDialog">
+        <Link Value="E:\_Repos\Help\SAF\Content\A_Objects\8__StructuralCurveMemberVarying.htm" />
+    </Dialog>
 </RecentLinks>
