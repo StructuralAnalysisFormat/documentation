@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="7134" MadCap:lastWidth="2051" MadCap:ignoredWords="StructuralCurveConnection;StructuralPointAction;StructuralSurfaceActionFree;StructuralLoadCombination;StructuralCurveMoment;StructuralCurveActionThermal;StructuralModel">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="9455" MadCap:lastWidth="1138" MadCap:ignoredWords="StructuralCurveConnection;StructuralPointAction;StructuralSurfaceActionFree;StructuralLoadCombination;StructuralCurveMoment;StructuralCurveActionThermal;StructuralModel">
     <head>
     </head>
     <body style="font-family: 'Century Gothic';font-size: 11pt;">
         <p style="font-size: 18pt;text-decoration: none;">Structural Analysis Format (SAF)</p>
-        <p style="font-size: 18pt; text-decoration: none;"><span style="font-size: 16pt;">Version 1.0.4</span>
+        <p style="font-size: 18pt; text-decoration: none;"><span style="font-size: 16pt;">Version 1.0.5</span>
         </p>
         <p>Welcome to the SAF website.</p>
         <p>SAF is a global format for the exchange data from different analysis software via excel format in the structural engineering discipline.</p>
@@ -12,6 +12,94 @@
         <p>Go to <a href="1_Introduction.htm">Introduction</a> or to the chapters in the menu on the left side.</p>
         <hr />
         <p style="font-size: 18pt;text-decoration: none;">Release notes</p>
+        <p style="font-size: 18pt; text-decoration: none;"><span style="font-size: 14pt;">14.04.2020 - Version 1.0.5</span>
+        </p>
+        <p>In version 1.0.5, four major additions were added</p>
+        <p>- "Parent ID" for <a href="A_Objects/7_StructuralCurveMember.htm">StructuralCurveMember</a> and <a href="A_Objects/8_StructuralSurfaceMember.htm">StructuralSurfaceMember</a></p>
+        <p>- new object <a href="A_Objects/8__StructuralCurveMemberVarying.htm">StructuralCurveMemberVarying</a> to define tapered, arbitrary, haunch beams</p>
+        <p>- new object <a href="A_Objects/35_StructuralStorey.htm">StructuralStorey</a> to define storey levels</p>
+        <p>- new enum describing cross section LCS type in <a href="A_Objects/4_StructuralCrossSection.htm">StructuralCrossSection</a></p>
+        <p>&#160;</p>
+        <p>New objects:</p>
+        <p><a href="A_Objects/8__StructuralCurveMemberVarying.htm">StructuralCurveMemberVarying</a>
+        </p>
+        <p>- New object for description tapered, arbitrary, haunch beams</p>
+        <p><a href="A_Objects/35_StructuralStorey.htm">StructuralStorey</a>
+        </p>
+        <p>- New object for description structural storey, floor levels</p>
+        <p>&#160;</p>
+        <p>Changed objects:</p>
+        <p><a href="A_Objects/32_CompositeShapeDef.htm">CompositeShapeDef</a>
+        </p>
+        <p>- Added LCS explanation</p>
+        <p><a href="3_Geometry.htm">Geometry</a>
+        </p>
+        <p>- Added SAF geometry strings column</p>
+        <p>- Edited values for bezier, added further explanation</p>
+        <p><a href="1_Introduction.htm">Introduction</a>
+        </p>
+        <p>- Added general LCS vector description</p>
+        <p>- Updated pictures (LCS is now self explaining)</p>
+        <p><a href="2_Project and model specifications.htm">Project and model specifications</a>
+        </p>
+        <p>- Added description column</p>
+        <p>- Added enum LCS of cross section</p>
+        <p>- Added RigidCross in the list of objects</p>
+        <p>- New feature for ignored groups and objects and add list of groups and objects</p>
+        <p><a href="A_Objects/14_RelConnectsStructuralMember.htm">RelConnectsStructuralMember</a>
+        </p>
+        <p>- Added definition of fully rigid connection</p>
+        <p><a href="A_Objects/4_StructuralCrossSection.htm">StructuralCrossSection</a>
+        </p>
+        <p>- Formcode is now required for manufactured cross sections</p>
+        <p>- Removed LCS of cross section enum</p>
+        <p>- Added new enum "LCS of cross section"</p>
+        <p><a href="A_Objects/19_StructuralCurveAction.htm">StructuralCurveAction</a>
+        </p>
+        <p>- Specified rel vs abs</p>
+        <p><a href="A_Objects/7_StructuralCurveMember.htm">StructuralCurveMember</a>
+        </p>
+        <p>- Added Parent ID</p>
+        <p>- LCS type "Standard" not used anymore</p>
+        <p>- Added column "Arbitrary definition" to link to <a href="A_Objects/8__StructuralCurveMemberVarying.htm">StructuralCurveMemberVarying</a></p>
+        <p>- Fixed typos</p>
+        <p><a href="A_Objects/25_StructuralCurveMemberRib.htm">StructuralCurveMemberRib</a>
+        </p>
+        <p>- Updated description column</p>
+        <p>- New picture explaining LCS of the rib</p>
+        <p>- Fixed typos</p>
+        <p><a href="A_Objects/27_StructuralCurveMoment.htm">StructuralCurveMoment</a>
+        </p>
+        <p>- Specified rel vs abs</p>
+        <p><a href="A_Objects/3_StructuralMaterial.htm">StructuralMaterial</a>
+        </p>
+        <p>- Quality and Name is recommended to set the same value</p>
+        <p><a href="A_Objects/27_StructuralCurveMoment.htm">StructuralPointAction</a>
+        </p>
+        <p>- Specified rel vs abs</p>
+        <p><a href="A_Objects/21_StructuralPointMoment.htm">StructuralPointMoment</a>
+        </p>
+        <p>- Specified rel vs abs</p>
+        <p><a href="A_Objects/31_StructuralSurfaceActionThermal.htm">StructuralSurfaceActionThermal</a>
+        </p>
+        <p>- Specified meaning of temperatures</p>
+        <p><a href="A_Objects/8_StructuralSurfaceMember.htm">StructuralSurfaceMember</a>
+        </p>
+        <p>- Added Parent ID column</p>
+        <p>- Fixed typos</p>
+        <p><a href="A_Objects/9_StructuralSurfaceMemberOpening.htm">StructuralSurfaceMemberOpening</a>
+        </p>
+        <p>- Added all supported geometries</p>
+        <p><a href="A_Objects/10_StructuralSurfaceMemberRegion.htm">StructuralSurfaceMemberRegion</a>
+        </p>
+        <p>- Fixed typos</p>
+        <p><a href="A_Objects/10_StructuralSurfaceMemberRegion.htm">StructuralSurfaceMemberRegion</a>
+        </p>
+        <p>- Fixed typos</p>
+        <p><a href="Annexes/Supported shapes of parametric cross-section.htm">Supported shapes of parametric cross section</a>
+        </p>
+        <p>- Added missing parameter "s" for I Section with haunch Asymmetric</p>
+        <p>&#160;</p>
         <p style="font-size: 18pt; text-decoration: none;"><span style="font-size: 14pt;">10.10.2019 - Version 1.0.4</span>
         </p>
         <p>In version 1.0.4, "Id" row was added to all supported objects.</p>
