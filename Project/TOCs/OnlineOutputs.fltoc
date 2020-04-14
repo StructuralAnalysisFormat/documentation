@@ -143,4 +143,7 @@
       Title="Supported design properties of material "
       Link="/Content/Annexes/Supported design properties of material .htm" />
   </TocEntry>
+  <TocEntry
+    Title="Release notes"
+    Link="/Content/Startup page.htm"></TocEntry>
 </CatapultToc>
