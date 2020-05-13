@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="3203" MadCap:lastWidth="1660">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="3205" MadCap:lastWidth="1502">
     <head>
         <link href="../Resources/TableStyles/NewStyle.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body style="font-family: 'Century Gothic';font-size: 11pt;">
         <p style="font-size: 18pt;text-decoration: none;">Formcodes</p>
-        <p>The shape of the cross-section is uniquely identified by a so called Formcode. The Formcode defines the shape, the parameters which describe the shape and in some cases also additional parameters like distance between bolt holes, unit warping ordinates etc.</p>
-        <p>&#160;</p>
-        <p class="ExampleMiddleSection">Note: </p>
-        <p class="ExampleMiddleSection">- "<b>Profile orientation in library</b>" defines formcode of manufactured cross-section. Together with the attribute "<b>LCS of cross-section</b>" from the sheet <a href="../2_Project and model specifications.htm">Project and model specification</a> are defining the exact orientation of cross-section in the model. This is important especially for the cross-section asymmetrical around vertical axis.</p>
+        <p>Formcode is defining the shape of cross-section and how it is oriented according to used LCS. Due to defining the formcode for CSS, exchange of SAF files between applications that are differently handling LCS is possible.</p>
+        <p class="ExampleMiddleSection">Notes: </p>
+        <p class="ExampleMiddleSection">Formcode of manufactured cross-section, together with the attribute "<b>LCS of cross-section</b>" from the sheet <a href="../2_Project and model specifications.htm">Project and model specification</a> is defining the exact orientation of cross-section in the model. </p>
+        <p class="ExampleMiddleSection">Formocode set to "<b>0</b>" means that receiving application won't do any action ensuring the proper positioning of CSS.</p>
         <p>&#160;</p>
         <p style="font-size: 14pt;">Steel rolled profiles types of formcodes</p>
         <table style="mc-table-style: url('../Resources/TableStyles/NewStyle.css');" class="TableStyle-NewStyle" cellspacing="6">
@@ -29,7 +29,7 @@
                         <p style="padding-left: 4px;padding-right: 4px;color: #ffffff;text-align: left;">Description</p>
                     </td>
                     <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
-                        <p style="padding-left: 4px;padding-right: 4px;color: #ffffff;text-align: left;">Profiles orientation in the library</p>
+                        <p style="padding-left: 4px;padding-right: 4px;color: #ffffff;text-align: left;">Examples of corresponding profiles</p>
                     </td>
                     <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;text-align: left;" class="TableStyle-NewStyle-BodyD-Column1-Body1">
                         <p style="padding-left: 4px;padding-right: 4px;color: #ffffff;text-align: left;">Corresponding Description ID of the profile</p>
@@ -38,7 +38,7 @@
                 <tr class="TableStyle-NewStyle-Body-Body2">
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">0</td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body2">-</td>
-                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Not used</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Provisional formcode</td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body2">-</td>
                     <td style="font-size: 9pt;text-align: left;" class="TableStyle-NewStyle-BodyD-Column1-Body2">not available</td>
                 </tr>
