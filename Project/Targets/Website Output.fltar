@@ -19,6 +19,6 @@
     CollapseMargins="true" />
   <Destinations>
     <Destination
-      Link="/Project/Destinations/AEF.fldes" />
+      Link="/Project/Destinations/DEVE.fldes" />
   </Destinations>
 </CatapultTarget>

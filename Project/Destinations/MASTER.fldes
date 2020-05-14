@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultDestination
   Version="1"
-  Comment="This is my publish destination"
+  Comment="This is my MASTER publish destination"
   Host=""
   User="MyAccountId"
   Password=""
-  Directory="\\mpulse\aefdev"
+  Directory="\\mpulse\aef"
   Port=""
-  ViewUrl="http://aefdev.scia.cz"
+  ViewUrl="http://aef.scia.cz"
   Type="file"></CatapultDestination>
