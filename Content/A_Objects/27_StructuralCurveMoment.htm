@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="3071" MadCap:lastWidth="1889">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="3082" MadCap:lastWidth="1655">
     <head>
         <link href="../Resources/TableStyles/NewStyle.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -9,7 +9,7 @@
         <p style="font-size: 15pt;">Line Moment on the beam</p>
         <p>The Line moment load models load distributed over a 1D member (<a href="7_StructuralCurveMember.htm">StructuralCurveMember</a>), 1D member Rib (<a href="25_StructuralCurveMemberRib.htm">StructuralCurveMemberRib</a>)or on a slab edge (<a href="8_StructuralSurfaceMember.htm">StructuralSurfaceMember</a>). It may be action along the whole 1D member or only on its part. It can be constant or trapezoidal, acting in three main directions X, Y, Z (global or local coordinate system).</p>
         <p>Specification in the excel:</p>
-        <table style="mc-table-style: url('../Resources/TableStyles/NewStyle.css');" class="TableStyle-NewStyle" cellspacing="0">
+        <table style="mc-table-style: url('../Resources/TableStyles/NewStyle.css');" class="TableStyle-NewStyle" cellspacing="6">
             <col style="width: 155px;" class="TableStyle-NewStyle-Column-Column1" />
             <col style="width: 181px;" class="TableStyle-NewStyle-Column-Column1" />
             <col style="width: 254px;" class="TableStyle-NewStyle-Column-Column1" />
@@ -270,12 +270,23 @@
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">Eccentricity of the moment system line in Z direction of the local coordinate system</td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body2">
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body2">Id</td>
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body2">String</td>
-                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body2">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
-                    <td class="TableStyle-NewStyle-BodyB-Column1-Body2" style="font-size: 9pt;">no</td>
-                    <td class="TableStyle-NewStyle-BodyB-Column1-Body2" style="font-size: 9pt;">-</td>
-                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyA-Column1-Body2">Unique attribute designation</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Parent ID</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">String</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">67b35d84-3d04-47aa-aa4a-dc1263982320</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">no</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">-</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">
+                        <p>Is filled for objects created be dividing curved geometry to series of straight line objects.<br /><br />Parent ID will ensure that curved edge is imported as straight parts to nonsupporting application, and back to original supporting application as curved geometry.</p>
+                        <p>To ensure successful round trip of segmented objects and their related objects, Parent ID needs to be present in both directions.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body1">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body1">Id</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body1">String</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body1">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
+                    <td class="TableStyle-NewStyle-BodyB-Column1-Body1" style="font-size: 9pt;">no</td>
+                    <td class="TableStyle-NewStyle-BodyB-Column1-Body1" style="font-size: 9pt;">-</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyA-Column1-Body1">Unique attribute designation</td>
                 </tr>
             </tbody>
         </table>
