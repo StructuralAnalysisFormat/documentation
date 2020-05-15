@@ -16,6 +16,6 @@
     GenerateGlossaryProxy="true" />
   <Destinations>
     <Destination
-      Link="/Project/Destinations/AEF.fldes" />
+      Link="/Project/Destinations/MASTER.fldes" />
   </Destinations>
 </CatapultTarget>
