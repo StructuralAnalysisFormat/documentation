@@ -3,6 +3,9 @@
   Version="1"
   conditions="">
   <TocEntry
+    Title="General"
+    Link="/Content/0_General.htm"></TocEntry>
+  <TocEntry
     Title="Introduction"
     Link="/Content/1_Introduction.htm"></TocEntry>
   <TocEntry
