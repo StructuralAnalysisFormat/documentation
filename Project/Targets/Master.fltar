@@ -8,7 +8,7 @@
   MoveOutputContentToRoot="false"
   ConditionTagExpression=""
   GetLatestBeforeCompile="true"
-  DefaultUrl="/Content/Startup page.htm">
+  DefaultUrl="/Content/0_General.htm">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
