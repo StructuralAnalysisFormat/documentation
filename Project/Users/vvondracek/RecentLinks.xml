@@ -5,6 +5,5 @@
     </Dialog>
     <Dialog Name="B3.XmlTextKit.InsertHyperlinkDialog">
         <Link Value="E:\_Repos\Help\SAF\Content\A_Objects\8_StructuralSurfaceMember.htm" />
-        <Link Value="E:\_Repos\Help\SAF\Content\2_Project and model specifications.htm" />
     </Dialog>
 </RecentLinks>
