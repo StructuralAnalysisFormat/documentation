@@ -7,5 +7,5 @@
   Password=""
   Directory="\\mpulse\aef"
   Port=""
-  ViewUrl="http://aef.scia.cz"
+  ViewUrl="saf.guide"
   Type="file"></CatapultDestination>
