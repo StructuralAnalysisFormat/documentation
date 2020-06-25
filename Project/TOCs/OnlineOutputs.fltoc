@@ -117,7 +117,10 @@
       Link="/Content/A_Objects/20_StructuralSurfaceAction.htm" />
     <TocEntry
       Title="StructuralSurfaceActionThermal"
-      Link="/Content/A_Objects/31_StructuralSurfaceActionThermal.htm" />
+      Link="/Content/A_Objects/31_StructuralSurfaceActionThermal.htm"></TocEntry>
+    <TocEntry
+      Title="StructuralCurveActionThermal"
+      Link="/Content/A_Objects/30_StructuralCurveActionThermal.htm" />
     <TocEntry
       Title="StructuralPointActionFree"
       Link="/Content/A_Objects/24_StructuralPointActionFree.htm" />
