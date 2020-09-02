@@ -129,7 +129,10 @@
       Link="/Content/A_Objects/22_StructuralCurveActionFree.htm" />
     <TocEntry
       Title="StructuralSurfaceActionFree"
-      Link="/Content/A_Objects/23_StructuralSurfaceActionFree.htm" />
+      Link="/Content/A_Objects/23_StructuralSurfaceActionFree.htm"></TocEntry>
+    <TocEntry
+      Title="StructuralSurfaceActionDistribution"
+      Link="/Content/A_Objects/36_StructuralSurfaceActionDistribution.htm" />
   </TocEntry>
   <TocEntry
     Title="Annexes">
