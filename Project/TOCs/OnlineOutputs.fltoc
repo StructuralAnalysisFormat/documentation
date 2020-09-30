@@ -52,6 +52,9 @@
     <TocEntry
       Title="StructuralStorey"
       Link="/Content/A_Objects/35_StructuralStorey.htm" />
+    <TocEntry
+      Title="StructuralProxyElement"
+      Link="/Content/A_Objects/37_StructuralProxyElement.htm" />
   </TocEntry>
   <TocEntry
     Title="Supports and hinges">
