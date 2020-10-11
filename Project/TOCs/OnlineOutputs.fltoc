@@ -158,4 +158,7 @@
   <TocEntry
     Title="Release notes"
     Link="/Content/Startup page.htm"></TocEntry>
+  <TocEntry
+    Title="Best practice"
+    Link="/Content/38_Best practice.htm"></TocEntry>
 </CatapultToc>
