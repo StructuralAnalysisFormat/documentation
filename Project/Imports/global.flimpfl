@@ -1,0 +1,582 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultProjectImport
+  AutoSync="true"
+  DeleteUnreferenced="false"
+  LastImport="2020-10-11T10:09:26.1553138+02:00">
+  <Files>
+    <Url
+      Source="file:///E:/_Repos/SAF_Global/Web Print Mobile.flprj"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Web Print Mobile.flprj" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles>
+    <Url
+      Source="../../../SAF_Global/Content/38_Best practice.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/38_Best practice.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/0_General.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/0_General.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/1_Introduction.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/1_Introduction.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/2_Project and model specifications.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/2_Project and model specifications.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/3_Geometry.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/3_Geometry.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/Startup page.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Startup page.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/StructuralProxyElement.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/StructuralProxyElement.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/Annexes/Description ID of the profile.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Annexes/Description ID of the profile.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/Annexes/Formcodes.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Annexes/Formcodes.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/Annexes/Supported design properties of material .htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Annexes/Supported design properties of material .htm" />
+    <Url
+      Source="../../../SAF_Global/Content/Annexes/Supported shapes of compound section.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Annexes/Supported shapes of compound section.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/Annexes/Supported shapes of parametric cross-section.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Annexes/Supported shapes of parametric cross-section.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/10_StructuralSurfaceMemberRegion.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/10_StructuralSurfaceMemberRegion.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/11_StructuralPointSupport.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/11_StructuralPointSupport.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/12_StructuralSurfaceConnection.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/12_StructuralSurfaceConnection.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/13_StructuralEdgeConnection.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/13_StructuralEdgeConnection.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/14_RelConnectsStructuralMember.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/14_RelConnectsStructuralMember.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/15_RelConnectsSurfaceEdge.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/15_RelConnectsSurfaceEdge.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/16_StructuralLoadGroup.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/16_StructuralLoadGroup.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/17_StructuralLoadCase.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/17_StructuralLoadCase.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/18_StructuralPointAction.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/18_StructuralPointAction.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/19_StructuralCurveAction.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/19_StructuralCurveAction.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/20_StructuralSurfaceAction.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/20_StructuralSurfaceAction.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/21_StructuralPointMoment.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/21_StructuralPointMoment.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/22_StructuralCurveActionFree.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/22_StructuralCurveActionFree.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/23_StructuralSurfaceActionFree.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/23_StructuralSurfaceActionFree.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/24_StructuralPointActionFree.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/24_StructuralPointActionFree.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/25_StructuralCurveMemberRib.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/25_StructuralCurveMemberRib.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/26_StructuralCurveConnection.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/26_StructuralCurveConnection.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/27_StructuralCurveMoment.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/27_StructuralCurveMoment.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/28_RelConnectsRigidLink.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/28_RelConnectsRigidLink.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/29_StructuralLoadCombination.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/29_StructuralLoadCombination.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/30_StructuralCurveActionThermal.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/30_StructuralCurveActionThermal.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/31_StructuralSurfaceActionThermal.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/31_StructuralSurfaceActionThermal.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/32_CompositeShapeDef.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/32_CompositeShapeDef.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/33_RelConnectsRigidCross.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/33_RelConnectsRigidCross.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/34_RelConnectsRigidMember.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/34_RelConnectsRigidMember.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/35_StructuralStorey.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/35_StructuralStorey.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/36_StructuralSurfaceActionDistribution.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/36_StructuralSurfaceActionDistribution.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/37_StructuralProxyElement.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/37_StructuralProxyElement.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/3_StructuralMaterial.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/3_StructuralMaterial.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/4_StructuralCrossSection.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/4_StructuralCrossSection.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/5_StructuralPointConnection.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/5_StructuralPointConnection.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/6_StructuralCurveEdge.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/6_StructuralCurveEdge.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/7_StructuralCurveMember.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/7_StructuralCurveMember.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/8_StructuralSurfaceMember.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/8_StructuralSurfaceMember.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/8__StructuralCurveMemberVarying.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/8__StructuralCurveMemberVarying.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/9_StructuralSurfaceMemberOpening.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/9_StructuralSurfaceMemberOpening.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/B_Extra Topics/Extra Topic 1.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/B_Extra Topics/Extra Topic 1.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/B_Extra Topics/Extra Topic 2.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/B_Extra Topics/Extra Topic 2.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/B_Extra Topics/Extra Topic 3.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/B_Extra Topics/Extra Topic 3.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/B_Extra Topics/Extra Topic 4.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/B_Extra Topics/Extra Topic 4.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/C_Other Topics/Other Topic 1.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/C_Other Topics/Other Topic 1.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/C_Other Topics/Other Topic 2.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/C_Other Topics/Other Topic 2.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/C_Other Topics/Other Topic 3.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/C_Other Topics/Other Topic 3.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/C_Other Topics/Other Topic 4.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/C_Other Topics/Other Topic 4.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/Print Only Topics/Copyright.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Print Only Topics/Copyright.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/Print Only Topics/PDF Guide A Title.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Print Only Topics/PDF Guide A Title.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/Print Only Topics/PDG Guide B Title.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Print Only Topics/PDG Guide B Title.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/Print Only Topics/PrintGlossary.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Print Only Topics/PrintGlossary.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/Print Only Topics/PrintIndex.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Print Only Topics/PrintIndex.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/Print Only Topics/PrintTOC.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Print Only Topics/PrintTOC.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/Print Only Topics/Table.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Print Only Topics/Table.htm" />
+  </CollectedSourceFiles>
+  <SkippedSourceFiles>
+    <Url
+      Source="../../../SAF_Global/Content/0_General.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/0_General.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/1_Introduction.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/1_Introduction.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/2_Project and model specifications.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/2_Project and model specifications.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/3_Geometry.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/3_Geometry.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/Startup page.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Startup page.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/StructuralProxyElement.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/StructuralProxyElement.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/Annexes/Description ID of the profile.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Annexes/Description ID of the profile.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/Annexes/Formcodes.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Annexes/Formcodes.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/Annexes/Supported design properties of material .htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Annexes/Supported design properties of material .htm" />
+    <Url
+      Source="../../../SAF_Global/Content/Annexes/Supported shapes of compound section.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Annexes/Supported shapes of compound section.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/Annexes/Supported shapes of parametric cross-section.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Annexes/Supported shapes of parametric cross-section.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/10_StructuralSurfaceMemberRegion.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/10_StructuralSurfaceMemberRegion.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/11_StructuralPointSupport.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/11_StructuralPointSupport.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/12_StructuralSurfaceConnection.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/12_StructuralSurfaceConnection.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/13_StructuralEdgeConnection.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/13_StructuralEdgeConnection.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/14_RelConnectsStructuralMember.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/14_RelConnectsStructuralMember.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/15_RelConnectsSurfaceEdge.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/15_RelConnectsSurfaceEdge.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/16_StructuralLoadGroup.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/16_StructuralLoadGroup.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/17_StructuralLoadCase.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/17_StructuralLoadCase.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/18_StructuralPointAction.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/18_StructuralPointAction.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/19_StructuralCurveAction.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/19_StructuralCurveAction.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/20_StructuralSurfaceAction.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/20_StructuralSurfaceAction.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/21_StructuralPointMoment.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/21_StructuralPointMoment.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/22_StructuralCurveActionFree.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/22_StructuralCurveActionFree.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/23_StructuralSurfaceActionFree.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/23_StructuralSurfaceActionFree.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/24_StructuralPointActionFree.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/24_StructuralPointActionFree.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/25_StructuralCurveMemberRib.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/25_StructuralCurveMemberRib.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/26_StructuralCurveConnection.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/26_StructuralCurveConnection.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/27_StructuralCurveMoment.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/27_StructuralCurveMoment.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/28_RelConnectsRigidLink.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/28_RelConnectsRigidLink.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/29_StructuralLoadCombination.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/29_StructuralLoadCombination.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/30_StructuralCurveActionThermal.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/30_StructuralCurveActionThermal.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/31_StructuralSurfaceActionThermal.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/31_StructuralSurfaceActionThermal.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/32_CompositeShapeDef.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/32_CompositeShapeDef.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/33_RelConnectsRigidCross.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/33_RelConnectsRigidCross.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/34_RelConnectsRigidMember.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/34_RelConnectsRigidMember.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/35_StructuralStorey.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/35_StructuralStorey.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/36_StructuralSurfaceActionDistribution.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/36_StructuralSurfaceActionDistribution.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/37_StructuralProxyElement.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/37_StructuralProxyElement.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/3_StructuralMaterial.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/3_StructuralMaterial.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/4_StructuralCrossSection.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/4_StructuralCrossSection.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/5_StructuralPointConnection.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/5_StructuralPointConnection.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/6_StructuralCurveEdge.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/6_StructuralCurveEdge.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/7_StructuralCurveMember.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/7_StructuralCurveMember.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/8_StructuralSurfaceMember.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/8_StructuralSurfaceMember.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/8__StructuralCurveMemberVarying.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/8__StructuralCurveMemberVarying.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/A_Objects/9_StructuralSurfaceMemberOpening.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/A_Objects/9_StructuralSurfaceMemberOpening.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/B_Extra Topics/Extra Topic 1.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/B_Extra Topics/Extra Topic 1.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/B_Extra Topics/Extra Topic 2.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/B_Extra Topics/Extra Topic 2.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/B_Extra Topics/Extra Topic 3.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/B_Extra Topics/Extra Topic 3.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/B_Extra Topics/Extra Topic 4.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/B_Extra Topics/Extra Topic 4.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/C_Other Topics/Other Topic 1.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/C_Other Topics/Other Topic 1.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/C_Other Topics/Other Topic 2.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/C_Other Topics/Other Topic 2.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/C_Other Topics/Other Topic 3.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/C_Other Topics/Other Topic 3.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/C_Other Topics/Other Topic 4.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/C_Other Topics/Other Topic 4.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/Print Only Topics/Copyright.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Print Only Topics/Copyright.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/Print Only Topics/PDF Guide A Title.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Print Only Topics/PDF Guide A Title.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/Print Only Topics/PDG Guide B Title.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Print Only Topics/PDG Guide B Title.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/Print Only Topics/PrintGlossary.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Print Only Topics/PrintGlossary.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/Print Only Topics/PrintIndex.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Print Only Topics/PrintIndex.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/Print Only Topics/PrintTOC.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Print Only Topics/PrintTOC.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/Print Only Topics/Table.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Print Only Topics/Table.htm" />
+  </SkippedSourceFiles>
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/38_Best practice.htm"
+      TimeStamp="10/9/2020 11:06:46 AM" />
+    <Url
+      Source="../../Content/0_General.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/1_Introduction.htm"
+      TimeStamp="10/9/2020 11:06:46 AM" />
+    <Url
+      Source="../../Content/2_Project and model specifications.htm"
+      TimeStamp="10/9/2020 11:06:46 AM" />
+    <Url
+      Source="../../Content/3_Geometry.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/Startup page.htm"
+      TimeStamp="10/9/2020 11:06:46 AM" />
+    <Url
+      Source="../../Content/StructuralProxyElement.htm"
+      TimeStamp="10/9/2020 11:06:46 AM" />
+    <Url
+      Source="../../Content/Annexes/Description ID of the profile.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/Annexes/Formcodes.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/Annexes/Supported design properties of material .htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/Annexes/Supported shapes of compound section.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/Annexes/Supported shapes of parametric cross-section.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/A_Objects/10_StructuralSurfaceMemberRegion.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/A_Objects/11_StructuralPointSupport.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/A_Objects/12_StructuralSurfaceConnection.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/A_Objects/13_StructuralEdgeConnection.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/A_Objects/14_RelConnectsStructuralMember.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/A_Objects/15_RelConnectsSurfaceEdge.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/A_Objects/16_StructuralLoadGroup.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/A_Objects/17_StructuralLoadCase.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/A_Objects/18_StructuralPointAction.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/A_Objects/19_StructuralCurveAction.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/A_Objects/20_StructuralSurfaceAction.htm"
+      TimeStamp="10/9/2020 11:06:46 AM" />
+    <Url
+      Source="../../Content/A_Objects/21_StructuralPointMoment.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/A_Objects/22_StructuralCurveActionFree.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/A_Objects/23_StructuralSurfaceActionFree.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/A_Objects/24_StructuralPointActionFree.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/A_Objects/25_StructuralCurveMemberRib.htm"
+      TimeStamp="10/9/2020 11:06:46 AM" />
+    <Url
+      Source="../../Content/A_Objects/26_StructuralCurveConnection.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/A_Objects/27_StructuralCurveMoment.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/A_Objects/28_RelConnectsRigidLink.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/A_Objects/29_StructuralLoadCombination.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/A_Objects/30_StructuralCurveActionThermal.htm"
+      TimeStamp="10/9/2020 11:06:46 AM" />
+    <Url
+      Source="../../Content/A_Objects/31_StructuralSurfaceActionThermal.htm"
+      TimeStamp="10/9/2020 11:06:46 AM" />
+    <Url
+      Source="../../Content/A_Objects/32_CompositeShapeDef.htm"
+      TimeStamp="10/9/2020 11:06:46 AM" />
+    <Url
+      Source="../../Content/A_Objects/33_RelConnectsRigidCross.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/A_Objects/34_RelConnectsRigidMember.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/A_Objects/35_StructuralStorey.htm"
+      TimeStamp="10/9/2020 11:06:46 AM" />
+    <Url
+      Source="../../Content/A_Objects/36_StructuralSurfaceActionDistribution.htm"
+      TimeStamp="10/9/2020 11:06:46 AM" />
+    <Url
+      Source="../../Content/A_Objects/37_StructuralProxyElement.htm"
+      TimeStamp="10/9/2020 11:06:46 AM" />
+    <Url
+      Source="../../Content/A_Objects/3_StructuralMaterial.htm"
+      TimeStamp="10/9/2020 11:06:46 AM" />
+    <Url
+      Source="../../Content/A_Objects/4_StructuralCrossSection.htm"
+      TimeStamp="10/9/2020 11:06:46 AM" />
+    <Url
+      Source="../../Content/A_Objects/5_StructuralPointConnection.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/A_Objects/6_StructuralCurveEdge.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/A_Objects/7_StructuralCurveMember.htm"
+      TimeStamp="10/9/2020 11:06:46 AM" />
+    <Url
+      Source="../../Content/A_Objects/8_StructuralSurfaceMember.htm"
+      TimeStamp="10/9/2020 11:06:46 AM" />
+    <Url
+      Source="../../Content/A_Objects/8__StructuralCurveMemberVarying.htm"
+      TimeStamp="10/9/2020 11:06:46 AM" />
+    <Url
+      Source="../../Content/A_Objects/9_StructuralSurfaceMemberOpening.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/B_Extra Topics/Extra Topic 1.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/B_Extra Topics/Extra Topic 2.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/B_Extra Topics/Extra Topic 3.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/B_Extra Topics/Extra Topic 4.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/C_Other Topics/Other Topic 1.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/C_Other Topics/Other Topic 2.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/C_Other Topics/Other Topic 3.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/C_Other Topics/Other Topic 4.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/Print Only Topics/Copyright.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/Print Only Topics/PDF Guide A Title.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/Print Only Topics/PDG Guide B Title.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/Print Only Topics/PrintGlossary.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/Print Only Topics/PrintIndex.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/Print Only Topics/PrintTOC.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+    <Url
+      Source="../../Content/Print Only Topics/Table.htm"
+      TimeStamp="10/9/2020 11:04:15 AM" />
+  </GeneratedFiles>
+</CatapultProjectImport>
