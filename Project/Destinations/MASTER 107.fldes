@@ -5,7 +5,7 @@
   Host=""
   User="MyAccountId"
   Password=""
-  Directory="\\mpulse\aef"
+  Directory="\\mpulse\aef\v1.0.7"
   Port=""
-  ViewUrl="https://saf.guide"
+  ViewUrl="https://saf.guide/v1.0.7"
   Type="file"></CatapultDestination>
