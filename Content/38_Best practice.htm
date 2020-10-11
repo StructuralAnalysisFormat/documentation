@@ -1,19 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1356" MadCap:lastWidth="1125" MadCap:ignoredWords="CompositeShapeDef">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1609" MadCap:lastWidth="1116" MadCap:ignoredWords="CompositeShapeDef">
     <head>
     </head>
     <body style="font-family: 'Century Gothic';font-size: 11pt;">
         <p style="font-size: 18pt;text-decoration: none;">Best practice for SAF implementation</p>
         <hr />
-        <p>This chapter is a list of collected proved and functional approaches for SAF implementation to your application. <b>They are not obligatory but by following these rules you ensure smooth export / import of SAF file and you might avoid any un-forseen issues.</b></p>
+        <p>This chapter is a list of collected proved and functional approaches for SAF implementation to your application.</p>
+        <p> <b>They are not obligatory but by following these rules you ensure smooth export / import of SAF file and you might avoid any un-forseen issues.</b></p>
         <p>Please in case you want to:</p>
         <ul style="list-style-type: circle;">
             <li>explain any of the best practice</li>
             <li>share best practice with us</li>
             <li>challenge anything in this chapter</li>
         </ul>
-        <p>Contact us via email v.vondracek@scia.net or a.vyskocil@scia.net</p>
-        <p style="font-size: 15pt;">Header strings</p>
+        <p>Contact us via email:</p>
+        <p>v.vondracek@scia.net, a.vyskocil@scia.net</p>
+        <p>or send message directly to our MS team channel at - 99ef7709.scia.net@emea.teams.ms</p>
+        <p>&#160;</p>
+        <h2>Header strings</h2>
         <p>As everybody should follow specified header names in documentation per version, We would also recommend to:</p>
         <ul style="list-style-type: circle;">
             <li> strip all headers from blank space, dot, comma, dash etc. when importing and base your import on stripped strings</li>
@@ -21,13 +25,14 @@
             <li>ignore units information in header for import purposes, SAF should be possible to import without this information in header</li>
             <li>when exporting, include units (for better readability of end user) according to unit setting and table of units provided in <a href="2_Project and model specifications.htm">Project and model specifications</a></li>
         </ul>
-        <p style="font-size: 15pt;">Format of cells</p>
+        <p>&#160;</p>
+        <h2>Format of cells</h2>
         <p>All numerical values (doubles, integers) should be exported as "Number" format in Excel</p>
         <ul style="list-style-type: circle;">
             <li>This rule should apply also for cells which could contain more values, in a case it will have only on. <ul style="list-style-type: circle;"><li>Example: Thickness for <a href="A_Objects/8_StructuralSurfaceMember.htm">StructuralSurfaceMember</a> can contain single value in case of constant thickness type. In this case cell format should be number. In case of variable thickness type, string will be used</li></ul></li>
         </ul>
         <p>&#160;</p>
-        <p style="font-size: 15pt;">Values in cells</p>
+        <h2>Values in cells</h2>
         <p>Empty and blank cells</p>
         <ul style="list-style-type: circle;">
             <li>On export side - do not export blank cells as empty strings, use null value instead</li>
@@ -42,10 +47,13 @@
         <ul style="list-style-type: circle;">
             <li>standard separator for more values in a cell is semicolon</li>
             <li>Do not use blank space after separator</li>
-            <li>Strip all string from blank spaces</li>
+            <li>Strip all string from blank spaces<br /></li>
         </ul>
-        <p style="font-size: 15pt;">Culture invariant decimal separator</p>
-        <p style="font-size: 15pt;">Units in headers</p>
-        <p>A cross-section together with material (<a href="3_StructuralMaterial.htm">StructuralMaterial</a>) is a basic property of a 1D member. Various kinds of shapes can be defined, including steel rolled sections, timber specific cross-sections or general geometric sections. Supported shapes of cross-sections are defined in documents <a href="../Annexes/Formcodes.htm">Formcodes</a> and <a href="../Annexes/Description ID of the profile.htm">Description ID of the profile</a>, in chapter Annexes in this document.</p>
+        <p style="font-size: 15pt;">&#160;</p>
+        <h2>Culture invariant decimal separator</h2>
+        <p>On import and export side you should always use culture invariant decimal symbol - <b>dot</b> and <b>no thousands separator</b></p>
+        <h2>Units in headers</h2>
+        <p>Import or export should be based on header without unit specification. Missing unit should not block import, either its presence. It si recommended though to include unit information to header for better user read-ability of SAF file.</p>
+        <p>&#160;</p>
     </body>
 </html>
