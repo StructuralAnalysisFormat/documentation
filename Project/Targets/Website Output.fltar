@@ -17,8 +17,5 @@
   WebSafeFileExtension="png">
   <PrintedOutput
     CollapseMargins="true" />
-  <Destinations>
-    <Destination
-      Link="/Project/Destinations/DEVE.fldes" />
-  </Destinations>
+  <Destinations> </Destinations>
 </CatapultTarget>
