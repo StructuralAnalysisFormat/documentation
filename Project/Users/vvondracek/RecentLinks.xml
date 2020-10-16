@@ -1,9 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RecentLinks>
     <Dialog Name="B3.XmlMdiEditorKit.ImageGeneralDialogPage">
-        <Link Value="E:\_Repos\Help\SAF\Content\Resources\Images\StructuralStorey_2.png" />
+        <Link Value="E:\_Repos\SAF\Content\Resources\Images\model_GCS_big.jpg" />
     </Dialog>
     <Dialog Name="B3.XmlTextKit.InsertHyperlinkDialog">
-        <Link Value="E:\_Repos\Help\SAF\Content\A_Objects\8_StructuralSurfaceMember.htm" />
+        <Link Value="E:\_Repos\SAF\Content\A_Objects\37_StructuralProxyElement.htm" />
+    </Dialog>
+    <Dialog Name="B3.XmlTextKit.InsertCrossReferenceDialog">
+        <Link Value="E:\_Repos\SAF\Content\A_Objects\3_StructuralMaterial.htm" />
+    </Dialog>
+    <Dialog Name="B3.CatapultProjectUserInterfaceKit.InsertSnippetDialog">
+        <Link Value="E:\_Repos\SAF\Content\Resources\UnitsTable.flsnp" />
     </Dialog>
 </RecentLinks>
