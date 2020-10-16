@@ -7,8 +7,7 @@
   GlossaryTermConversion="marked"
   MoveOutputContentToRoot="false"
   ConditionTagExpression=""
-  GetLatestBeforeCompile="true"
-  DefaultUrl="/Content/Startup page.htm">
+  GetLatestBeforeCompile="true">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
@@ -16,6 +15,6 @@
     GenerateGlossaryProxy="true" />
   <Destinations>
     <Destination
-      Link="/Project/Destinations/DEVE 1.0.7.fldes" />
+      Link="/Project/Destinations/MASTER 110.fldes" />
   </Destinations>
 </CatapultTarget>
