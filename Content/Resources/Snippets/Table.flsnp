@@ -36,9 +36,7 @@
                         <p class="TableTextSmall">&#160;</p>
                     </td>
                     <td class="BodyD-Column1-Row1" style="text-align: center;">
-                        <p class="TableTextSmall">
-                            <img src="../Images/greencheck.png" class="ReduceButtonSize" />
-                        </p>
+                        <p class="TableTextSmall">&#160;</p>
                     </td>
                 </tr>
                 <tr class="Body-Row1">
@@ -46,19 +44,13 @@
                         <p class="TableTextEmphasis">General text for a table (paragraph style tag applied to make it bold)</p>
                     </td>
                     <td class="BodyE-Column1-Row1">
-                        <p class="TableTextCenter">
-                            <img src="../Images/greencheck.png" class="ReduceButtonSize" />
-                        </p>
+                        <p class="TableTextCenter">&#160;</p>
                     </td>
                     <td class="BodyE-Column1-Row1">
-                        <p class="TableTextCenter">
-                            <img src="../Images/greencheck.png" class="ReduceButtonSize" />
-                        </p>
+                        <p class="TableTextCenter">&#160;</p>
                     </td>
                     <td class="BodyD-Column1-Row1">
-                        <p class="TableTextCenter">
-                            <img src="../Images/greencheck.png" class="ReduceButtonSize" />
-                        </p>
+                        <p class="TableTextCenter">&#160;</p>
                     </td>
                 </tr>
                 <tr class="Body-Row1">
@@ -66,37 +58,27 @@
                         <p class="TableTextEmphasis">General text for a table (paragraph style tag applied to make it bold)</p>
                     </td>
                     <td class="BodyE-Column1-Row1" style="text-align: center;">
-                        <p class="TableTextSmall">
-                            <img src="../Images/greencheck.png" class="ReduceButtonSize" />
-                        </p>
-                    </td>
-                    <td class="BodyE-Column1-Row1" style="text-align: center;">
-                        <p class="TableTextSmall">
-                            <img src="../Images/greencheck.png" class="ReduceButtonSize" />
-                        </p>
-                    </td>
-                    <td class="BodyD-Column1-Row1" style="text-align: center;">
-                        <p class="TableTextSmall" style="text-align: center;">
-                            <img src="../Images/greencheck.png" class="ReduceButtonSize" />
-                        </p>
-                    </td>
-                </tr>
-                <tr class="Body-Row1">
-                    <td class="BodyE-Column1-Row1">
-                        <p class="TableTextEmphasis">General text for a table (paragraph style tag applied to make it bold)</p>
-                    </td>
-                    <td class="BodyE-Column1-Row1" style="text-align: center;">
-                        <p class="TableTextSmall">
-                            <img src="../Images/greencheck.png" class="ReduceButtonSize" />
-                        </p>
+                        <p class="TableTextSmall">&#160;</p>
                     </td>
                     <td class="BodyE-Column1-Row1" style="text-align: center;">
                         <p class="TableTextSmall">&#160;</p>
                     </td>
                     <td class="BodyD-Column1-Row1" style="text-align: center;">
-                        <p class="TableTextSmall">
-                            <img src="../Images/greencheck.png" class="ReduceButtonSize" />
-                        </p>
+                        <p class="TableTextSmall" style="text-align: center;">&#160;</p>
+                    </td>
+                </tr>
+                <tr class="Body-Row1">
+                    <td class="BodyE-Column1-Row1">
+                        <p class="TableTextEmphasis">General text for a table (paragraph style tag applied to make it bold)</p>
+                    </td>
+                    <td class="BodyE-Column1-Row1" style="text-align: center;">
+                        <p class="TableTextSmall">&#160;</p>
+                    </td>
+                    <td class="BodyE-Column1-Row1" style="text-align: center;">
+                        <p class="TableTextSmall">&#160;</p>
+                    </td>
+                    <td class="BodyD-Column1-Row1" style="text-align: center;">
+                        <p class="TableTextSmall">&#160;</p>
                     </td>
                 </tr>
                 <tr class="Body-Row1">
@@ -104,14 +86,10 @@
                         <p class="TableTextEmphasis">General text for a table (paragraph style tag applied to make it bold)</p>
                     </td>
                     <td class="BodyB-Column1-Row1">
-                        <p class="TableTextCenter">
-                            <img src="../Images/greencheck.png" class="ReduceButtonSize" />
-                        </p>
+                        <p class="TableTextCenter">&#160;</p>
                     </td>
                     <td class="BodyB-Column1-Row1">
-                        <p class="TableTextCenter">
-                            <img src="../Images/greencheck.png" class="ReduceButtonSize" />
-                        </p>
+                        <p class="TableTextCenter">&#160;</p>
                     </td>
                     <td class="BodyA-Column1-Row1">
                         <p class="TableTextCenter">&#160;</p>
