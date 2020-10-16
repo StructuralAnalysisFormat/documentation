@@ -19,7 +19,7 @@
                                     <MadCap:dropDownHotspot class="Footer">Follow Us</MadCap:dropDownHotspot>
                                 </MadCap:dropDownHead>
                                 <MadCap:dropDownBody>
-                                    <p style="text-align: left;margin-top: 0;"><a href="https://twitter.com/#!/MadCapDocTeam" class="Image" target="_blank"><img src="../Images/twitter.png" class="NoThumbnailHyperlinkedImage" /></a><a href="http://www.facebook.com/madcapdocteam" class="Image" target="_blank"><img src="../Images/facebook.png" class="NoThumbnailHyperlinkedImage" /></a>
+                                    <p style="text-align: left;margin-top: 0;"><a href="https://twitter.com/#!/MadCapDocTeam" class="Image" target="_blank">&#160;</a><a href="http://www.facebook.com/madcapdocteam" class="Image" target="_blank">&#160;</a>
                                     </p>
                                 </MadCap:dropDownBody>
                             </MadCap:dropDown>
@@ -28,11 +28,8 @@
                                     <MadCap:dropDownHotspot class="Footer">PDFs and Videos</MadCap:dropDownHotspot>
                                 </MadCap:dropDownHead>
                                 <MadCap:dropDownBody>
-                                    <p class="Footer2">
-                                        <img src="../Images/pdf_icon_black_background.png" class="OnlineFooterPDFIcon">
-                                        </img>&#160;<a href="http://webhelp.madcapsoftware.com/flare9/Default.htm#PDF_Guides/PDF_Guides.htm" target="_blank" class="footermasterlarge">Flare PDF Guides</a></p>
-                                    <p class="Footer2">
-                                        <img src="../Images/movie_play_black_background.png" class="OnlineFooterPDFIcon" />&#160;<a href="http://webhelp.madcapsoftware.com/flare9/Default.htm#Videos/Videos.htm" target="_blank" class="footermasterlarge">Flare Videos</a></p>
+                                    <p class="Footer2">&#160;<a href="http://webhelp.madcapsoftware.com/flare9/Default.htm#PDF_Guides/PDF_Guides.htm" target="_blank" class="footermasterlarge">Flare PDF Guides</a></p>
+                                    <p class="Footer2">&#160;<a href="http://webhelp.madcapsoftware.com/flare9/Default.htm#Videos/Videos.htm" target="_blank" class="footermasterlarge">Flare Videos</a></p>
                                 </MadCap:dropDownBody>
                             </MadCap:dropDown>
                             <MadCap:dropDown>

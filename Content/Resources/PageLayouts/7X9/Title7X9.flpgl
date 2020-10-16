@@ -7,9 +7,7 @@
             <Content>
                 <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
                     <xhtml:body>
-                        <xhtml:p>
-                            <xhtml:img xhtml:src="../../Images/FlareLogo.png" />
-                        </xhtml:p>
+                        <xhtml:p>&#160;</xhtml:p>
                     </xhtml:body>
                 </xhtml:html>
             </Content>
