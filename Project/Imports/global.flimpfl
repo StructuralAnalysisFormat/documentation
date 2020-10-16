@@ -2,7 +2,7 @@
 <CatapultProjectImport
   AutoSync="true"
   IncludePattern="*.*"
-  LastImport="2020-10-16T18:17:48.1170446+02:00">
+  LastImport="2020-10-16T19:50:55.5658426+02:00">
   <Files>
     <Url
       Source="file:///E:/_Repos/SAF_Global/Web Print Mobile.flprj"
@@ -103,6 +103,9 @@
     <Url
       Source="../../../SAF_Global/Content/Resources/Stylesheets/styles.css"
       AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/Stylesheets/styles.css" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/UnitsTable.flsnp"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/UnitsTable.flsnp" />
   </CollectedSourceFiles>
   <SkippedSourceFiles>
     <Url
@@ -371,5 +374,8 @@
     <Url
       Source="../../Content/Resources/Stylesheets/styles.css"
       TimeStamp="10/16/2020 6:13:24 PM" />
+    <Url
+      Source="../../Content/Resources/UnitsTable.flsnp"
+      TimeStamp="10/16/2020 7:49:04 PM" />
   </GeneratedFiles>
 </CatapultProjectImport>

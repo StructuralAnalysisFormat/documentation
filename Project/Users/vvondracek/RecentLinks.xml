@@ -4,6 +4,12 @@
         <Link Value="E:\_Repos\SAF\Content\Resources\Images\model_GCS_big.jpg" />
     </Dialog>
     <Dialog Name="B3.XmlTextKit.InsertHyperlinkDialog">
-        <Link Value="E:\_Repos\SAF\Content\2_Project and model specifications.htm" />
+        <Link Value="E:\_Repos\SAF\Content\A_Objects\37_StructuralProxyElement.htm" />
+    </Dialog>
+    <Dialog Name="B3.XmlTextKit.InsertCrossReferenceDialog">
+        <Link Value="E:\_Repos\SAF\Content\A_Objects\3_StructuralMaterial.htm" />
+    </Dialog>
+    <Dialog Name="B3.CatapultProjectUserInterfaceKit.InsertSnippetDialog">
+        <Link Value="E:\_Repos\SAF\Content\Resources\UnitsTable.flsnp" />
     </Dialog>
 </RecentLinks>
