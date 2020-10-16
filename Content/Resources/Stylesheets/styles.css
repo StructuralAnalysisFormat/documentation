@@ -1708,3 +1708,17 @@ MadCap|xref.IndexPageNumber
 	color: #b5cb2b;
 }
 
+p.TableObjectName
+{
+	margin-top: 8pt;
+	text-indent: 1px;
+	top: 0px;
+	margin-left: 0pt;
+	margin-right: 0px;
+	color: #000000;
+	margin-bottom: 0.8em;
+	orphans: 2;
+	widows: 2;
+	font-size: 15pt;
+}
+
