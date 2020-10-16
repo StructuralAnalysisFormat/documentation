@@ -6,4 +6,7 @@
     <Dialog Name="B3.XmlTextKit.InsertHyperlinkDialog">
         <Link Value="E:\_Repos\SAF\Content\A_Objects\37_StructuralProxyElement.htm" />
     </Dialog>
+    <Dialog Name="B3.XmlTextKit.InsertCrossReferenceDialog">
+        <Link Value="E:\_Repos\SAF\Content\UnitsTable.htm" />
+    </Dialog>
 </RecentLinks>
