@@ -2,7 +2,7 @@
 <CatapultProjectImport
   AutoSync="true"
   IncludePattern="*.htm;*.html;*.fldes;*.flsnp;*.fltar"
-  LastImport="2020-10-16T23:05:53.6064352+02:00"
+  LastImport="2020-11-02T08:05:43.2971168+01:00"
   ExcludePattern="*.fltoc">
   <Files>
     <Url
@@ -116,6 +116,33 @@
     <Url
       Source="../../../SAF_Global/Content/Resources/Snippets/Table.flsnp"
       AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/Snippets/Table.flsnp" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/Snippets/WhatsNextHeading.flsnp"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/Snippets/WhatsNextHeading.flsnp" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/Snippets/Steps/StepSnippet1.flsnp"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/Snippets/Steps/StepSnippet1.flsnp" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/Snippets/Steps/StepSnippet2.flsnp"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/Snippets/Steps/StepSnippet2.flsnp" />
+    <Url
+      Source="../../../SAF_Global/Project/Targets/PDF Guide A 7X9.fltar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/PDF Guide A 7X9.fltar" />
+    <Url
+      Source="../../../SAF_Global/Project/Targets/PDF Guide A 8_5X11.fltar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/PDF Guide A 8_5X11.fltar" />
+    <Url
+      Source="../../../SAF_Global/Project/Targets/PDF Guide B 7X9.fltar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/PDF Guide B 7X9.fltar" />
+    <Url
+      Source="../../../SAF_Global/Project/Targets/PDF Guide B 8_5X11.fltar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/PDF Guide B 8_5X11.fltar" />
+    <Url
+      Source="../../../SAF_Global/Project/Targets/Smart Phone Output.fltar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/Smart Phone Output.fltar" />
+    <Url
+      Source="../../../SAF_Global/Project/Targets/Website Output.fltar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/Website Output.fltar" />
   </CollectedSourceFiles>
   <SkippedSourceFiles>
     <Url
@@ -396,5 +423,32 @@
     <Url
       Source="../../Content/Resources/Snippets/Table.flsnp"
       TimeStamp="10/16/2020 5:34:38 PM" />
+    <Url
+      Source="../../Content/Resources/Snippets/WhatsNextHeading.flsnp"
+      TimeStamp="10/16/2020 5:32:53 PM" />
+    <Url
+      Source="../../Content/Resources/Snippets/Steps/StepSnippet1.flsnp"
+      TimeStamp="10/16/2020 5:32:53 PM" />
+    <Url
+      Source="../../Content/Resources/Snippets/Steps/StepSnippet2.flsnp"
+      TimeStamp="10/16/2020 5:32:53 PM" />
+    <Url
+      Source="../Targets/PDF Guide A 7X9.fltar"
+      TimeStamp="10/16/2020 10:29:11 PM" />
+    <Url
+      Source="../Targets/PDF Guide A 8_5X11.fltar"
+      TimeStamp="10/16/2020 10:29:17 PM" />
+    <Url
+      Source="../Targets/PDF Guide B 7X9.fltar"
+      TimeStamp="10/16/2020 10:29:23 PM" />
+    <Url
+      Source="../Targets/PDF Guide B 8_5X11.fltar"
+      TimeStamp="10/16/2020 10:29:27 PM" />
+    <Url
+      Source="../Targets/Smart Phone Output.fltar"
+      TimeStamp="10/16/2020 10:29:05 PM" />
+    <Url
+      Source="../Targets/Website Output.fltar"
+      TimeStamp="10/16/2020 10:29:05 PM" />
   </GeneratedFiles>
 </CatapultProjectImport>
