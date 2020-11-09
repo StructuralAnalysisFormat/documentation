@@ -7,8 +7,7 @@
   GlossaryTermConversion="marked"
   MoveOutputContentToRoot="false"
   ConditionTagExpression=""
-  GetLatestBeforeCompile="true"
-  DefaultUrl="/Content/0_General.htm">
+  GetLatestBeforeCompile="true">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
