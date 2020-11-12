@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="982" MadCap:lastWidth="1116" MadCap:ignoredWords="CompositeShapeDef">
+    <head>
+    </head>
+    <body style="font-family: 'Century Gothic';font-size: 11pt;">
+        <p style="font-size: 18pt;text-decoration: none;">Ideas and proposals for next SAF versions</p>
+        <hr />
+        <p>This chapter is a list of collected feedback, ideas and proposals how to improve SAF format.</p>
+        <p><b>Please note that these ideas were collected among the whole SAF community.</b>
+        </p>
+        <p>To discuss these I would encourage you to follow corresponding thread in MS teams or write an email.</p>
+        <p>If you would found any discrepancy between listed topics and your actual feedback, let us know (as misunderstandings might happen)</p>
+        <p>&#160;</p>
+        <h2>Change Load case and Load group object content</h2>
+        <p><b>Proposal</b>: Attribute Load group type Load type from Load group will be moved added and consolidated with enum attribute Load type in Load case.</p>
+        <p>We will keep Load Group object to group/sort load cases under specific group which says how the load cases in it will be combined (Together, Exclusive, Standard). You can see work in progress here: <a href="https://dev.saf.guide/LC/Default.htm">LC</a></p>
+        <p><b>Reasoning</b>: Current Load case and Load group were becoming misleading and caused confusion for implementors. Also some setting in LC could contradict LG setting.</p>
+        <p>MS teams: <a href="https://teams.microsoft.com/l/channel/19:fd0717f869b441b88bc1a8504a264f97@thread.skype/LC%2520and%2520LG%2520data%2520change?groupId=ac7791f6-bfa2-46d2-8922-3c0acd48d2b0&amp;tenantId=7ae3415a-60f6-4b09-82f6-40ee16d1a1d1"> LC and LG data change</a><br />Email to MS team thread: &lt;db4d6432.scia.net@emea.teams.ms&gt;</p>
+        <p>&#160;</p>
+        <h2>National code based loads and combination</h2>
+        <p><b>Proposal</b>: Add info about used code and national annex to Project sheet. Extend Load type to cover EC and IBC national code with annexes. Add reduction factors (based on used code) to combinations.</p>
+        <p><b>Reasoning</b>: Currently missing, might ease the exchange of load case and combination.</p>
+        <p>MS teams: <a href="https://teams.microsoft.com/l/channel/19:d1b47ceb0b934383ac9f4c3aa728d617@thread.skype/Code%2520dependent%2520LC%2520and%2520CO?groupId=ac7791f6-bfa2-46d2-8922-3c0acd48d2b0&amp;tenantId=7ae3415a-60f6-4b09-82f6-40ee16d1a1d1">Code dependent LC and CO</a><br />Email to MS team thread:  &lt;4fc987b7.scia.net@emea.teams.ms&gt;</p>
+        <p>&#160;</p>
+        <h2>Free geometry supports</h2>
+        <p><b>Proposal</b>: Extend/create support objects so it is possible to add surface and line support as free geometry objects</p>
+        <p><b>Reasoning</b>: There is a need to define internal edges or subregions if user wants to define partial support</p>
+        <p>MS teams: <a href="https://teams.microsoft.com/l/channel/19:80052e82fd664af7b2f59736573d2dbe@thread.skype/Free%2520geometry%2520supports?groupId=ac7791f6-bfa2-46d2-8922-3c0acd48d2b0&amp;tenantId=7ae3415a-60f6-4b09-82f6-40ee16d1a1d1">Free geometry supports</a><br />Email to MS team thread:  &lt;4cef7642.scia.net@emea.teams.ms&gt;</p>
+    </body>
+</html>
