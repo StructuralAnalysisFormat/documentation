@@ -2,7 +2,7 @@
 <CatapultProjectImport
   AutoSync="true"
   IncludePattern="*.htm;*.html;*.fldes;*.flsnp;*.fltar"
-  LastImport="2020-10-16T23:15:03.8022137+02:00"
+  LastImport="2020-11-13T08:40:57.8746806+01:00"
   ExcludePattern="*.fltoc">
   <Files>
     <Url
@@ -143,6 +143,12 @@
     <Url
       Source="../../../SAF_Global/Project/Targets/Website Output.fltar"
       AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/Website Output.fltar" />
+    <Url
+      Source="../../../SAF_Global/Project/Destinations/LC.fldes"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Destinations/LC.fldes" />
+    <Url
+      Source="../../../SAF_Global/Project/Targets/LC.fltar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/LC.fltar" />
   </CollectedSourceFiles>
   <SkippedSourceFiles>
     <Url
@@ -450,5 +456,11 @@
     <Url
       Source="../Targets/Website Output.fltar"
       TimeStamp="10/16/2020 10:29:05 PM" />
+    <Url
+      Source="../Destinations/LC.fldes"
+      TimeStamp="11/11/2020 3:58:51 PM" />
+    <Url
+      Source="../Targets/LC.fltar"
+      TimeStamp="11/11/2020 3:58:55 PM" />
   </GeneratedFiles>
 </CatapultProjectImport>
