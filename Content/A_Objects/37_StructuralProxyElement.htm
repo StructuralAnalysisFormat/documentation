@@ -19,7 +19,6 @@
             <col style="width: 181px;" class="TableStyle-NewStyle-Column-Column1" />
             <col style="width: 254px;" class="TableStyle-NewStyle-Column-Column1" />
             <col style="width: 254px;" class="TableStyle-NewStyle-Column-Column1" />
-            <col style="width: 254px;" class="TableStyle-NewStyle-Column-Column1" />
             <col style="width: 557px;" class="TableStyle-NewStyle-Column-Column1" />
             <tbody>
                 <tr class="TableStyle-NewStyle-Body-Body1">
@@ -38,9 +37,6 @@
                     <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
                         <p style="color: #ffffff;padding-left: 4px;padding-right: 4px;text-align: center;">Required value</p>
                     </td>
-                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
-                        <p style="color: #ffffff;padding-left: 4px;padding-right: 4px;text-align: center;">Default value</p>
-                    </td>
                     <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">
                         <p style="color: #ffffff;padding-left: 4px;padding-right: 4px;text-align: left;">Description</p>
                     </td>
@@ -52,7 +48,6 @@
                     <td style="font-size: 9pt;vertical-align: middle;text-align: center;" class="TableStyle-NewStyle-BodyE-Column1-Body2">String</td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">SPE1</td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">Yes</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">-</td>
                     <td class="TableStyle-NewStyle-BodyD-Column1-Body2" style="font-size: 9pt;text-align: left;">
                         <p>Human
  readable unique name of the StructuralProxyElement</p>
@@ -63,7 +58,6 @@
                     <td style="font-size: 9pt;vertical-align: middle;text-align: center;" class="TableStyle-NewStyle-BodyE-Column1-Body1">String</td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">C20/25</td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">Yes</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">-</td>
                     <td class="TableStyle-NewStyle-BodyD-Column1-Body1" style="font-size: 9pt;text-align: left;">The reference to the "Name" of defined material in <a href="3_StructuralMaterial.htm">StructuralMaterial</a></td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body2">
@@ -71,7 +65,6 @@
                     <td style="font-size: 9pt;vertical-align: middle;text-align: center;" class="TableStyle-NewStyle-BodyE-Column1-Body2">String</td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">#FFFF00</td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">no</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">-</td>
                     <td class="TableStyle-NewStyle-BodyD-Column1-Body2" style="font-size: 9pt;text-align: left;">	Defines colour and transparency of the object. Colour is defined by Hex format #AARRGGBB. Transparency is controlled by the alpha channel AA. If no colour is set then default colour is used.</td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body1">
@@ -79,7 +72,6 @@
                     <td style="font-size: 9pt;vertical-align: middle;text-align: center;" class="TableStyle-NewStyle-BodyE-Column1-Body1">String</td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">StructuralProxyElement</td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">no</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">StructuralProxyElement</td>
                     <td class="TableStyle-NewStyle-BodyD-Column1-Body1" style="font-size: 9pt;text-align: left;">	Custom created layer. The layer can thus comprise entities that have something in common (e.g. one floor, columns of one floor, columns of the same length, etc.)</td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body2">
@@ -87,7 +79,6 @@
                     <td style="font-size: 9pt;vertical-align: middle;text-align: center;" class="TableStyle-NewStyle-BodyB-Column1-Body2">String</td>
                     <td class="TableStyle-NewStyle-BodyB-Column1-Body2" style="font-size: 9pt;">bba1ede8-4106-47fd-b5e1-48637ab87f47</td>
                     <td class="TableStyle-NewStyle-BodyB-Column1-Body2" style="font-size: 9pt;">no</td>
-                    <td class="TableStyle-NewStyle-BodyB-Column1-Body2" style="font-size: 9pt;">-</td>
                     <td class="TableStyle-NewStyle-BodyA-Column1-Body2" style="font-size: 9pt;text-align: left;">Unique attribute designation</td>
                 </tr>
             </tbody>
@@ -265,7 +256,7 @@
         <p class="ExampleMiddleSection">vertices:</p>
         <p class="ExampleMiddleSection"> <b>v</b><sub style="font-weight: bold;">0</sub>[0,0,0], <b>v</b><sub style="font-weight: bold;">1</sub>[2,0,0], <b>v</b><sub style="font-weight: bold;">2</sub>[1,2,0], <b>v</b><sub style="font-weight: bold;">3</sub>[1,1,2] </p>
         <p class="ExampleMiddleSection">faces: </p>
-        <p class="ExampleMiddleSection"><b> </b><i style="font-weight: bold;">f</i><sub style="font-style: italic;font-weight: bold;">0</sub>(v<sub>0</sub>,v<sub>1</sub>,v<sub>3</sub>), <b>f</b><sub style="font-weight: bold;">1</sub>(v<sub>2</sub>,v<sub>3</sub>,v<sub>1</sub>), <b>f</b><sub style="font-weight: bold;">2</sub>(v<sub>3</sub>,v<sub>2</sub>,v<sub>0</sub>), <i style="font-weight: bold;">f</i><sub style="font-style: italic;font-weight: bold;">3</sub>(v<sub>1</sub>,v<sub>0</sub>,v<sub>2</sub>).</p>
+        <p class="ExampleMiddleSection"><b> <![CDATA[ ]]></b><i style="font-weight: bold;">f</i><sub style="font-style: italic;font-weight: bold;">0</sub>(v<sub>0</sub>,v<sub>1</sub>,v<sub>3</sub>), <b>f</b><sub style="font-weight: bold;">1</sub>(v<sub>2</sub>,v<sub>3</sub>,v<sub>1</sub>), <b>f</b><sub style="font-weight: bold;">2</sub>(v<sub>3</sub>,v<sub>2</sub>,v<sub>0</sub>), <i style="font-weight: bold;">f</i><sub style="font-style: italic;font-weight: bold;">3</sub>(v<sub>1</sub>,v<sub>0</sub>,v<sub>2</sub>).</p>
         <p class="ExampleMiddleSection">&#160;</p>
         <p class="ExampleMiddleSection">
             <img src="../Resources/Images/StructuralProxyElement_01.png" />
