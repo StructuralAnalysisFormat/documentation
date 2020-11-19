@@ -8,7 +8,8 @@
   MoveOutputContentToRoot="false"
   ConditionTagExpression=""
   GetLatestBeforeCompile="true"
-  DefaultUrl="/Content/Startup page.htm">
+  DefaultUrl="/Content/Startup page.htm"
+  MasterToc="/Project/TOCs/DEV TOC.fltoc">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"

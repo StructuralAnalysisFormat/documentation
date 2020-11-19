@@ -161,4 +161,7 @@
   <TocEntry
     Title="Best practice"
     Link="/Content/38_Best practice.htm"></TocEntry>
+  <TocEntry
+    Title="Free SAF viewer"
+    Link="https://autoconverter.structuraltoolkit.com/en-GB/saf-viewer"></TocEntry>
 </CatapultToc>
