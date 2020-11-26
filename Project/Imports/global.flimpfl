@@ -2,8 +2,8 @@
 <CatapultProjectImport
   AutoSync="true"
   IncludePattern="*.htm;*.html;*.fldes;*.flsnp;*.fltar"
-  LastImport="2020-11-19T12:26:43.2908269+01:00"
-  ExcludePattern="*.fltoc">
+  LastImport="2020-11-26T12:22:14.1017930+01:00"
+  ExcludePattern="">
   <Files>
     <Url
       Source="file:///E:/_Repos/SAF_Global/Web Print Mobile.flprj"
@@ -161,6 +161,9 @@
     <Url
       Source="../../../SAF_Global/Project/Targets/MASTER 111.fltar"
       AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/MASTER 111.fltar" />
+    <Url
+      Source="../../../SAF_Global/Content/999_Proposals for next SAF version.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/999_Proposals for next SAF version.htm" />
   </CollectedSourceFiles>
   <SkippedSourceFiles>
     <Url
@@ -486,5 +489,8 @@
     <Url
       Source="../Targets/MASTER 111.fltar"
       TimeStamp="11/19/2020 12:23:35 PM" />
+    <Url
+      Source="../../Content/999_Proposals for next SAF version.htm"
+      TimeStamp="11/26/2020 12:11:42 PM" />
   </GeneratedFiles>
 </CatapultProjectImport>
