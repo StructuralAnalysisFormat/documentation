@@ -1,182 +1,532 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<CatapultProjectImport AutoSync="true" IncludePattern="*.htm;*.html;*.fldes;*.flsnp;*.fltar" LastImport="2020-11-26T12:43:17.1037732+01:00" ExcludePattern="">
-    <Files>
-        <Url Source="file:///E:/_Repos/SAF_Global/Web Print Mobile.flprj" AbsoluteSource="file:///E:/_Repos/SAF_Global/Web Print Mobile.flprj" />
-    </Files>
-    <ExcludedFiles />
-    <CollectedSourceFiles>
-        <Url Source="../../../SAF_Global/Content/38_Best practice.htm" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/38_Best practice.htm" />
-        <Url Source="../../../SAF_Global/Content/UnitsTable.htm" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/UnitsTable.htm" />
-        <Url Source="../../../SAF_Global/Project/Destinations/DEV 105.fldes" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Destinations/DEV 105.fldes" />
-        <Url Source="../../../SAF_Global/Project/Destinations/DEV 106.fldes" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Destinations/DEV 106.fldes" />
-        <Url Source="../../../SAF_Global/Project/Destinations/DEV 107.fldes" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Destinations/DEV 107.fldes" />
-        <Url Source="../../../SAF_Global/Project/Destinations/DEV 108.fldes" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Destinations/DEV 108.fldes" />
-        <Url Source="../../../SAF_Global/Project/Destinations/DEV 109.fldes" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Destinations/DEV 109.fldes" />
-        <Url Source="../../../SAF_Global/Project/Destinations/DEV 110.fldes" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Destinations/DEV 110.fldes" />
-        <Url Source="../../../SAF_Global/Project/Destinations/DEV.fldes" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Destinations/DEV.fldes" />
-        <Url Source="../../../SAF_Global/Project/Destinations/MASTER 105.fldes" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Destinations/MASTER 105.fldes" />
-        <Url Source="../../../SAF_Global/Project/Destinations/MASTER 106.fldes" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Destinations/MASTER 106.fldes" />
-        <Url Source="../../../SAF_Global/Project/Destinations/MASTER 107.fldes" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Destinations/MASTER 107.fldes" />
-        <Url Source="../../../SAF_Global/Project/Destinations/MASTER 108.fldes" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Destinations/MASTER 108.fldes" />
-        <Url Source="../../../SAF_Global/Project/Destinations/MASTER 109.fldes" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Destinations/MASTER 109.fldes" />
-        <Url Source="../../../SAF_Global/Project/Destinations/MASTER 110.fldes" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Destinations/MASTER 110.fldes" />
-        <Url Source="../../../SAF_Global/Project/Destinations/MASTER.fldes" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Destinations/MASTER.fldes" />
-        <Url Source="../../../SAF_Global/Project/Targets/DEV 105.fltar" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/DEV 105.fltar" />
-        <Url Source="../../../SAF_Global/Project/Targets/DEV 106.fltar" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/DEV 106.fltar" />
-        <Url Source="../../../SAF_Global/Project/Targets/DEV 107.fltar" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/DEV 107.fltar" />
-        <Url Source="../../../SAF_Global/Project/Targets/DEV 108.fltar" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/DEV 108.fltar" />
-        <Url Source="../../../SAF_Global/Project/Targets/DEV 109.fltar" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/DEV 109.fltar" />
-        <Url Source="../../../SAF_Global/Project/Targets/DEV 110.fltar" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/DEV 110.fltar" />
-        <Url Source="../../../SAF_Global/Project/Targets/DEV.fltar" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/DEV.fltar" />
-        <Url Source="../../../SAF_Global/Project/Targets/MASTER 105.fltar" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/MASTER 105.fltar" />
-        <Url Source="../../../SAF_Global/Project/Targets/MASTER 106.fltar" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/MASTER 106.fltar" />
-        <Url Source="../../../SAF_Global/Project/Targets/MASTER 107.fltar" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/MASTER 107.fltar" />
-        <Url Source="../../../SAF_Global/Project/Targets/MASTER 108.fltar" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/MASTER 108.fltar" />
-        <Url Source="../../../SAF_Global/Project/Targets/MASTER 109.fltar" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/MASTER 109.fltar" />
-        <Url Source="../../../SAF_Global/Project/Targets/MASTER 110.fltar" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/MASTER 110.fltar" />
-        <Url Source="../../../SAF_Global/Project/Targets/Master.fltar" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/Master.fltar" />
-        <Url Source="../../../SAF_Global/Content/Resources/Stylesheets/styles.css" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/Stylesheets/styles.css" />
-        <Url Source="../../../SAF_Global/Content/Resources/UnitsTable.flsnp" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/UnitsTable.flsnp" />
-        <Url Source="../../../SAF_Global/Content/Resources/Snippets/MiniTOC.flsnp" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/Snippets/MiniTOC.flsnp" />
-        <Url Source="../../../SAF_Global/Content/Resources/Snippets/PrintGuideHeaderTitle.flsnp" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/Snippets/PrintGuideHeaderTitle.flsnp" />
-        <Url Source="../../../SAF_Global/Content/Resources/Snippets/Table.flsnp" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/Snippets/Table.flsnp" />
-        <Url Source="../../../SAF_Global/Content/Resources/Snippets/WhatsNextHeading.flsnp" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/Snippets/WhatsNextHeading.flsnp" />
-        <Url Source="../../../SAF_Global/Content/Resources/Snippets/Steps/StepSnippet1.flsnp" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/Snippets/Steps/StepSnippet1.flsnp" />
-        <Url Source="../../../SAF_Global/Content/Resources/Snippets/Steps/StepSnippet2.flsnp" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/Snippets/Steps/StepSnippet2.flsnp" />
-        <Url Source="../../../SAF_Global/Project/Targets/PDF Guide A 7X9.fltar" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/PDF Guide A 7X9.fltar" />
-        <Url Source="../../../SAF_Global/Project/Targets/PDF Guide A 8_5X11.fltar" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/PDF Guide A 8_5X11.fltar" />
-        <Url Source="../../../SAF_Global/Project/Targets/PDF Guide B 7X9.fltar" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/PDF Guide B 7X9.fltar" />
-        <Url Source="../../../SAF_Global/Project/Targets/PDF Guide B 8_5X11.fltar" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/PDF Guide B 8_5X11.fltar" />
-        <Url Source="../../../SAF_Global/Project/Targets/Smart Phone Output.fltar" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/Smart Phone Output.fltar" />
-        <Url Source="../../../SAF_Global/Project/Targets/Website Output.fltar" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/Website Output.fltar" />
-        <Url Source="../../../SAF_Global/Project/Destinations/LC.fldes" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Destinations/LC.fldes" />
-        <Url Source="../../../SAF_Global/Project/Targets/LC.fltar" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/LC.fltar" />
-        <Url Source="../../../SAF_Global/Project/Destinations/DEV 111.fldes" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Destinations/DEV 111.fldes" />
-        <Url Source="../../../SAF_Global/Project/Destinations/MASTER 111.fldes" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Destinations/MASTER 111.fldes" />
-        <Url Source="../../../SAF_Global/Project/Targets/DEV 111.fltar" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/DEV 111.fltar" />
-        <Url Source="../../../SAF_Global/Project/Targets/MASTER 111.fltar" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/MASTER 111.fltar" />
-        <Url Source="../../../SAF_Global/Content/999_Proposals for next SAF version.htm" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/999_Proposals for next SAF version.htm" />
-        <Url Source="../../../SAF_Global/Content/0_General.htm" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/0_General.htm" />
-        <Url Source="../../../SAF_Global/Content/1_Introduction.htm" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/1_Introduction.htm" />
-        <Url Source="../../../SAF_Global/Content/2_Project and model specifications.htm" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/2_Project and model specifications.htm" />
-        <Url Source="../../../SAF_Global/Content/3_Geometry.htm" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/3_Geometry.htm" />
-        <Url Source="../../../SAF_Global/Content/Startup page.htm" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Startup page.htm" />
-    </CollectedSourceFiles>
-    <SkippedSourceFiles>
-        <Url Source="../../../SAF_Global/Content/Resources/MasterPages/MasterPageSmartPhone.flmsp" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/MasterPages/MasterPageSmartPhone.flmsp" />
-        <Url Source="../../../SAF_Global/Content/Resources/MasterPages/MasterPageWebsite.flmsp" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/MasterPages/MasterPageWebsite.flmsp" />
-        <Url Source="../../../SAF_Global/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
-        <Url Source="../../../SAF_Global/Content/Resources/PageLayouts/7X9/ChaptersLandscape9X7.flpgl" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/PageLayouts/7X9/ChaptersLandscape9X7.flpgl" />
-        <Url Source="../../../SAF_Global/Content/Resources/PageLayouts/7X9/Copyright7X9.flpgl" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/PageLayouts/7X9/Copyright7X9.flpgl" />
-        <Url Source="../../../SAF_Global/Content/Resources/PageLayouts/7X9/Glossary7X9.flpgl" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/PageLayouts/7X9/Glossary7X9.flpgl" />
-        <Url Source="../../../SAF_Global/Content/Resources/PageLayouts/7X9/Index7X9.flpgl" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/PageLayouts/7X9/Index7X9.flpgl" />
-        <Url Source="../../../SAF_Global/Content/Resources/PageLayouts/7X9/Title7X9.flpgl" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/PageLayouts/7X9/Title7X9.flpgl" />
-        <Url Source="../../../SAF_Global/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl" />
-        <Url Source="../../../SAF_Global/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl" />
-        <Url Source="../../../SAF_Global/Content/Resources/PageLayouts/8_5X11/ChaptersLandscape11X8_5.flpgl" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/PageLayouts/8_5X11/ChaptersLandscape11X8_5.flpgl" />
-        <Url Source="../../../SAF_Global/Content/Resources/PageLayouts/8_5X11/Copyright8_5X11.flpgl" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/PageLayouts/8_5X11/Copyright8_5X11.flpgl" />
-        <Url Source="../../../SAF_Global/Content/Resources/PageLayouts/8_5X11/Glossary8_5X11.flpgl" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/PageLayouts/8_5X11/Glossary8_5X11.flpgl" />
-        <Url Source="../../../SAF_Global/Content/Resources/PageLayouts/8_5X11/Index8_5X11.flpgl" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/PageLayouts/8_5X11/Index8_5X11.flpgl" />
-        <Url Source="../../../SAF_Global/Content/Resources/PageLayouts/8_5X11/Title8_5X11.flpgl" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/PageLayouts/8_5X11/Title8_5X11.flpgl" />
-        <Url Source="../../../SAF_Global/Content/Resources/PageLayouts/8_5X11/TOC8_5X11.flpgl" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/PageLayouts/8_5X11/TOC8_5X11.flpgl" />
-        <Url Source="../../../SAF_Global/Content/Resources/Snippets/MiniTOC.flsnp" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/Snippets/MiniTOC.flsnp" />
-        <Url Source="../../../SAF_Global/Content/Resources/Snippets/PrintGuideHeaderTitle.flsnp" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/Snippets/PrintGuideHeaderTitle.flsnp" />
-        <Url Source="../../../SAF_Global/Content/Resources/Snippets/Table.flsnp" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/Snippets/Table.flsnp" />
-        <Url Source="../../../SAF_Global/Content/Resources/Snippets/WhatsNextHeading.flsnp" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/Snippets/WhatsNextHeading.flsnp" />
-        <Url Source="../../../SAF_Global/Content/Resources/Snippets/Steps/StepSnippet1.flsnp" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/Snippets/Steps/StepSnippet1.flsnp" />
-        <Url Source="../../../SAF_Global/Content/Resources/Snippets/Steps/StepSnippet2.flsnp" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/Snippets/Steps/StepSnippet2.flsnp" />
-        <Url Source="../../../SAF_Global/Content/Resources/Stylesheets/styles.css" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/Stylesheets/styles.css" />
-        <Url Source="../../../SAF_Global/Content/Resources/TableStyles/Basic.css" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/TableStyles/Basic.css" />
-        <Url Source="../../../SAF_Global/Content/Resources/TableStyles/BasicAlternateLightBlueRows.css" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/TableStyles/BasicAlternateLightBlueRows.css" />
-        <Url Source="../../../SAF_Global/Content/Resources/TableStyles/NewStyle.css" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/TableStyles/NewStyle.css" />
-        <Url Source="../../../SAF_Global/Content/Resources/TableStyles/NewStyleAllWhite.css" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/TableStyles/NewStyleAllWhite.css" />
-        <Url Source="../../../SAF_Global/Content/Resources/TableStyles/NewStyle_header_grey.css" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/TableStyles/NewStyle_header_grey.css" />
-        <Url Source="../../../SAF_Global/Content/Resources/TableStyles/Rows.css" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/TableStyles/Rows.css" />
-        <Url Source="../../../SAF_Global/Content/Resources/TableStyles/Simple.css" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/TableStyles/Simple.css" />
-        <Url Source="../../../SAF_Global/Content/Resources/TableStyles/SimpleDarkBackground.css" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/TableStyles/SimpleDarkBackground.css" />
-        <Url Source="../../../SAF_Global/Content/Resources/TableStyles/SimpleGrayBackground.css" AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/TableStyles/SimpleGrayBackground.css" />
-        <Url Source="../../../SAF_Global/Project/Advanced/AliasFile.flali" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Advanced/AliasFile.flali" />
-        <Url Source="../../../SAF_Global/Project/Advanced/AuthorFileTags.flfts" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Advanced/AuthorFileTags.flfts" />
-        <Url Source="../../../SAF_Global/Project/Advanced/HeaderFile.h" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Advanced/HeaderFile.h" />
-        <Url Source="../../../SAF_Global/Project/Advanced/IndexLinks.flixl" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Advanced/IndexLinks.flixl" />
-        <Url Source="../../../SAF_Global/Project/Advanced/StatusFileTags.flfts" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Advanced/StatusFileTags.flfts" />
-        <Url Source="../../../SAF_Global/Project/ConditionTagSets/General.flcts" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/ConditionTagSets/General.flcts" />
-        <Url Source="../../../SAF_Global/Project/ConditionTagSets/PrintGuides.flcts" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/ConditionTagSets/PrintGuides.flcts" />
-        <Url Source="../../../SAF_Global/Project/Glossaries/Glossary.flglo" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Glossaries/Glossary.flglo" />
-        <Url Source="../../../SAF_Global/Project/Skins/SmartPhoneSkin.flskn" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Skins/SmartPhoneSkin.flskn" />
-        <Url Source="../../../SAF_Global/Project/Skins/WebsiteSkin.flskn" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Skins/WebsiteSkin.flskn" />
-        <Url Source="../../../SAF_Global/Project/Targets/Batch Target.flbat" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/Batch Target.flbat" />
-        <Url Source="../../../SAF_Global/Project/Targets/PDF Guide A 7X9.fltar" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/PDF Guide A 7X9.fltar" />
-        <Url Source="../../../SAF_Global/Project/Targets/PDF Guide A 8_5X11.fltar" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/PDF Guide A 8_5X11.fltar" />
-        <Url Source="../../../SAF_Global/Project/Targets/PDF Guide B 7X9.fltar" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/PDF Guide B 7X9.fltar" />
-        <Url Source="../../../SAF_Global/Project/Targets/PDF Guide B 8_5X11.fltar" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/PDF Guide B 8_5X11.fltar" />
-        <Url Source="../../../SAF_Global/Project/Targets/Smart Phone Output.fltar" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/Smart Phone Output.fltar" />
-        <Url Source="../../../SAF_Global/Project/Targets/Website Output.fltar" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/Website Output.fltar" />
-        <Url Source="../../../SAF_Global/Project/TOCs/AEF.fltoc" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/TOCs/AEF.fltoc" />
-        <Url Source="../../../SAF_Global/Project/TOCs/OnlineOutputs.fltoc" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/TOCs/OnlineOutputs.fltoc" />
-        <Url Source="../../../SAF_Global/Project/TOCs/PDF Guide A 7X9.fltoc" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/TOCs/PDF Guide A 7X9.fltoc" />
-        <Url Source="../../../SAF_Global/Project/TOCs/PDF Guide A 8_5X11.fltoc" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/TOCs/PDF Guide A 8_5X11.fltoc" />
-        <Url Source="../../../SAF_Global/Project/TOCs/PDF Guide B 7X9.fltoc" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/TOCs/PDF Guide B 7X9.fltoc" />
-        <Url Source="../../../SAF_Global/Project/TOCs/PDF Guide B 8_5X11.fltoc" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/TOCs/PDF Guide B 8_5X11.fltoc" />
-        <Url Source="../../../SAF_Global/Project/VariableSets/Other.flvar" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/VariableSets/Other.flvar" />
-        <Url Source="../../../SAF_Global/Project/VariableSets/VersionNumbers.flvar" AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/VariableSets/VersionNumbers.flvar" />
-    </SkippedSourceFiles>
-    <GeneratedFiles>
-        <Url Source="../../Content/38_Best practice.htm" TimeStamp="10/16/2020 5:33:58 PM" />
-        <Url Source="../../Content/UnitsTable.htm" TimeStamp="10/16/2020 5:32:09 PM" />
-        <Url Source="../Destinations/DEV 105.fldes" TimeStamp="10/11/2020 3:18:50 PM" />
-        <Url Source="../Destinations/DEV 106.fldes" TimeStamp="10/11/2020 3:18:50 PM" />
-        <Url Source="../Destinations/DEV 107.fldes" TimeStamp="10/11/2020 3:18:50 PM" />
-        <Url Source="../Destinations/DEV 108.fldes" TimeStamp="10/11/2020 3:18:50 PM" />
-        <Url Source="../Destinations/DEV 109.fldes" TimeStamp="10/11/2020 3:18:50 PM" />
-        <Url Source="../Destinations/DEV 110.fldes" TimeStamp="10/12/2020 8:53:34 AM" />
-        <Url Source="../Destinations/DEV.fldes" TimeStamp="10/11/2020 3:18:50 PM" />
-        <Url Source="../Destinations/MASTER 105.fldes" TimeStamp="10/11/2020 3:18:29 PM" />
-        <Url Source="../Destinations/MASTER 106.fldes" TimeStamp="10/11/2020 3:18:29 PM" />
-        <Url Source="../Destinations/MASTER 107.fldes" TimeStamp="10/11/2020 3:18:29 PM" />
-        <Url Source="../Destinations/MASTER 108.fldes" TimeStamp="10/11/2020 3:18:29 PM" />
-        <Url Source="../Destinations/MASTER 109.fldes" TimeStamp="10/11/2020 3:18:29 PM" />
-        <Url Source="../Destinations/MASTER 110.fldes" TimeStamp="10/12/2020 8:53:56 AM" />
-        <Url Source="../Destinations/MASTER.fldes" TimeStamp="10/11/2020 3:18:29 PM" />
-        <Url Source="../Targets/DEV 105.fltar" TimeStamp="10/16/2020 5:33:58 PM" />
-        <Url Source="../Targets/DEV 106.fltar" TimeStamp="10/16/2020 5:33:58 PM" />
-        <Url Source="../Targets/DEV 107.fltar" TimeStamp="10/16/2020 5:33:58 PM" />
-        <Url Source="../Targets/DEV 108.fltar" TimeStamp="10/16/2020 5:33:58 PM" />
-        <Url Source="../Targets/DEV 109.fltar" TimeStamp="10/16/2020 5:33:58 PM" />
-        <Url Source="../Targets/DEV 110.fltar" TimeStamp="10/12/2020 8:54:31 AM" />
-        <Url Source="../Targets/DEV.fltar" TimeStamp="10/16/2020 5:33:58 PM" />
-        <Url Source="../Targets/MASTER 105.fltar" TimeStamp="10/16/2020 5:33:58 PM" />
-        <Url Source="../Targets/MASTER 106.fltar" TimeStamp="10/16/2020 5:33:58 PM" />
-        <Url Source="../Targets/MASTER 107.fltar" TimeStamp="10/16/2020 5:33:58 PM" />
-        <Url Source="../Targets/MASTER 108.fltar" TimeStamp="10/16/2020 5:33:58 PM" />
-        <Url Source="../Targets/MASTER 109.fltar" TimeStamp="10/16/2020 5:33:58 PM" />
-        <Url Source="../Targets/MASTER 110.fltar" TimeStamp="10/16/2020 5:33:58 PM" />
-        <Url Source="../Targets/Master.fltar" TimeStamp="10/16/2020 5:33:58 PM" />
-        <Url Source="../../Content/Resources/Stylesheets/styles.css" TimeStamp="10/16/2020 6:13:24 PM" />
-        <Url Source="../../Content/Resources/UnitsTable.flsnp" TimeStamp="10/16/2020 7:49:04 PM" />
-        <Url Source="../../Content/Resources/Snippets/MiniTOC.flsnp" TimeStamp="10/16/2020 5:32:53 PM" />
-        <Url Source="../../Content/Resources/Snippets/PrintGuideHeaderTitle.flsnp" TimeStamp="10/16/2020 5:32:53 PM" />
-        <Url Source="../../Content/Resources/Snippets/Table.flsnp" TimeStamp="10/16/2020 5:34:38 PM" />
-        <Url Source="../../Content/Resources/Snippets/WhatsNextHeading.flsnp" TimeStamp="10/16/2020 5:32:53 PM" />
-        <Url Source="../../Content/Resources/Snippets/Steps/StepSnippet1.flsnp" TimeStamp="10/16/2020 5:32:53 PM" />
-        <Url Source="../../Content/Resources/Snippets/Steps/StepSnippet2.flsnp" TimeStamp="10/16/2020 5:32:53 PM" />
-        <Url Source="../Targets/PDF Guide A 7X9.fltar" TimeStamp="10/16/2020 10:29:11 PM" />
-        <Url Source="../Targets/PDF Guide A 8_5X11.fltar" TimeStamp="10/16/2020 10:29:17 PM" />
-        <Url Source="../Targets/PDF Guide B 7X9.fltar" TimeStamp="10/16/2020 10:29:23 PM" />
-        <Url Source="../Targets/PDF Guide B 8_5X11.fltar" TimeStamp="10/16/2020 10:29:27 PM" />
-        <Url Source="../Targets/Smart Phone Output.fltar" TimeStamp="10/16/2020 10:29:05 PM" />
-        <Url Source="../Targets/Website Output.fltar" TimeStamp="10/16/2020 10:29:05 PM" />
-        <Url Source="../Destinations/LC.fldes" TimeStamp="11/11/2020 3:58:51 PM" />
-        <Url Source="../Targets/LC.fltar" TimeStamp="11/11/2020 3:58:55 PM" />
-        <Url Source="../Destinations/DEV 111.fldes" TimeStamp="11/19/2020 12:22:15 PM" />
-        <Url Source="../Destinations/MASTER 111.fldes" TimeStamp="11/19/2020 12:22:37 PM" />
-        <Url Source="../Targets/DEV 111.fltar" TimeStamp="11/19/2020 12:23:06 PM" />
-        <Url Source="../Targets/MASTER 111.fltar" TimeStamp="11/19/2020 12:23:35 PM" />
-        <Url Source="../../Content/999_Proposals for next SAF version.htm" TimeStamp="11/26/2020 12:11:42 PM" />
-        <Url Source="../../Content/0_General.htm" TimeStamp="11/19/2020 2:15:50 PM" />
-        <Url Source="../../Content/1_Introduction.htm" TimeStamp="11/13/2020 9:13:22 AM" />
-        <Url Source="../../Content/2_Project and model specifications.htm" TimeStamp="11/16/2020 10:34:28 AM" />
-        <Url Source="../../Content/3_Geometry.htm" TimeStamp="11/12/2020 11:24:35 AM" />
-        <Url Source="../../Content/Startup page.htm" TimeStamp="11/19/2020 12:18:56 PM" />
-    </GeneratedFiles>
+<CatapultProjectImport
+  AutoSync="true"
+  IncludePattern="*.htm;*.html;*.fldes;*.flsnp;*.fltar"
+  LastImport="2020-11-30T09:16:56.0754306+01:00"
+  ExcludePattern="">
+  <Files>
+    <Url
+      Source="file:///E:/_Repos/SAF_Global/Web Print Mobile.flprj"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Web Print Mobile.flprj" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles>
+    <Url
+      Source="../../../SAF_Global/Content/38_Best practice.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/38_Best practice.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/UnitsTable.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/UnitsTable.htm" />
+    <Url
+      Source="../../../SAF_Global/Project/Destinations/DEV 105.fldes"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Destinations/DEV 105.fldes" />
+    <Url
+      Source="../../../SAF_Global/Project/Destinations/DEV 106.fldes"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Destinations/DEV 106.fldes" />
+    <Url
+      Source="../../../SAF_Global/Project/Destinations/DEV 107.fldes"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Destinations/DEV 107.fldes" />
+    <Url
+      Source="../../../SAF_Global/Project/Destinations/DEV 108.fldes"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Destinations/DEV 108.fldes" />
+    <Url
+      Source="../../../SAF_Global/Project/Destinations/DEV 109.fldes"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Destinations/DEV 109.fldes" />
+    <Url
+      Source="../../../SAF_Global/Project/Destinations/DEV 110.fldes"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Destinations/DEV 110.fldes" />
+    <Url
+      Source="../../../SAF_Global/Project/Destinations/DEV.fldes"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Destinations/DEV.fldes" />
+    <Url
+      Source="../../../SAF_Global/Project/Destinations/MASTER 105.fldes"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Destinations/MASTER 105.fldes" />
+    <Url
+      Source="../../../SAF_Global/Project/Destinations/MASTER 106.fldes"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Destinations/MASTER 106.fldes" />
+    <Url
+      Source="../../../SAF_Global/Project/Destinations/MASTER 107.fldes"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Destinations/MASTER 107.fldes" />
+    <Url
+      Source="../../../SAF_Global/Project/Destinations/MASTER 108.fldes"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Destinations/MASTER 108.fldes" />
+    <Url
+      Source="../../../SAF_Global/Project/Destinations/MASTER 109.fldes"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Destinations/MASTER 109.fldes" />
+    <Url
+      Source="../../../SAF_Global/Project/Destinations/MASTER 110.fldes"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Destinations/MASTER 110.fldes" />
+    <Url
+      Source="../../../SAF_Global/Project/Destinations/MASTER.fldes"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Destinations/MASTER.fldes" />
+    <Url
+      Source="../../../SAF_Global/Project/Targets/DEV 105.fltar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/DEV 105.fltar" />
+    <Url
+      Source="../../../SAF_Global/Project/Targets/DEV 106.fltar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/DEV 106.fltar" />
+    <Url
+      Source="../../../SAF_Global/Project/Targets/DEV 107.fltar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/DEV 107.fltar" />
+    <Url
+      Source="../../../SAF_Global/Project/Targets/DEV 108.fltar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/DEV 108.fltar" />
+    <Url
+      Source="../../../SAF_Global/Project/Targets/DEV 109.fltar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/DEV 109.fltar" />
+    <Url
+      Source="../../../SAF_Global/Project/Targets/DEV 110.fltar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/DEV 110.fltar" />
+    <Url
+      Source="../../../SAF_Global/Project/Targets/DEV.fltar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/DEV.fltar" />
+    <Url
+      Source="../../../SAF_Global/Project/Targets/MASTER 105.fltar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/MASTER 105.fltar" />
+    <Url
+      Source="../../../SAF_Global/Project/Targets/MASTER 106.fltar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/MASTER 106.fltar" />
+    <Url
+      Source="../../../SAF_Global/Project/Targets/MASTER 107.fltar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/MASTER 107.fltar" />
+    <Url
+      Source="../../../SAF_Global/Project/Targets/MASTER 108.fltar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/MASTER 108.fltar" />
+    <Url
+      Source="../../../SAF_Global/Project/Targets/MASTER 109.fltar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/MASTER 109.fltar" />
+    <Url
+      Source="../../../SAF_Global/Project/Targets/MASTER 110.fltar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/MASTER 110.fltar" />
+    <Url
+      Source="../../../SAF_Global/Project/Targets/Master.fltar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/Master.fltar" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/Stylesheets/styles.css"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/Stylesheets/styles.css" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/UnitsTable.flsnp"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/UnitsTable.flsnp" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/Snippets/MiniTOC.flsnp"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/Snippets/MiniTOC.flsnp" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/Snippets/PrintGuideHeaderTitle.flsnp"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/Snippets/PrintGuideHeaderTitle.flsnp" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/Snippets/Table.flsnp"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/Snippets/Table.flsnp" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/Snippets/WhatsNextHeading.flsnp"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/Snippets/WhatsNextHeading.flsnp" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/Snippets/Steps/StepSnippet1.flsnp"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/Snippets/Steps/StepSnippet1.flsnp" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/Snippets/Steps/StepSnippet2.flsnp"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/Snippets/Steps/StepSnippet2.flsnp" />
+    <Url
+      Source="../../../SAF_Global/Project/Targets/PDF Guide A 7X9.fltar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/PDF Guide A 7X9.fltar" />
+    <Url
+      Source="../../../SAF_Global/Project/Targets/PDF Guide A 8_5X11.fltar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/PDF Guide A 8_5X11.fltar" />
+    <Url
+      Source="../../../SAF_Global/Project/Targets/PDF Guide B 7X9.fltar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/PDF Guide B 7X9.fltar" />
+    <Url
+      Source="../../../SAF_Global/Project/Targets/PDF Guide B 8_5X11.fltar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/PDF Guide B 8_5X11.fltar" />
+    <Url
+      Source="../../../SAF_Global/Project/Targets/Smart Phone Output.fltar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/Smart Phone Output.fltar" />
+    <Url
+      Source="../../../SAF_Global/Project/Targets/Website Output.fltar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/Website Output.fltar" />
+    <Url
+      Source="../../../SAF_Global/Project/Destinations/LC.fldes"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Destinations/LC.fldes" />
+    <Url
+      Source="../../../SAF_Global/Project/Targets/LC.fltar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/LC.fltar" />
+    <Url
+      Source="../../../SAF_Global/Project/Destinations/DEV 111.fldes"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Destinations/DEV 111.fldes" />
+    <Url
+      Source="../../../SAF_Global/Project/Destinations/MASTER 111.fldes"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Destinations/MASTER 111.fldes" />
+    <Url
+      Source="../../../SAF_Global/Project/Targets/DEV 111.fltar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/DEV 111.fltar" />
+    <Url
+      Source="../../../SAF_Global/Project/Targets/MASTER 111.fltar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/MASTER 111.fltar" />
+    <Url
+      Source="../../../SAF_Global/Content/999_Proposals for next SAF version.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/999_Proposals for next SAF version.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/0_General.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/0_General.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/1_Introduction.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/1_Introduction.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/2_Project and model specifications.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/2_Project and model specifications.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/3_Geometry.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/3_Geometry.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/Startup page.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Startup page.htm" />
+    <Url
+      Source="../../../SAF_Global/Content/Release notes_master.htm"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Release notes_master.htm" />
+  </CollectedSourceFiles>
+  <SkippedSourceFiles>
+    <Url
+      Source="../../../SAF_Global/Content/Resources/MasterPages/MasterPageSmartPhone.flmsp"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/MasterPages/MasterPageSmartPhone.flmsp" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/MasterPages/MasterPageWebsite.flmsp"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/MasterPages/MasterPageWebsite.flmsp" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/PageLayouts/7X9/ChaptersLandscape9X7.flpgl"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/PageLayouts/7X9/ChaptersLandscape9X7.flpgl" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/PageLayouts/7X9/Copyright7X9.flpgl"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/PageLayouts/7X9/Copyright7X9.flpgl" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/PageLayouts/7X9/Glossary7X9.flpgl"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/PageLayouts/7X9/Glossary7X9.flpgl" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/PageLayouts/7X9/Index7X9.flpgl"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/PageLayouts/7X9/Index7X9.flpgl" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/PageLayouts/7X9/Title7X9.flpgl"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/PageLayouts/7X9/Title7X9.flpgl" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/PageLayouts/8_5X11/ChaptersLandscape11X8_5.flpgl"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/PageLayouts/8_5X11/ChaptersLandscape11X8_5.flpgl" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/PageLayouts/8_5X11/Copyright8_5X11.flpgl"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/PageLayouts/8_5X11/Copyright8_5X11.flpgl" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/PageLayouts/8_5X11/Glossary8_5X11.flpgl"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/PageLayouts/8_5X11/Glossary8_5X11.flpgl" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/PageLayouts/8_5X11/Index8_5X11.flpgl"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/PageLayouts/8_5X11/Index8_5X11.flpgl" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/PageLayouts/8_5X11/Title8_5X11.flpgl"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/PageLayouts/8_5X11/Title8_5X11.flpgl" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/PageLayouts/8_5X11/TOC8_5X11.flpgl"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/PageLayouts/8_5X11/TOC8_5X11.flpgl" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/Snippets/MiniTOC.flsnp"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/Snippets/MiniTOC.flsnp" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/Snippets/PrintGuideHeaderTitle.flsnp"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/Snippets/PrintGuideHeaderTitle.flsnp" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/Snippets/Table.flsnp"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/Snippets/Table.flsnp" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/Snippets/WhatsNextHeading.flsnp"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/Snippets/WhatsNextHeading.flsnp" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/Snippets/Steps/StepSnippet1.flsnp"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/Snippets/Steps/StepSnippet1.flsnp" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/Snippets/Steps/StepSnippet2.flsnp"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/Snippets/Steps/StepSnippet2.flsnp" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/Stylesheets/styles.css"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/Stylesheets/styles.css" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/TableStyles/Basic.css"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/TableStyles/Basic.css" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/TableStyles/BasicAlternateLightBlueRows.css"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/TableStyles/BasicAlternateLightBlueRows.css" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/TableStyles/NewStyle.css"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/TableStyles/NewStyle.css" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/TableStyles/NewStyleAllWhite.css"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/TableStyles/NewStyleAllWhite.css" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/TableStyles/NewStyle_header_grey.css"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/TableStyles/NewStyle_header_grey.css" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/TableStyles/Rows.css"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/TableStyles/Rows.css" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/TableStyles/Simple.css"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/TableStyles/Simple.css" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/TableStyles/SimpleDarkBackground.css"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/TableStyles/SimpleDarkBackground.css" />
+    <Url
+      Source="../../../SAF_Global/Content/Resources/TableStyles/SimpleGrayBackground.css"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Resources/TableStyles/SimpleGrayBackground.css" />
+    <Url
+      Source="../../../SAF_Global/Project/Advanced/AliasFile.flali"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Advanced/AliasFile.flali" />
+    <Url
+      Source="../../../SAF_Global/Project/Advanced/AuthorFileTags.flfts"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Advanced/AuthorFileTags.flfts" />
+    <Url
+      Source="../../../SAF_Global/Project/Advanced/HeaderFile.h"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Advanced/HeaderFile.h" />
+    <Url
+      Source="../../../SAF_Global/Project/Advanced/IndexLinks.flixl"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Advanced/IndexLinks.flixl" />
+    <Url
+      Source="../../../SAF_Global/Project/Advanced/StatusFileTags.flfts"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Advanced/StatusFileTags.flfts" />
+    <Url
+      Source="../../../SAF_Global/Project/ConditionTagSets/General.flcts"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/ConditionTagSets/General.flcts" />
+    <Url
+      Source="../../../SAF_Global/Project/ConditionTagSets/PrintGuides.flcts"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/ConditionTagSets/PrintGuides.flcts" />
+    <Url
+      Source="../../../SAF_Global/Project/Glossaries/Glossary.flglo"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Glossaries/Glossary.flglo" />
+    <Url
+      Source="../../../SAF_Global/Project/Skins/SmartPhoneSkin.flskn"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Skins/SmartPhoneSkin.flskn" />
+    <Url
+      Source="../../../SAF_Global/Project/Skins/WebsiteSkin.flskn"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Skins/WebsiteSkin.flskn" />
+    <Url
+      Source="../../../SAF_Global/Project/Targets/Batch Target.flbat"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/Batch Target.flbat" />
+    <Url
+      Source="../../../SAF_Global/Project/Targets/PDF Guide A 7X9.fltar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/PDF Guide A 7X9.fltar" />
+    <Url
+      Source="../../../SAF_Global/Project/Targets/PDF Guide A 8_5X11.fltar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/PDF Guide A 8_5X11.fltar" />
+    <Url
+      Source="../../../SAF_Global/Project/Targets/PDF Guide B 7X9.fltar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/PDF Guide B 7X9.fltar" />
+    <Url
+      Source="../../../SAF_Global/Project/Targets/PDF Guide B 8_5X11.fltar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/PDF Guide B 8_5X11.fltar" />
+    <Url
+      Source="../../../SAF_Global/Project/Targets/Smart Phone Output.fltar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/Smart Phone Output.fltar" />
+    <Url
+      Source="../../../SAF_Global/Project/Targets/Website Output.fltar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/Targets/Website Output.fltar" />
+    <Url
+      Source="../../../SAF_Global/Project/TOCs/AEF.fltoc"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/TOCs/AEF.fltoc" />
+    <Url
+      Source="../../../SAF_Global/Project/TOCs/OnlineOutputs.fltoc"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/TOCs/OnlineOutputs.fltoc" />
+    <Url
+      Source="../../../SAF_Global/Project/TOCs/PDF Guide A 7X9.fltoc"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/TOCs/PDF Guide A 7X9.fltoc" />
+    <Url
+      Source="../../../SAF_Global/Project/TOCs/PDF Guide A 8_5X11.fltoc"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/TOCs/PDF Guide A 8_5X11.fltoc" />
+    <Url
+      Source="../../../SAF_Global/Project/TOCs/PDF Guide B 7X9.fltoc"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/TOCs/PDF Guide B 7X9.fltoc" />
+    <Url
+      Source="../../../SAF_Global/Project/TOCs/PDF Guide B 8_5X11.fltoc"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/TOCs/PDF Guide B 8_5X11.fltoc" />
+    <Url
+      Source="../../../SAF_Global/Project/VariableSets/Other.flvar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/VariableSets/Other.flvar" />
+    <Url
+      Source="../../../SAF_Global/Project/VariableSets/VersionNumbers.flvar"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/VariableSets/VersionNumbers.flvar" />
+  </SkippedSourceFiles>
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/38_Best practice.htm"
+      TimeStamp="10/16/2020 5:33:58 PM" />
+    <Url
+      Source="../../Content/UnitsTable.htm"
+      TimeStamp="10/16/2020 5:32:09 PM" />
+    <Url
+      Source="../Destinations/DEV 105.fldes"
+      TimeStamp="10/11/2020 3:18:50 PM" />
+    <Url
+      Source="../Destinations/DEV 106.fldes"
+      TimeStamp="10/11/2020 3:18:50 PM" />
+    <Url
+      Source="../Destinations/DEV 107.fldes"
+      TimeStamp="10/11/2020 3:18:50 PM" />
+    <Url
+      Source="../Destinations/DEV 108.fldes"
+      TimeStamp="10/11/2020 3:18:50 PM" />
+    <Url
+      Source="../Destinations/DEV 109.fldes"
+      TimeStamp="10/11/2020 3:18:50 PM" />
+    <Url
+      Source="../Destinations/DEV 110.fldes"
+      TimeStamp="10/12/2020 8:53:34 AM" />
+    <Url
+      Source="../Destinations/DEV.fldes"
+      TimeStamp="10/11/2020 3:18:50 PM" />
+    <Url
+      Source="../Destinations/MASTER 105.fldes"
+      TimeStamp="10/11/2020 3:18:29 PM" />
+    <Url
+      Source="../Destinations/MASTER 106.fldes"
+      TimeStamp="10/11/2020 3:18:29 PM" />
+    <Url
+      Source="../Destinations/MASTER 107.fldes"
+      TimeStamp="10/11/2020 3:18:29 PM" />
+    <Url
+      Source="../Destinations/MASTER 108.fldes"
+      TimeStamp="10/11/2020 3:18:29 PM" />
+    <Url
+      Source="../Destinations/MASTER 109.fldes"
+      TimeStamp="10/11/2020 3:18:29 PM" />
+    <Url
+      Source="../Destinations/MASTER 110.fldes"
+      TimeStamp="10/12/2020 8:53:56 AM" />
+    <Url
+      Source="../Destinations/MASTER.fldes"
+      TimeStamp="10/11/2020 3:18:29 PM" />
+    <Url
+      Source="../Targets/DEV 105.fltar"
+      TimeStamp="10/16/2020 5:33:58 PM" />
+    <Url
+      Source="../Targets/DEV 106.fltar"
+      TimeStamp="10/16/2020 5:33:58 PM" />
+    <Url
+      Source="../Targets/DEV 107.fltar"
+      TimeStamp="10/16/2020 5:33:58 PM" />
+    <Url
+      Source="../Targets/DEV 108.fltar"
+      TimeStamp="10/16/2020 5:33:58 PM" />
+    <Url
+      Source="../Targets/DEV 109.fltar"
+      TimeStamp="10/16/2020 5:33:58 PM" />
+    <Url
+      Source="../Targets/DEV 110.fltar"
+      TimeStamp="10/12/2020 8:54:31 AM" />
+    <Url
+      Source="../Targets/DEV.fltar"
+      TimeStamp="10/16/2020 5:33:58 PM" />
+    <Url
+      Source="../Targets/MASTER 105.fltar"
+      TimeStamp="10/16/2020 5:33:58 PM" />
+    <Url
+      Source="../Targets/MASTER 106.fltar"
+      TimeStamp="10/16/2020 5:33:58 PM" />
+    <Url
+      Source="../Targets/MASTER 107.fltar"
+      TimeStamp="10/16/2020 5:33:58 PM" />
+    <Url
+      Source="../Targets/MASTER 108.fltar"
+      TimeStamp="10/16/2020 5:33:58 PM" />
+    <Url
+      Source="../Targets/MASTER 109.fltar"
+      TimeStamp="10/16/2020 5:33:58 PM" />
+    <Url
+      Source="../Targets/MASTER 110.fltar"
+      TimeStamp="10/16/2020 5:33:58 PM" />
+    <Url
+      Source="../Targets/Master.fltar"
+      TimeStamp="10/16/2020 5:33:58 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/styles.css"
+      TimeStamp="10/16/2020 6:13:24 PM" />
+    <Url
+      Source="../../Content/Resources/UnitsTable.flsnp"
+      TimeStamp="10/16/2020 7:49:04 PM" />
+    <Url
+      Source="../../Content/Resources/Snippets/MiniTOC.flsnp"
+      TimeStamp="10/16/2020 5:32:53 PM" />
+    <Url
+      Source="../../Content/Resources/Snippets/PrintGuideHeaderTitle.flsnp"
+      TimeStamp="10/16/2020 5:32:53 PM" />
+    <Url
+      Source="../../Content/Resources/Snippets/Table.flsnp"
+      TimeStamp="10/16/2020 5:34:38 PM" />
+    <Url
+      Source="../../Content/Resources/Snippets/WhatsNextHeading.flsnp"
+      TimeStamp="10/16/2020 5:32:53 PM" />
+    <Url
+      Source="../../Content/Resources/Snippets/Steps/StepSnippet1.flsnp"
+      TimeStamp="10/16/2020 5:32:53 PM" />
+    <Url
+      Source="../../Content/Resources/Snippets/Steps/StepSnippet2.flsnp"
+      TimeStamp="10/16/2020 5:32:53 PM" />
+    <Url
+      Source="../Targets/PDF Guide A 7X9.fltar"
+      TimeStamp="10/16/2020 10:29:11 PM" />
+    <Url
+      Source="../Targets/PDF Guide A 8_5X11.fltar"
+      TimeStamp="10/16/2020 10:29:17 PM" />
+    <Url
+      Source="../Targets/PDF Guide B 7X9.fltar"
+      TimeStamp="10/16/2020 10:29:23 PM" />
+    <Url
+      Source="../Targets/PDF Guide B 8_5X11.fltar"
+      TimeStamp="10/16/2020 10:29:27 PM" />
+    <Url
+      Source="../Targets/Smart Phone Output.fltar"
+      TimeStamp="10/16/2020 10:29:05 PM" />
+    <Url
+      Source="../Targets/Website Output.fltar"
+      TimeStamp="10/16/2020 10:29:05 PM" />
+    <Url
+      Source="../Destinations/LC.fldes"
+      TimeStamp="11/11/2020 3:58:51 PM" />
+    <Url
+      Source="../Targets/LC.fltar"
+      TimeStamp="11/11/2020 3:58:55 PM" />
+    <Url
+      Source="../Destinations/DEV 111.fldes"
+      TimeStamp="11/19/2020 12:22:15 PM" />
+    <Url
+      Source="../Destinations/MASTER 111.fldes"
+      TimeStamp="11/19/2020 12:22:37 PM" />
+    <Url
+      Source="../Targets/DEV 111.fltar"
+      TimeStamp="11/19/2020 12:23:06 PM" />
+    <Url
+      Source="../Targets/MASTER 111.fltar"
+      TimeStamp="11/19/2020 12:23:35 PM" />
+    <Url
+      Source="../../Content/999_Proposals for next SAF version.htm"
+      TimeStamp="11/26/2020 12:11:42 PM" />
+    <Url
+      Source="../../Content/0_General.htm"
+      TimeStamp="11/19/2020 2:15:50 PM" />
+    <Url
+      Source="../../Content/1_Introduction.htm"
+      TimeStamp="11/13/2020 9:13:22 AM" />
+    <Url
+      Source="../../Content/2_Project and model specifications.htm"
+      TimeStamp="11/16/2020 10:34:28 AM" />
+    <Url
+      Source="../../Content/3_Geometry.htm"
+      TimeStamp="11/12/2020 11:24:35 AM" />
+    <Url
+      Source="../../Content/Startup page.htm"
+      TimeStamp="11/19/2020 12:18:56 PM" />
+    <Url
+      Source="../../Content/Release notes_master.htm"
+      TimeStamp="11/30/2020 8:56:10 AM" />
+  </GeneratedFiles>
 </CatapultProjectImport>
