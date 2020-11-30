@@ -148,4 +148,10 @@
   </TocEntry>
   <TocEntry
     Title="Release notes"></TocEntry>
+  <TocEntry
+    Title="Best practice"
+    Link="/Content/38_Best practice.htm"></TocEntry>
+  <TocEntry
+    Title="Proposals for next version"
+    Link="/Content/999_Proposals for next SAF version.htm"></TocEntry>
 </CatapultToc>
