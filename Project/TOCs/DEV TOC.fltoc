@@ -3,17 +3,13 @@
   Version="1"
   conditions="">
   <TocEntry
-    Title="General"
-    Link="/Content/0_General.htm"></TocEntry>
+    Title="General"></TocEntry>
   <TocEntry
-    Title="Introduction"
-    Link="/Content/1_Introduction.htm"></TocEntry>
+    Title="Introduction"></TocEntry>
   <TocEntry
-    Title="Geometry"
-    Link="/Content/3_Geometry.htm" />
+    Title="Geometry" />
   <TocEntry
-    Title="Project and model specifications"
-    Link="/Content/2_Project and model specifications.htm"></TocEntry>
+    Title="Project and model specifications"></TocEntry>
   <TocEntry
     Title="Structural analysis elements">
     <TocEntry
@@ -52,6 +48,9 @@
     <TocEntry
       Title="StructuralStorey"
       Link="/Content/A_Objects/35_StructuralStorey.htm" />
+    <TocEntry
+      Title="StructuralProxyElement"
+      Link="/Content/A_Objects/37_StructuralProxyElement.htm" />
   </TocEntry>
   <TocEntry
     Title="Supports and hinges">
@@ -137,20 +136,15 @@
   <TocEntry
     Title="Annexes">
     <TocEntry
-      Title="Formcodes"
-      Link="/Content/Annexes/Formcodes.htm" />
+      Title="Formcodes" />
     <TocEntry
-      Title="Description ID of the profile"
-      Link="/Content/Annexes/Description ID of the profile.htm" />
+      Title="Description ID of the profile" />
     <TocEntry
-      Title="Supported shapes of parametric cross-section"
-      Link="/Content/Annexes/Supported shapes of parametric cross-section.htm" />
+      Title="Supported shapes of parametric cross-section" />
     <TocEntry
-      Title="Supported shapes of compound section"
-      Link="/Content/Annexes/Supported shapes of compound section.htm" />
+      Title="Supported shapes of compound section" />
     <TocEntry
-      Title="Supported design properties of material "
-      Link="/Content/Annexes/Supported design properties of material .htm" />
+      Title="Supported design properties of material " />
   </TocEntry>
   <TocEntry
     Title="Release notes"
@@ -158,4 +152,7 @@
   <TocEntry
     Title="Best practice"
     Link="/Content/38_Best practice.htm"></TocEntry>
+  <TocEntry
+    Title="Proposals for next version"
+    Link="/Content/999_Proposals for next SAF version.htm"></TocEntry>
 </CatapultToc>
