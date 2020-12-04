@@ -3,13 +3,17 @@
   Version="1"
   conditions="">
   <TocEntry
-    Title="General"></TocEntry>
+    Title="General"
+    Link="/Content/0_General.htm"></TocEntry>
   <TocEntry
-    Title="Introduction"></TocEntry>
+    Title="Introduction"
+    Link="/Content/1_Introduction.htm"></TocEntry>
   <TocEntry
-    Title="Geometry" />
+    Title="Geometry"
+    Link="/Content/3_Geometry.htm" />
   <TocEntry
-    Title="Project and model specifications"></TocEntry>
+    Title="Project and model specifications"
+    Link="/Content/2_Project and model specifications.htm"></TocEntry>
   <TocEntry
     Title="Structural analysis elements">
     <TocEntry
@@ -152,7 +156,4 @@
   <TocEntry
     Title="Best practice"
     Link="/Content/38_Best practice.htm"></TocEntry>
-  <TocEntry
-    Title="Proposals for next version"
-    Link="/Content/999_Proposals for next SAF version.htm"></TocEntry>
 </CatapultToc>
