@@ -4,7 +4,7 @@
         <Link Value="E:\_Repos\SAF\Content\Resources\Images\model_GCS_big.jpg" />
     </Dialog>
     <Dialog Name="B3.XmlTextKit.InsertHyperlinkDialog">
-        <Link Value="E:\_Repos\SAF\Content\A_Objects\9_StructuralSurfaceMemberOpening.htm" />
+        <Link Value="E:\_Repos\SAF\Content\A_Objects\27_StructuralCurveMoment.htm" />
     </Dialog>
     <Dialog Name="B3.XmlTextKit.InsertCrossReferenceDialog">
         <Link Value="E:\_Repos\SAF\Content\A_Objects\3_StructuralMaterial.htm" />
