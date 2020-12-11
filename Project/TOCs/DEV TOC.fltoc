@@ -140,20 +140,15 @@
   <TocEntry
     Title="Annexes">
     <TocEntry
-      Title="Formcodes"
-      Link="/Content/Annexes/Formcodes.htm" />
+      Title="Formcodes" />
     <TocEntry
-      Title="Description ID of the profile"
-      Link="/Content/Annexes/Description ID of the profile.htm" />
+      Title="Description ID of the profile" />
     <TocEntry
-      Title="Supported shapes of parametric cross-section"
-      Link="/Content/Annexes/Supported shapes of parametric cross-section.htm" />
+      Title="Supported shapes of parametric cross-section" />
     <TocEntry
-      Title="Supported shapes of compound section"
-      Link="/Content/Annexes/Supported shapes of compound section.htm" />
+      Title="Supported shapes of compound section" />
     <TocEntry
-      Title="Supported design properties of material "
-      Link="/Content/Annexes/Supported design properties of material .htm" />
+      Title="Supported design properties of material " />
   </TocEntry>
   <TocEntry
     Title="Release notes"
@@ -163,6 +158,5 @@
     Link="/Content/38_Best practice.htm"></TocEntry>
   <TocEntry
     Title="Proposals for next version"
-    ReplaceMergeNode="false"
     Link="/Content/999_Proposals for next SAF version.htm"></TocEntry>
 </CatapultToc>

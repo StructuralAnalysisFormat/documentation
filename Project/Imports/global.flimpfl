@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultProjectImport
   AutoSync="true"
-  IncludePattern="*.htm;*.html;*.fldes;*.flsnp;*.fltar"
-  LastImport="2020-12-11T13:27:06.5167109+01:00"
+  IncludePattern="*.htm;*.html;*.fldes;*.flsnp;*.fltar;*.fltoc"
+  LastImport="2020-12-11T14:01:27.1932503+01:00"
   ExcludePattern="">
   <Files>
     <Url
@@ -182,6 +182,12 @@
     <Url
       Source="../../../SAF_Global/Content/Release notes_master.htm"
       AbsoluteSource="file:///E:/_Repos/SAF_Global/Content/Release notes_master.htm" />
+    <Url
+      Source="../../../SAF_Global/Project/TOCs/DEV TOC.fltoc"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/TOCs/DEV TOC.fltoc" />
+    <Url
+      Source="../../../SAF_Global/Project/TOCs/MASTER TOC.fltoc"
+      AbsoluteSource="file:///E:/_Repos/SAF_Global/Project/TOCs/MASTER TOC.fltoc" />
   </CollectedSourceFiles>
   <SkippedSourceFiles>
     <Url
@@ -528,5 +534,11 @@
     <Url
       Source="../../Content/Release notes_master.htm"
       TimeStamp="11/30/2020 8:56:10 AM" />
+    <Url
+      Source="../TOCs/DEV TOC.fltoc"
+      TimeStamp="12/4/2020 1:27:09 PM" />
+    <Url
+      Source="../TOCs/MASTER TOC.fltoc"
+      TimeStamp="12/4/2020 1:29:17 PM" />
   </GeneratedFiles>
 </CatapultProjectImport>
