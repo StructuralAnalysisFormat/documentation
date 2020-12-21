@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultDestination
+  Version="1"
+  Comment="This will be published on production"
+  Host=""
+  User="MyAccountId"
+  Password=""
+  Directory="\\mpulse\aef\v2.0.2"
+  Port=""
+  ViewUrl="https://saf.guide/v2.0.2"
+  Type="file"></CatapultDestination>

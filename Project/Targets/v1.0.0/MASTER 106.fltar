@@ -7,8 +7,7 @@
   GlossaryTermConversion="marked"
   MoveOutputContentToRoot="false"
   ConditionTagExpression=""
-  GetLatestBeforeCompile="true"
-  MasterToc="/Project/TOCs/MASTER TOC.fltoc">
+  GetLatestBeforeCompile="true">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
@@ -16,6 +15,6 @@
     GenerateGlossaryProxy="true" />
   <Destinations>
     <Destination
-      Link="/Project/Destinations/MASTER 109.fldes" />
+      Link="/Project/Destinations/v1.0.0/MASTER 106.fldes" />
   </Destinations>
 </CatapultTarget>
