@@ -1,13 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultTarget
   Version="2"
-  Comment="New Target"
+  Comment="v2.0.0"
   Type="WebHelp2"
   Destinations=""
   GlossaryTermConversion="marked"
   MoveOutputContentToRoot="false"
   ConditionTagExpression=""
-  GetLatestBeforeCompile="true">
+  GetLatestBeforeCompile="true"
+  DefaultUrl="/Content/Startup page.htm"
+  MasterToc="/Project/TOCs/MASTER TOC.fltoc">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
@@ -15,6 +17,6 @@
     GenerateGlossaryProxy="true" />
   <Destinations>
     <Destination
-      Link="/Project/Destinations/MASTER 106.fldes" />
+      Link="/Project/Destinations/MASTER 200.fldes" />
   </Destinations>
 </CatapultTarget>

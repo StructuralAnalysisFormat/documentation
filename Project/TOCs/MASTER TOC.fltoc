@@ -140,15 +140,20 @@
   <TocEntry
     Title="Annexes">
     <TocEntry
-      Title="Formcodes" />
+      Title="Formcodes"
+      Link="/Content/Annexes/Formcodes.htm" />
     <TocEntry
-      Title="Description ID of the profile" />
+      Title="Description ID of the profile"
+      Link="/Content/Annexes/Description ID of the profile.htm" />
     <TocEntry
-      Title="Supported shapes of parametric cross-section" />
+      Title="Supported shapes of parametric cross-section"
+      Link="/Content/Annexes/Supported shapes of parametric cross-section.htm" />
     <TocEntry
-      Title="Supported shapes of compound section" />
+      Title="Supported shapes of compound section"
+      Link="/Content/Annexes/Supported shapes of compound section.htm" />
     <TocEntry
-      Title="Supported design properties of material " />
+      Title="Supported design properties of material "
+      Link="/Content/Annexes/Supported design properties of material .htm" />
   </TocEntry>
   <TocEntry
     Title="Release notes"

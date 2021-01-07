@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultDestination
+  Version="1"
+  Comment="This is my publish destination"
+  Host=""
+  User="MyAccountId"
+  Password=""
+  Directory="\\mpulse\aefdev\v2.0.0"
+  Port=""
+  ViewUrl="https://dev.saf.guide/v2.0.0"
+  Type="file"></CatapultDestination>

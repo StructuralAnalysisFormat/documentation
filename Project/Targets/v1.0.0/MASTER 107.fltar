@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultTarget
   Version="2"
-  Comment="v1.0.9"
+  Comment="New Target"
   Type="WebHelp2"
   Destinations=""
   GlossaryTermConversion="marked"
@@ -15,6 +15,6 @@
     GenerateGlossaryProxy="true" />
   <Destinations>
     <Destination
-      Link="/Project/Destinations/DEV 109.fldes" />
+      Link="/Project/Destinations/v1.0.0/MASTER 107.fldes" />
   </Destinations>
 </CatapultTarget>

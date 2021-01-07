@@ -1,14 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultTarget
   Version="2"
-  Comment="v1.1.1"
+  Comment="v1.0.7"
   Type="WebHelp2"
   Destinations=""
   GlossaryTermConversion="marked"
   MoveOutputContentToRoot="false"
   ConditionTagExpression=""
-  GetLatestBeforeCompile="true"
-  DefaultUrl="/Content/Startup page.htm">
+  GetLatestBeforeCompile="true">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
@@ -16,6 +15,6 @@
     GenerateGlossaryProxy="true" />
   <Destinations>
     <Destination
-      Link="/Project/Destinations/DEV 111.fldes" />
+      Link="/Project/Destinations/v1.0.0/DEV 107.fldes" />
   </Destinations>
 </CatapultTarget>
