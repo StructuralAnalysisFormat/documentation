@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="5685" MadCap:lastWidth="1121">
     <head>
         <link href="TableStyles/NewStyle_header_grey.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -556,7 +556,7 @@
                     <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;">RelConnectsRigidCross</td>
                     <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;">Resistance fi1</td>
                     <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;"> [MNm]</td>
-                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body2" style="font-size: 9pt;">[kip/ft]</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body2" style="font-size: 9pt;">[kipft]</td>
                 </tr>
                 <tr class="TableStyle-NewStyle_header_grey-Body-Body1">
                     <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;">RelConnectsRigidCross</td>
@@ -568,7 +568,7 @@
                     <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;">RelConnectsRigidCross</td>
                     <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;">Resistance fi2 </td>
                     <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;">[MNm]</td>
-                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body2" style="font-size: 9pt;">[kip/ft]</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body2" style="font-size: 9pt;">[kipft]</td>
                 </tr>
                 <tr class="TableStyle-NewStyle_header_grey-Body-Body1">
                     <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;">RelConnectsRigidCross</td>
@@ -580,7 +580,7 @@
                     <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;">RelConnectsRigidCross</td>
                     <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;">Resistance fi </td>
                     <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;">[MNm]</td>
-                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body2" style="font-size: 9pt;">[kip/ft]</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body2" style="font-size: 9pt;">[kipft]</td>
                 </tr>
                 <tr class="TableStyle-NewStyle_header_grey-Body-Body1">
                     <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;">RelConnectsRigidLink</td>
@@ -788,31 +788,43 @@
                 </tr>
                 <tr class="TableStyle-NewStyle_header_grey-Body-Body1">
                     <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;">StructuralPointAction</td>
-                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;">Position x</td>
-                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;">[m]</td>
-                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body1" style="font-size: 9pt;">[ft]</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;">Vector (X;Y;Z)</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;">[kN]</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body1" style="font-size: 9pt;">[kip]</td>
                 </tr>
                 <tr class="TableStyle-NewStyle_header_grey-Body-Body2">
                     <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;">StructuralPointAction</td>
-                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;">Delta x</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;">Position x</td>
                     <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;">[m]</td>
                     <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body2" style="font-size: 9pt;">[ft]</td>
                 </tr>
                 <tr class="TableStyle-NewStyle_header_grey-Body-Body1">
-                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;">StructuralPointActionFree</td>
-                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;">Validity from&#160;</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;">StructuralPointAction</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;">Delta x</td>
                     <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;">[m]</td>
                     <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body1" style="font-size: 9pt;">[ft]</td>
                 </tr>
                 <tr class="TableStyle-NewStyle_header_grey-Body-Body2">
                     <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;">StructuralPointActionFree</td>
-                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;">Validity to</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;">Validity from&#160;</td>
                     <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;">[m]</td>
                     <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body2" style="font-size: 9pt;">[ft]</td>
                 </tr>
                 <tr class="TableStyle-NewStyle_header_grey-Body-Body1">
                     <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;">StructuralPointActionFree</td>
-                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;">Value</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;">Validity to</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;">[m]</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body1" style="font-size: 9pt;">[ft]</td>
+                </tr>
+                <tr class="TableStyle-NewStyle_header_grey-Body-Body2">
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;">StructuralPointActionFree</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;">Value</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;">[kN]</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body2" style="font-size: 9pt;">[kip]</td>
+                </tr>
+                <tr class="TableStyle-NewStyle_header_grey-Body-Body1">
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;">StructuralPointActionFree</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;">Vector (X;Y;Z)</td>
                     <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;">[kN]</td>
                     <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body1" style="font-size: 9pt;">[kip]</td>
                 </tr>
@@ -843,6 +855,18 @@
                 <tr class="TableStyle-NewStyle_header_grey-Body-Body2">
                     <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;">StructuralCurveAction</td>
                     <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;">Value 2</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;">[kN/m]</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body2" style="font-size: 9pt;">[kip/ft]</td>
+                </tr>
+                <tr class="TableStyle-NewStyle_header_grey-Body-Body1">
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;">StructuralCurveAction</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;">Vector 1(X;Y;Z)</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;">[kN/m]</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body1" style="font-size: 9pt;">[kip/ft]</td>
+                </tr>
+                <tr class="TableStyle-NewStyle_header_grey-Body-Body2">
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;">StructuralCurveAction</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;">Vector 2(X;Y;Z)</td>
                     <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;">[kN/m]</td>
                     <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body2" style="font-size: 9pt;">[kip/ft]</td>
                 </tr>
@@ -891,6 +915,18 @@
                 <tr class="TableStyle-NewStyle_header_grey-Body-Body2">
                     <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;">StructuralCurveActionFree</td>
                     <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;">Value 2</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;">[kN/m]</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body2" style="font-size: 9pt;">[kip/ft]</td>
+                </tr>
+                <tr class="TableStyle-NewStyle_header_grey-Body-Body1">
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;">StructuralCurveActionFree</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;">Vector 1(X;Y;Z)</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body1" style="font-size: 9pt;">[kN/m]</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body1" style="font-size: 9pt;">[kip/ft]</td>
+                </tr>
+                <tr class="TableStyle-NewStyle_header_grey-Body-Body2">
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;">StructuralCurveActionFree</td>
+                    <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;">Vector 2(X;Y;Z)</td>
                     <td class="TableStyle-NewStyle_header_grey-BodyE-Column1-Body2" style="font-size: 9pt;">[kN/m]</td>
                     <td class="TableStyle-NewStyle_header_grey-BodyD-Column1-Body2" style="font-size: 9pt;">[kip/ft]</td>
                 </tr>

@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="12197" MadCap:lastWidth="1121" MadCap:ignoredWords="StructuralCurveConnection;StructuralPointAction;StructuralSurfaceActionFree;StructuralLoadCombination;StructuralCurveMoment;StructuralCurveActionThermal;StructuralModel">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="12512" MadCap:lastWidth="1121" MadCap:ignoredWords="StructuralCurveConnection;StructuralPointAction;StructuralSurfaceActionFree;StructuralLoadCombination;StructuralCurveMoment;StructuralCurveActionThermal;StructuralModel">
     <head>
     </head>
     <body style="font-family: 'Century Gothic';font-size: 11pt;">
         <p style="font-size: 18pt;text-decoration: none;">Structural Analysis Format (SAF)</p>
-        <p style="font-size: 18pt; text-decoration: none;"><span style="font-size: 16pt;">Version 1.1.1</span>
+        <p style="font-size: 18pt; text-decoration: none;"><span style="font-size: 16pt;">Version 2.0.0</span>
         </p>
         <p>Welcome to the SAF website.</p>
         <p>SAF is a global format for the exchange data from different analysis software via excel format in the structural engineering discipline.</p>
@@ -13,11 +13,22 @@
         <p style="font-weight: bold;">This is a developer version of SAF documentation. Published items might be subject of discussion and changes aligned with implementation process.</p>
         <hr />
         <p style="font-size: 18pt;text-decoration: none;">Release notes</p>
-        <p style="font-size: 18pt; text-decoration: none;"><span style="font-size: 14pt;">19.11.2020 - Version 1.1.1</span>
+        <p style="font-size: 18pt; text-decoration: none;"><span style="font-size: 14pt;">11.12.2020 - Version 2.0.0</span>
         </p>
-        <p>In version 1.1.1:</p>
+        <p>In version 2.0.0:</p>
         <p>New attribute added:</p>
         <p><a href="#">Project and model specification</a> - Model sheet, National code added</p>
+        <p><a href="A_Objects/18_StructuralPointAction.htm">StructuralPointAction</a> - Possible to input angled point force, Extended Direction enum, Added Vector attribute </p>
+        <p><a href="A_Objects/22_StructuralCurveActionFree.htm">StructuralPointActionFree</a> - Possible to input angled point force, Extended Direction enum, Added Vector attribute </p>
+        <p><a href="A_Objects/19_StructuralCurveAction.htm">StructuralCurveAction</a>
+        </p>
+        <p> - Possible to input angled line force, Extended Direction enum, Added Vector 1 and Vector 2 attribute </p>
+        <p>- Extended Force action enum by "On subregion edge" and "On opening edge"</p>
+        <p><a href="A_Objects/13_StructuralEdgeConnection.htm">StructuralEdgeConnection</a>
+        </p>
+        <p>- Added enum attribute "Boundary condition" to allow input on different types of edges (2D member, 2D opening, 2D subregion)</p>
+        <p><a href="A_Objects/27_StructuralCurveMoment.htm">StructuralCurveMoment</a> - Extended Force action enum by "On subregion edge" and "On opening edge"</p>
+        <p><a href="A_Objects/24_StructuralPointActionFree.htm">StructuralCurveFree</a> - Possible to input angled line force, Extended Direction enum, Added Vector 1 and Vector 2 attribute </p>
         <p>&#160;</p>
         <p>We removed default column value.</p>
         <p>We included more attributes as required to ensure all important and structural engineering relevant data will be exchanged</p>

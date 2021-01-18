@@ -52,6 +52,9 @@
     <TocEntry
       Title="StructuralStorey"
       Link="/Content/A_Objects/35_StructuralStorey.htm" />
+    <TocEntry
+      Title="StructuralProxyElement"
+      Link="/Content/A_Objects/37_StructuralProxyElement.htm" />
   </TocEntry>
   <TocEntry
     Title="Supports and hinges">
@@ -158,4 +161,7 @@
   <TocEntry
     Title="Best practice"
     Link="/Content/38_Best practice.htm"></TocEntry>
+  <TocEntry
+    Title="Free SAF viewer"
+    Link="https://autoconverter.structuraltoolkit.com/en-GB/saf-viewer"></TocEntry>
 </CatapultToc>

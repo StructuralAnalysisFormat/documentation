@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1677" MadCap:lastWidth="1890">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1780" MadCap:lastWidth="1401">
     <head>
         <link href="../Resources/TableStyles/NewStyle.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -12,10 +12,9 @@
             <img src="../Resources/Images/StructuralCurveActionFree1.png" style="width: 747px;height: 418px;" />
         </p>
         <p>Specification in the excel:</p>
-        <table style="mc-table-style: url('../Resources/TableStyles/NewStyle.css');" class="TableStyle-NewStyle" cellspacing="0">
+        <table style="mc-table-style: url('../Resources/TableStyles/NewStyle.css');" class="TableStyle-NewStyle" cellspacing="6">
             <col style="width: 155px;" class="TableStyle-NewStyle-Column-Column1" />
             <col style="width: 181px;" class="TableStyle-NewStyle-Column-Column1" />
-            <col style="width: 254px;" class="TableStyle-NewStyle-Column-Column1" />
             <col style="width: 254px;" class="TableStyle-NewStyle-Column-Column1" />
             <col style="width: 254px;" class="TableStyle-NewStyle-Column-Column1" />
             <col style="width: 557px;" class="TableStyle-NewStyle-Column-Column1" />
@@ -36,9 +35,6 @@
                     <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
                         <p style="text-align: center;padding-left: 4px;padding-right: 4px;color: #ffffff;">Required value</p>
                     </td>
-                    <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">
-                        <p style="text-align: center;padding-left: 4px;padding-right: 4px;color: #ffffff;">Default value</p>
-                    </td>
                     <td style="background-color: #0f486e;color: #ffffff;font-size: 11pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">
                         <p style="color: #ffffff;padding-left: 4px;padding-right: 4px;text-align: left;">Description</p>
                     </td>
@@ -54,7 +50,6 @@
                         <p>LF5</p>
                     </td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">yes</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">-</td>
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">
                         <p>Human
  readable unique name of the force</p>
@@ -71,7 +66,6 @@
                         <p>Standard</p>
                     </td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">no</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">Standard</td>
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">
                         <p>This property defines what the load is caused by, E.g. Standard, Wind, Snow, Self weight, Hoar Frost, Predefined, Plane Load, Water Pond, Water Pressure, Soil Pressure, Generated Water, Generated Soil</p>
                     </td>
@@ -85,8 +79,7 @@
                         <p>Uniform</p>
                         <p>Trapezoidal</p>
                     </td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">no</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">Uniform</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">yes</td>
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">
                         <p>The load may be either constant along its length or linearly variable (trapezoidal).</p>
                     </td>
@@ -98,33 +91,54 @@
                         <p>X</p>
                         <p>Y</p>
                         <p>Z</p>
+                        <p>Vector</p>
                     </td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">no</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">Z</td>
-                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">Specifies the base direction of the load</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">yes</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">
+                        <p>Specifies the base direction of the load</p>
+                        <p>X, Y, Z - action will be applied in one of these directions</p>
+                        <p>Vector - size and direction calculated from vector</p>
+                    </td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body2">
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Value 1 [kN/m]</td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Double</td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">-150</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">yes</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">-</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">yes, if Direction = X,Y or Z</td>
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">Specifies the first size of the load in kiloNewtons per meter</td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body1">
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Value 2 [kN/m]</td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Double</td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">-180</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">yes</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">-</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">yes, if Direction = X,Y or Z</td>
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">Specifies the second size of the load in kiloNewtons per meter</td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body2">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Vector 1(X;Y;Z) [kN/m]</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">String</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">(10;10;0)</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">yes, if Direction = Vector</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">
+                        <p>Specifies the first size of the load in, direction by vector</p>
+                        <p>Note: Vector1 and Vector2 needs to be in same direction</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-NewStyle-Body-Body1">
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Vector 2(X;Y;Z) [kN/m]</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">String</td>
+                    <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">(20;20;0)</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">yes, if Direction = Vector</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">
+                        <p>Specifies the second size of the load in, direction by vector</p>
+                        <p>Note: Vector1 and Vector2 needs to be in same direction</p>
+                    </td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body2">
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Load case</td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">String</td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">LC1</td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">yes</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">-</td>
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">The name of the load case to which the force belongs</td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body1">
@@ -132,7 +146,6 @@
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">String</td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">0.000; 2.050; 4.850; -2.000</td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">yes</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">-</td>
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">The list of X coordinates of the nodes which define the geometry of the line free load. Each coordinate is separated by semicolon and space.</td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body2">
@@ -140,7 +153,6 @@
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">String</td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">0.500; 1.050; 2.650; -1.500</td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">yes</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">-</td>
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">The list of Y coordinates of the nodes which define the geometry of the line free load. Each coordinate is separated by semicolon and space.</td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body1">
@@ -148,7 +160,6 @@
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">String</td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">0.000; 0.000; 0.000; 0.000</td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">yes</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">-</td>
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">The list of Z coordinates of the nodes which define the geometry of the line free load. Each coordinate is separated by semicolon and space.</td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body2">
@@ -156,7 +167,6 @@
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">String</td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Line; Circular Arc; Bezier; Parabolic arc; Spline</td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">yes</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">-</td>
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">List of the shape of each segment which is part of the curve, separated by semicolon if there are multiple</td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body1">
@@ -166,8 +176,7 @@
                         <p>Global</p>
                         <p>Local</p>
                     </td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">no</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">Global</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">yes</td>
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">Defines co-ordinate system of the member in which the load is applied</td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body2">
@@ -177,8 +186,7 @@
                         <p>Length</p>
                         <p>Projection</p>
                     </td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">no</td>
-                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">Length</td>
+                    <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">yes</td>
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">Specifies whether the load is "put directly on an inclined 1D member" or whether the "projection on plan" is defined.</td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body1">
@@ -186,7 +194,6 @@
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body1">String</td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyB-Column1-Body1">39f238a5-01d0-45cf-a2eb-958170fd4f39</td>
                     <td class="TableStyle-NewStyle-BodyB-Column1-Body1" style="font-size: 9pt;">no</td>
-                    <td class="TableStyle-NewStyle-BodyB-Column1-Body1" style="font-size: 9pt;">-</td>
                     <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyA-Column1-Body1">Unique attribute designation</td>
                 </tr>
             </tbody>
