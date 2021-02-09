@@ -142,18 +142,6 @@
       Link="/Content/A_Objects/36_StructuralSurfaceActionDistribution.htm" />
   </TocEntry>
   <TocEntry
-    Title="Results">
-    <TocEntry
-      Title="Node Displacement"
-      Link="/Content/Results/01_Node Displacement.htm"></TocEntry>
-    <TocEntry
-      Title="Deformations 1D"
-      Link="/Content/Results/02_Deformations1D.htm"></TocEntry>
-    <TocEntry
-      Title="Internal Forces 1D"
-      Link="/Content/Results/03_InternalForces1D.htm" />
-  </TocEntry>
-  <TocEntry
     Title="Annexes">
     <TocEntry
       Title="Formcodes"
