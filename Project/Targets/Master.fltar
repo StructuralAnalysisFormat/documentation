@@ -9,7 +9,10 @@
   ConditionTagExpression=""
   GetLatestBeforeCompile="true"
   MasterToc="/Project/TOCs/MASTER TOC.fltoc"
-  DefaultUrl="/Content/0_General.htm">
+  DefaultUrl="/Content/0_General.htm"
+  MasterPage="/Content/Resources/MasterPages/MasterPageWebsite.flmsp"
+  EnableSitemap="true"
+  SitemapWebUrl="https://saf.guide/">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
@@ -19,4 +22,15 @@
     <Destination
       Link="/Project/Destinations/MASTER.fldes" />
   </Destinations>
+  <MetaTags>
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge" />
+    <meta
+      name="description"
+      content="SAF is open format for exchange analyis models between structural engineers and other CAD/CAE applications." />
+    <meta
+      name="keywords"
+      content="structural analysis,open format, exchange between structural engineers,SCIA to RFEM, SCIA to Robot, SCIA to ArchiCAD, SCIA to RISA,SAF,CAE exchange" />
+  </MetaTags>
 </CatapultTarget>
