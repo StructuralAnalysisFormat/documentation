@@ -9,8 +9,7 @@
   ConditionTagExpression=""
   GetLatestBeforeCompile="true"
   MasterToc="/Project/TOCs/MASTER TOC.fltoc"
-  DefaultUrl="/Content/0_General.htm"
-  MasterPage="/Content/Resources/MasterPages/MasterPageWebsite.flmsp"
+  DefaultUrl="/Content/0_General_master.htm"
   EnableSitemap="true"
   SitemapWebUrl="https://saf.guide/">
   <PrintedOutput
