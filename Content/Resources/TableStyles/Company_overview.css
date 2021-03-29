@@ -1,0 +1,1368 @@
+/* MadCap Table Style: */
+
+/*<meta Version="9" />*/
+
+mcTableStyle
+{
+	name: Copy of Company_overview;
+	border-collapse: separate;
+	border-left-style: solid;
+	border-left-width: 0px;
+	border-left-color: #000000;
+	border-right-style: solid;
+	border-right-width: 0px;
+	border-right-color: #000000;
+	border-top-style: solid;
+	border-top-width: 0px;
+	border-top-color: #000000;
+	border-bottom-style: solid;
+	border-bottom-width: 0px;
+	border-bottom-color: #000000;
+	max-id: 22;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-top-left-radius: 0px 0px;
+	border-top-right-radius: 0px 0px;
+	border-bottom-right-radius: 0px 0px;
+	border-bottom-left-radius: 0px 0px;
+	cell-padding-left: 24pt;
+	cell-padding-right: 24pt;
+	cell-padding-top: 0pt;
+	cell-padding-bottom: 0pt;
+	border-spacing-y: 0;
+	border-spacing-x: 0;
+}
+
+mcTableColumnStyle
+{
+	span: 1;
+	separator-style: none;
+	separator-width: 0px;
+	separator-color: #ffffff;
+	name: Column1;
+	id: 0;
+	type: Header;
+	vertical-align: middle;
+	color: #000000;
+	cell-padding-right: 16px;
+	cell-padding-left: 0px;
+	cell-padding-top: 0px;
+	cell-padding-bottom: 0px;
+	font-size: 14pt;
+	text-align: right;
+	size: 350px;
+	font-family: 'Century Gothic';
+	background-image: none;
+}
+
+mcTableColumnStyle
+{
+	span: 1;
+	id: 22;
+	name: COMPANY;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 20pt;
+	font-family: 'Century Gothic';
+	separator-style: none;
+	separator-width: 0px;
+	size: 100px;
+	cell-padding-left: 0px;
+	cell-padding-right: 0px;
+	cell-padding-top: 0px;
+	cell-padding-bottom: 0px;
+	color: #ffffff;
+}
+
+mcTableHeadStyle
+{
+	span: 1;
+	separator-style: none;
+	separator-width: 2px;
+	separator-color: #000000;
+	name: Header1;
+	id: 2;
+	size: 150px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #ffffff;
+	font-size: 14pt;
+	font-family: 'Century Gothic';
+	cell-padding-left: 8px;
+	color: #000000;
+}
+
+mcTableBodyStyle
+{
+	span: 1;
+	separator-style: none;
+	separator-width: 0px;
+	separator-color: #000000;
+	name: Body1;
+	id: 1;
+	size: 50px;
+	type: Automatic;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 14pt;
+	font-family: 'Century Gothic';
+}
+
+
+/* Cell Styles: */
+ 
+.TableStyle-Copy_of_Company_overview
+{
+	border-collapse: separate;
+	border-left-style: solid;
+	border-left-color: #000000;
+	border-left-width: 0px;
+	border-right-style: solid;
+	border-right-color: #000000;
+	border-right-width: 0px;
+	border-top-style: solid;
+	border-top-color: #000000;
+	border-top-width: 0px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	border-bottom-width: 0px;
+	border-top-left-radius: 0px 0px;
+	border-top-right-radius: 0px 0px;
+	border-bottom-right-radius: 0px 0px;
+	border-bottom-left-radius: 0px 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-spacing: 0px 0px;
+}
+
+.TableStyle-Copy_of_Company_overview-Column-Column1
+{
+	width: 350px;
+}
+
+.TableStyle-Copy_of_Company_overview-Column-COMPANY
+{
+	width: 100px;
+}
+
+.TableStyle-Copy_of_Company_overview-Head-Header1
+{
+	height: 150px;
+}
+
+.TableStyle-Copy_of_Company_overview-HeadI-Column1-Header1
+{
+	background-image: none;
+	padding-right: 16px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #ffffff;
+	padding-left: 8px;
+}
+
+.TableStyle-Copy_of_Company_overview-HeadI-Column1-Header1 p
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+}
+
+.TableStyle-Copy_of_Company_overview-HeadE-Column1-Header1
+{
+	background-image: none;
+	padding-right: 16px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-right-width: 0px;
+	border-right-color: #ffffff;
+	border-right-style: none;
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #ffffff;
+	padding-left: 8px;
+	border-bottom-width: 2px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+}
+
+.TableStyle-Copy_of_Company_overview-HeadE-Column1-Header1 p
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+}
+
+.TableStyle-Copy_of_Company_overview-HeadF-Column1-Header1
+{
+	background-image: none;
+	padding-right: 16px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #ffffff;
+	padding-left: 8px;
+	border-bottom-width: 2px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+}
+
+.TableStyle-Copy_of_Company_overview-HeadF-Column1-Header1 p
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+}
+
+.TableStyle-Copy_of_Company_overview-HeadH-Column1-Header1
+{
+	background-image: none;
+	padding-right: 16px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-right-width: 0px;
+	border-right-color: #ffffff;
+	border-right-style: none;
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #ffffff;
+	padding-left: 8px;
+}
+
+.TableStyle-Copy_of_Company_overview-HeadH-Column1-Header1 p
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+}
+
+.TableStyle-Copy_of_Company_overview-HeadD-Column1-Header1
+{
+	background-image: none;
+	padding-right: 16px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #ffffff;
+	padding-left: 8px;
+	border-bottom-width: 2px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+}
+
+.TableStyle-Copy_of_Company_overview-HeadD-Column1-Header1 p
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+}
+
+.TableStyle-Copy_of_Company_overview-HeadC-Column1-Header1
+{
+	background-image: none;
+	padding-right: 16px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #ffffff;
+	padding-left: 8px;
+}
+
+.TableStyle-Copy_of_Company_overview-HeadC-Column1-Header1 p
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+}
+
+.TableStyle-Copy_of_Company_overview-HeadB-Column1-Header1
+{
+	background-image: none;
+	padding-right: 16px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-right-width: 0px;
+	border-right-color: #ffffff;
+	border-right-style: none;
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #ffffff;
+	padding-left: 8px;
+}
+
+.TableStyle-Copy_of_Company_overview-HeadB-Column1-Header1 p
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+}
+
+.TableStyle-Copy_of_Company_overview-HeadA-Column1-Header1
+{
+	background-image: none;
+	padding-right: 16px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #ffffff;
+	padding-left: 8px;
+}
+
+.TableStyle-Copy_of_Company_overview-HeadA-Column1-Header1 p
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+}
+
+.TableStyle-Copy_of_Company_overview-HeadG-Column1-Header1
+{
+	background-image: none;
+	padding-right: 16px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #ffffff;
+	padding-left: 8px;
+}
+
+.TableStyle-Copy_of_Company_overview-HeadG-Column1-Header1 p
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+}
+
+.TableStyle-Copy_of_Company_overview-HeadI-COMPANY-Header1
+{
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #ffffff;
+	padding-left: 8px;
+}
+
+.TableStyle-Copy_of_Company_overview-HeadI-COMPANY-Header1 p
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+}
+
+.TableStyle-Copy_of_Company_overview-HeadE-COMPANY-Header1
+{
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-right-width: 0px;
+	border-right-style: none;
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #ffffff;
+	padding-left: 8px;
+	border-bottom-width: 2px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+}
+
+.TableStyle-Copy_of_Company_overview-HeadE-COMPANY-Header1 p
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+}
+
+.TableStyle-Copy_of_Company_overview-HeadF-COMPANY-Header1
+{
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #ffffff;
+	padding-left: 8px;
+	border-bottom-width: 2px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+}
+
+.TableStyle-Copy_of_Company_overview-HeadF-COMPANY-Header1 p
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+}
+
+.TableStyle-Copy_of_Company_overview-HeadH-COMPANY-Header1
+{
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-right-width: 0px;
+	border-right-style: none;
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #ffffff;
+	padding-left: 8px;
+}
+
+.TableStyle-Copy_of_Company_overview-HeadH-COMPANY-Header1 p
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+}
+
+.TableStyle-Copy_of_Company_overview-HeadD-COMPANY-Header1
+{
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #ffffff;
+	padding-left: 8px;
+	border-bottom-width: 2px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+}
+
+.TableStyle-Copy_of_Company_overview-HeadD-COMPANY-Header1 p
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+}
+
+.TableStyle-Copy_of_Company_overview-HeadC-COMPANY-Header1
+{
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #ffffff;
+	padding-left: 8px;
+}
+
+.TableStyle-Copy_of_Company_overview-HeadC-COMPANY-Header1 p
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+}
+
+.TableStyle-Copy_of_Company_overview-HeadB-COMPANY-Header1
+{
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-right-width: 0px;
+	border-right-style: none;
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #ffffff;
+	padding-left: 8px;
+}
+
+.TableStyle-Copy_of_Company_overview-HeadB-COMPANY-Header1 p
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+}
+
+.TableStyle-Copy_of_Company_overview-HeadA-COMPANY-Header1
+{
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #ffffff;
+	padding-left: 8px;
+}
+
+.TableStyle-Copy_of_Company_overview-HeadA-COMPANY-Header1 p
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+}
+
+.TableStyle-Copy_of_Company_overview-HeadG-COMPANY-Header1
+{
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #ffffff;
+	padding-left: 8px;
+}
+
+.TableStyle-Copy_of_Company_overview-HeadG-COMPANY-Header1 p
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+}
+
+.TableStyle-Copy_of_Company_overview-FootI-Column1-
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	text-align: right;
+	vertical-align: middle;
+	background-image: none;
+	padding-left: 0px;
+	padding-right: 16px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.TableStyle-Copy_of_Company_overview-FootI-Column1- p
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+}
+
+.TableStyle-Copy_of_Company_overview-FootE-Column1-
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	text-align: right;
+	vertical-align: middle;
+	background-image: none;
+	padding-left: 0px;
+	padding-right: 16px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-right-width: 0px;
+	border-right-color: #ffffff;
+	border-right-style: none;
+}
+
+.TableStyle-Copy_of_Company_overview-FootE-Column1- p
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+}
+
+.TableStyle-Copy_of_Company_overview-FootF-Column1-
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	text-align: right;
+	vertical-align: middle;
+	background-image: none;
+	padding-left: 0px;
+	padding-right: 16px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.TableStyle-Copy_of_Company_overview-FootF-Column1- p
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+}
+
+.TableStyle-Copy_of_Company_overview-FootH-Column1-
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	text-align: right;
+	vertical-align: middle;
+	background-image: none;
+	padding-left: 0px;
+	padding-right: 16px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-right-width: 0px;
+	border-right-color: #ffffff;
+	border-right-style: none;
+}
+
+.TableStyle-Copy_of_Company_overview-FootH-Column1- p
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+}
+
+.TableStyle-Copy_of_Company_overview-FootD-Column1-
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	text-align: right;
+	vertical-align: middle;
+	background-image: none;
+	padding-left: 0px;
+	padding-right: 16px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.TableStyle-Copy_of_Company_overview-FootD-Column1- p
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+}
+
+.TableStyle-Copy_of_Company_overview-FootC-Column1-
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	text-align: right;
+	vertical-align: middle;
+	background-image: none;
+	padding-left: 0px;
+	padding-right: 16px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.TableStyle-Copy_of_Company_overview-FootC-Column1- p
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+}
+
+.TableStyle-Copy_of_Company_overview-FootB-Column1-
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	text-align: right;
+	vertical-align: middle;
+	background-image: none;
+	padding-left: 0px;
+	padding-right: 16px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-right-width: 0px;
+	border-right-color: #ffffff;
+	border-right-style: none;
+}
+
+.TableStyle-Copy_of_Company_overview-FootB-Column1- p
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+}
+
+.TableStyle-Copy_of_Company_overview-FootA-Column1-
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	text-align: right;
+	vertical-align: middle;
+	background-image: none;
+	padding-left: 0px;
+	padding-right: 16px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.TableStyle-Copy_of_Company_overview-FootA-Column1- p
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+}
+
+.TableStyle-Copy_of_Company_overview-FootG-Column1-
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	text-align: right;
+	vertical-align: middle;
+	background-image: none;
+	padding-left: 0px;
+	padding-right: 16px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.TableStyle-Copy_of_Company_overview-FootG-Column1- p
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+}
+
+.TableStyle-Copy_of_Company_overview-FootI-COMPANY-
+{
+	color: #ffffff;
+	font-family: 'Century Gothic';
+	font-size: 20pt;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.TableStyle-Copy_of_Company_overview-FootI-COMPANY- p
+{
+	color: #ffffff;
+	font-family: 'Century Gothic';
+	font-size: 20pt;
+}
+
+.TableStyle-Copy_of_Company_overview-FootE-COMPANY-
+{
+	color: #ffffff;
+	font-family: 'Century Gothic';
+	font-size: 20pt;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-right-width: 0px;
+	border-right-style: none;
+}
+
+.TableStyle-Copy_of_Company_overview-FootE-COMPANY- p
+{
+	color: #ffffff;
+	font-family: 'Century Gothic';
+	font-size: 20pt;
+}
+
+.TableStyle-Copy_of_Company_overview-FootF-COMPANY-
+{
+	color: #ffffff;
+	font-family: 'Century Gothic';
+	font-size: 20pt;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.TableStyle-Copy_of_Company_overview-FootF-COMPANY- p
+{
+	color: #ffffff;
+	font-family: 'Century Gothic';
+	font-size: 20pt;
+}
+
+.TableStyle-Copy_of_Company_overview-FootH-COMPANY-
+{
+	color: #ffffff;
+	font-family: 'Century Gothic';
+	font-size: 20pt;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-right-width: 0px;
+	border-right-style: none;
+}
+
+.TableStyle-Copy_of_Company_overview-FootH-COMPANY- p
+{
+	color: #ffffff;
+	font-family: 'Century Gothic';
+	font-size: 20pt;
+}
+
+.TableStyle-Copy_of_Company_overview-FootD-COMPANY-
+{
+	color: #ffffff;
+	font-family: 'Century Gothic';
+	font-size: 20pt;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.TableStyle-Copy_of_Company_overview-FootD-COMPANY- p
+{
+	color: #ffffff;
+	font-family: 'Century Gothic';
+	font-size: 20pt;
+}
+
+.TableStyle-Copy_of_Company_overview-FootC-COMPANY-
+{
+	color: #ffffff;
+	font-family: 'Century Gothic';
+	font-size: 20pt;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.TableStyle-Copy_of_Company_overview-FootC-COMPANY- p
+{
+	color: #ffffff;
+	font-family: 'Century Gothic';
+	font-size: 20pt;
+}
+
+.TableStyle-Copy_of_Company_overview-FootB-COMPANY-
+{
+	color: #ffffff;
+	font-family: 'Century Gothic';
+	font-size: 20pt;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-right-width: 0px;
+	border-right-style: none;
+}
+
+.TableStyle-Copy_of_Company_overview-FootB-COMPANY- p
+{
+	color: #ffffff;
+	font-family: 'Century Gothic';
+	font-size: 20pt;
+}
+
+.TableStyle-Copy_of_Company_overview-FootA-COMPANY-
+{
+	color: #ffffff;
+	font-family: 'Century Gothic';
+	font-size: 20pt;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.TableStyle-Copy_of_Company_overview-FootA-COMPANY- p
+{
+	color: #ffffff;
+	font-family: 'Century Gothic';
+	font-size: 20pt;
+}
+
+.TableStyle-Copy_of_Company_overview-FootG-COMPANY-
+{
+	color: #ffffff;
+	font-family: 'Century Gothic';
+	font-size: 20pt;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.TableStyle-Copy_of_Company_overview-FootG-COMPANY- p
+{
+	color: #ffffff;
+	font-family: 'Century Gothic';
+	font-size: 20pt;
+}
+
+.TableStyle-Copy_of_Company_overview-Body-Body1
+{
+	height: 50px;
+}
+
+.TableStyle-Copy_of_Company_overview-BodyI-Column1-Body1
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	text-align: right;
+	vertical-align: middle;
+	background-image: none;
+	padding-left: 0px;
+	padding-right: 16px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.TableStyle-Copy_of_Company_overview-BodyI-Column1-Body1 p
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+}
+
+.TableStyle-Copy_of_Company_overview-BodyE-Column1-Body1
+{
+	border-bottom-width: 0px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	text-align: right;
+	vertical-align: middle;
+	background-image: none;
+	padding-left: 0px;
+	padding-right: 16px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-right-width: 0px;
+	border-right-color: #ffffff;
+	border-right-style: none;
+}
+
+.TableStyle-Copy_of_Company_overview-BodyE-Column1-Body1 p
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+}
+
+.TableStyle-Copy_of_Company_overview-BodyF-Column1-Body1
+{
+	border-bottom-width: 0px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	text-align: right;
+	vertical-align: middle;
+	background-image: none;
+	padding-left: 0px;
+	padding-right: 16px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.TableStyle-Copy_of_Company_overview-BodyF-Column1-Body1 p
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+}
+
+.TableStyle-Copy_of_Company_overview-BodyH-Column1-Body1
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	text-align: right;
+	vertical-align: middle;
+	background-image: none;
+	padding-left: 0px;
+	padding-right: 16px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-right-width: 0px;
+	border-right-color: #ffffff;
+	border-right-style: none;
+}
+
+.TableStyle-Copy_of_Company_overview-BodyH-Column1-Body1 p
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+}
+
+.TableStyle-Copy_of_Company_overview-BodyD-Column1-Body1
+{
+	border-bottom-width: 0px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	text-align: right;
+	vertical-align: middle;
+	background-image: none;
+	padding-left: 0px;
+	padding-right: 16px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.TableStyle-Copy_of_Company_overview-BodyD-Column1-Body1 p
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+}
+
+.TableStyle-Copy_of_Company_overview-BodyC-Column1-Body1
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	text-align: right;
+	vertical-align: middle;
+	background-image: none;
+	padding-left: 0px;
+	padding-right: 16px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.TableStyle-Copy_of_Company_overview-BodyC-Column1-Body1 p
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+}
+
+.TableStyle-Copy_of_Company_overview-BodyB-Column1-Body1
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	text-align: right;
+	vertical-align: middle;
+	background-image: none;
+	padding-left: 0px;
+	padding-right: 16px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-right-width: 0px;
+	border-right-color: #ffffff;
+	border-right-style: none;
+}
+
+.TableStyle-Copy_of_Company_overview-BodyB-Column1-Body1 p
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+}
+
+.TableStyle-Copy_of_Company_overview-BodyA-Column1-Body1
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	text-align: right;
+	vertical-align: middle;
+	background-image: none;
+	padding-left: 0px;
+	padding-right: 16px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.TableStyle-Copy_of_Company_overview-BodyA-Column1-Body1 p
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+}
+
+.TableStyle-Copy_of_Company_overview-BodyG-Column1-Body1
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	text-align: right;
+	vertical-align: middle;
+	background-image: none;
+	padding-left: 0px;
+	padding-right: 16px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.TableStyle-Copy_of_Company_overview-BodyG-Column1-Body1 p
+{
+	color: #000000;
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+}
+
+.TableStyle-Copy_of_Company_overview-BodyI-COMPANY-Body1
+{
+	color: #ffffff;
+	font-family: 'Century Gothic';
+	font-size: 20pt;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.TableStyle-Copy_of_Company_overview-BodyI-COMPANY-Body1 p
+{
+	color: #ffffff;
+	font-family: 'Century Gothic';
+	font-size: 20pt;
+}
+
+.TableStyle-Copy_of_Company_overview-BodyE-COMPANY-Body1
+{
+	border-bottom-width: 0px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+	color: #ffffff;
+	font-family: 'Century Gothic';
+	font-size: 20pt;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-right-width: 0px;
+	border-right-style: none;
+}
+
+.TableStyle-Copy_of_Company_overview-BodyE-COMPANY-Body1 p
+{
+	color: #ffffff;
+	font-family: 'Century Gothic';
+	font-size: 20pt;
+}
+
+.TableStyle-Copy_of_Company_overview-BodyF-COMPANY-Body1
+{
+	border-bottom-width: 0px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+	color: #ffffff;
+	font-family: 'Century Gothic';
+	font-size: 20pt;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.TableStyle-Copy_of_Company_overview-BodyF-COMPANY-Body1 p
+{
+	color: #ffffff;
+	font-family: 'Century Gothic';
+	font-size: 20pt;
+}
+
+.TableStyle-Copy_of_Company_overview-BodyH-COMPANY-Body1
+{
+	color: #ffffff;
+	font-family: 'Century Gothic';
+	font-size: 20pt;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-right-width: 0px;
+	border-right-style: none;
+}
+
+.TableStyle-Copy_of_Company_overview-BodyH-COMPANY-Body1 p
+{
+	color: #ffffff;
+	font-family: 'Century Gothic';
+	font-size: 20pt;
+}
+
+.TableStyle-Copy_of_Company_overview-BodyD-COMPANY-Body1
+{
+	border-bottom-width: 0px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+	color: #ffffff;
+	font-family: 'Century Gothic';
+	font-size: 20pt;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.TableStyle-Copy_of_Company_overview-BodyD-COMPANY-Body1 p
+{
+	color: #ffffff;
+	font-family: 'Century Gothic';
+	font-size: 20pt;
+}
+
+.TableStyle-Copy_of_Company_overview-BodyC-COMPANY-Body1
+{
+	color: #ffffff;
+	font-family: 'Century Gothic';
+	font-size: 20pt;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.TableStyle-Copy_of_Company_overview-BodyC-COMPANY-Body1 p
+{
+	color: #ffffff;
+	font-family: 'Century Gothic';
+	font-size: 20pt;
+}
+
+.TableStyle-Copy_of_Company_overview-BodyB-COMPANY-Body1
+{
+	color: #ffffff;
+	font-family: 'Century Gothic';
+	font-size: 20pt;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-right-width: 0px;
+	border-right-style: none;
+}
+
+.TableStyle-Copy_of_Company_overview-BodyB-COMPANY-Body1 p
+{
+	color: #ffffff;
+	font-family: 'Century Gothic';
+	font-size: 20pt;
+}
+
+.TableStyle-Copy_of_Company_overview-BodyA-COMPANY-Body1
+{
+	color: #ffffff;
+	font-family: 'Century Gothic';
+	font-size: 20pt;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.TableStyle-Copy_of_Company_overview-BodyA-COMPANY-Body1 p
+{
+	color: #ffffff;
+	font-family: 'Century Gothic';
+	font-size: 20pt;
+}
+
+.TableStyle-Copy_of_Company_overview-BodyG-COMPANY-Body1
+{
+	color: #ffffff;
+	font-family: 'Century Gothic';
+	font-size: 20pt;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.TableStyle-Copy_of_Company_overview-BodyG-COMPANY-Body1 p
+{
+	color: #ffffff;
+	font-family: 'Century Gothic';
+	font-size: 20pt;
+}
+
+

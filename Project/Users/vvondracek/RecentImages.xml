@@ -1,23 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
-    <Url Source="Resources/Images/model_GCS_big.jpg" />
-    <Url Source="Resources/Images/36.gif" />
-    <Url Source="Resources/Images/StructuralStorey_2.png" />
-    <Url Source="Resources/Images/StructuralStorey_1.png" />
-    <Url Source="Resources/Images/Beam_Alignment_Side_top-bottom.png" />
-    <Url Source="Resources/Images/Beam_Alignment_Side_right-right.png" />
-    <Url Source="Resources/Images/Beam_Alignment_Side_left-left.png" />
-    <Url Source="Resources/Images/Beam_Alignment_Side_bot-bot.png" />
-    <Url Source="Resources/Images/Beam_Alignment_Plan+Side_Centre.png" />
-    <Url Source="Resources/Images/Beam_Alignment_Side_top-top.png" />
-    <Url Source="Resources/Images/StructuralCurveMemberVarying_5.png" />
-    <Url Source="Resources/Images/StructuralCurveMemberVarying_3.png" />
-    <Url Source="Resources/Images/CSS AlignmentRight.png" />
-    <Url Source="Resources/Images/CSS AlignmentLeft.png" />
-    <Url Source="Resources/Images/CSS AlignmentBottom.png" />
-    <Url Source="Resources/Images/CSS AlignmentTop.png" />
-    <Url Source="Resources/Images/CSS AlignmentCentre.png" />
-    <Url Source="Resources/Images/CSS AlignmentXaxis.png" />
-    <Url Source="Resources/Images/StructuralCurveMemberVarying_1.png" />
-    <Url Source="Resources/Images/StructuralCurveMemberVarying_2.png" />
+    <Url Source="Resources/company logo/sofistik.png" />
+    <Url Source="Resources/company logo/scad.jpg" />
+    <Url Source="Resources/company logo/robot.png" />
+    <Url Source="Resources/company logo/logo_lira.png" />
+    <Url Source="Resources/company logo/idea.png" />
+    <Url Source="Resources/company logo/FEM-Design-logo.png" />
+    <Url Source="Resources/company logo/scia.jpg" />
+    <Url Source="Resources/company logo/Alto.jpg" />
+    <Url Source="Resources/company logo/axis.jpg" />
+    <Url Source="Resources/company logo/lira.jpg" />
+    <Url Source="Resources/company logo/DIE.jpeg" />
+    <Url Source="Resources/company logo/prota.jpeg" />
+    <Url Source="Resources/company logo/radimpex.png" />
+    <Url Source="Resources/company logo/Dlubal.jpg" />
+    <Url Source="Resources/company logo/risa.png" />
+    <Url Source="Resources/company logo/GRgnAy6O_400x400.jpg" />
+    <Url Source="Resources/company logo/frilo.jpeg" />
 </UrlList>
