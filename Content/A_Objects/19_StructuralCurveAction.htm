@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="3929" MadCap:lastWidth="1401">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="3889" MadCap:lastWidth="1401">
     <head>
         <link href="../Resources/TableStyles/NewStyle.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -118,7 +118,10 @@
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Double</td>
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">-150</td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body1" style="font-size: 9pt;">yes, if Direction = X,Y or Z</td>
-                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">Specifies the first size of the load in, acts in one direction</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body1">
+                        <p>Specifies the first size of the load in, acts in one direction</p>
+                        <p>Value1 is always closer to origin (see notes)<br /></p>
+                    </td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body2">
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">Value 2 [kN/m]</td>
@@ -126,9 +129,12 @@
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body2">-180</td>
                     <td class="TableStyle-NewStyle-BodyE-Column1-Body2" style="font-size: 9pt;">
                         <p>yes, if Direction = X,Y or Z</p>
-                        <p>yes, if Dsitribution = Trapez</p>
+                        <p>yes, if Distribution = Trapez</p>
                     </td>
-                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">Specifies the second size of the load in, acts in one direction</td>
+                    <td style="font-size: 9pt;text-align: left;vertical-align: middle;" class="TableStyle-NewStyle-BodyD-Column1-Body2">
+                        <p>Specifies the second size of the load in, acts in one direction</p>
+                        <p>Value2 is always further from origin (see notes)</p>
+                    </td>
                 </tr>
                 <tr class="TableStyle-NewStyle-Body-Body1">
                     <td style="text-align: center;font-size: 9pt;vertical-align: middle;" class="TableStyle-NewStyle-BodyE-Column1-Body1">Vector 1(X;Y;Z) [kN/m]</td>
@@ -314,18 +320,18 @@
         <p>&#160;</p>
         <p class="ExampleMiddleSection">Note: Difference between Location type Length and Projection can be seen in the picture. Location is used only if Coordinate system is Global.</p>
         <p style="text-align: center;">
-            <img src="../Resources/Images/StructuralCurveAction2.png" style="mc-thumbnail-max-height: auto;mc-thumbnail-max-width: 800px;width: 663px;height: 414px;" />
+            <img src="../Resources/Images/StructuralCurveAction2.png" style="mc-thumbnail-max-height: auto;mc-thumbnail-max-width: 800px;width: 550px;height: auto;" />
         </p>
         <p>&#160;</p>
         <p class="ExampleMiddleSection">Note: An example of use of parameter Extent is in the in the picture below. In case of Span the load acts only on the span which is defined by internal nodes.</p>
         <p style="text-align: center;">
-            <img src="../Resources/Images/StructuralCurveAction4.png" style="width: 900px;height: 401px;" />
+            <img src="../Resources/Images/StructuralCurveAction4.png" style="width: 900px;height: auto;" />
         </p>
         <p>&#160;</p>
-        <p class="ExampleMiddleSection">Note: An example with Distribution type Trapez and with different values 1 and 2 can be seen in the following picture. Coordinate definition is relative, start point 0,5 and end point 1,0. In this case the parameter extent doesn’t make any difference, only in case of beams consisting of more parts.</p>
+        <p class="ExampleMiddleSection">Note: An example with Distribution type Trapez and with different values 1 and 2 can be seen in the following picture. Coordinate definition is relative, start point 0 and end point 0,3. StructuralCurveAction 1 has origin "From start" and StructuralCurveAction 2 has origin "From end". In this case the parameter extent doesn’t make any difference, only in case of beams consisting of more parts.</p>
         <p>&#160;</p>
         <p style="text-align: center;">
-            <img src="../Resources/Images/StructuralCurveAction3.png" style="width: 698px;height: 280px;" />
+            <img src="../Resources/Images/StructuralCurveAction3.png" style="width: 500px;height: auto;" />
         </p>
     </body>
 </html>

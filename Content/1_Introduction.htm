@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="5949" MadCap:lastWidth="1099">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="3732" MadCap:lastWidth="1248">
     <head>
     </head>
     <body style="font-family: 'Century Gothic';font-size: 11pt;">
@@ -120,21 +120,26 @@
             <p>When is LCS enum set on <b>"axis </b><i style="font-weight: bold;">y</i><b> or </b><i style="font-weight: bold;">z</i><b> by vector"</b> explanation is similar to <a href="A_Objects/8_StructuralSurfaceMember.htm">StructuralCurveMember </a> presented above with following additional information:</p>
             <blockquote>
                 <ul>
-                    <li>• For non-vertical 2D elements (slabs):</li>
+                    <li>• For non-vertical 2D elements (slabs):<ul><li>• Y or X axis is given by the vector (depending on chosen option in the SAF excel file).</li></ul></li>
                 </ul>
                 <blockquote>
                     <ul>
-                        <li>• the Z axis direction is perpendicular to the plane of the slab, the orientation is always the same as the positive global Z axis (in the other words, the local Z axis is always upwards)</li>
+                        <li>• The local Z axis direction is perpendicular to the plane of the slab, the orientation always follows the half space defined by positive global Z axis and plane define by global X and global Y axis (in the other words, the local Z axis is always upwards).</li>
+                        <li>• The last axis of LCS is calculated by the right-hand rule</li>
                     </ul>
                 </blockquote>
                 <ul>
-                    <li>• For vertical 2D members (walls):<ul><li>• the Z axis  direction is perpendicular to the plane of the wall, the orientation following the positive half plane of axis X</li></ul></li>
-                    <li>• Y or X axis is given by the vector (depending on chosen option in the SAF excel file)</li>
-                    <li>• The last axis of LCS is calculated by the right-hand rule</li>
+                    <li>• For vertical 2D members (walls):<ul><li>• Y or X axis is given by the vector (depending on chosen option in the SAF excel file).</li><li>• The Z axis  direction is perpendicular to the plane of the wall and:<ul><li>• The orientation follows the positive half space defined by positive global X and plane defined by global Z and global Y.</li><li>• In case, this is not possible (wall in plane/or parallel to global Y global X plane), then local Z follows the positive half space defined by positive global Y and plane defined by global X and global Z axis. See picture below.</li></ul></li><li>• The last axis of LCS is calculated by the right-hand rule</li></ul></li>
                 </ul>
             </blockquote>
         </blockquote>
-        <p>&#160;</p>
+        <blockquote>
+            <p>&#160;</p>
+            <p>
+                <img src="Resources/Images/Introduction_wall_LCS.png" style="width: 850px;height: auto;" />
+            </p>
+            <p>&#160;</p>
+        </blockquote>
         <blockquote>
             <p>When is LCS enum set on <b>"Tilt of vector defined by point</b><b>"</b> explanation is following:</p>
         </blockquote>
